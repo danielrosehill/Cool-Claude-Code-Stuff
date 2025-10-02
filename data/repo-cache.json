@@ -1,0 +1,297 @@
+{
+  "anthropics/claude-code": {
+    "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+    "stars": 35220,
+    "lastUpdated": "2025-10-02T15:06:39Z"
+  },
+  "anthropics/claude-code-action": {
+    "description": "",
+    "stars": 3513,
+    "lastUpdated": "2025-10-02T13:58:22Z"
+  },
+  "davila7/claude-code-templates": {
+    "description": "CLI tool for configuring and monitoring Claude Code",
+    "stars": 6606,
+    "lastUpdated": "2025-10-02T14:39:39Z"
+  },
+  "OneRedOak/claude-code-workflows": {
+    "description": "The best workflows and configurations I've developed, having heavily used Claude Code since the day of it's release. Workflows are based off applied learnings from our AI-native startup.",
+    "stars": 2751,
+    "lastUpdated": "2025-10-02T14:49:28Z"
+  },
+  "Pimzino/claude-code-spec-workflow": {
+    "description": "Automated workflows for Claude Code. Features spec-driven development for new features (Requirements → Design → Tasks → Implementation) and streamlined bug fix workflow for quick issue resolution (Report → Analyze → Fix → Verify).",
+    "stars": 2931,
+    "lastUpdated": "2025-10-02T13:48:51Z"
+  },
+  "hesreallyhim/awesome-claude-code": {
+    "description": "A curated list of awesome commands, files, and workflows for Claude Code",
+    "stars": 14971,
+    "lastUpdated": "2025-10-02T14:21:52Z"
+  },
+  "VoltAgent/awesome-claude-code-subagents": {
+    "description": "Production-ready Claude subagents collection with 100+ specialized AI agents for full-stack development, DevOps, data science, and business operations.",
+    "stars": 3160,
+    "lastUpdated": "2025-10-02T14:43:24Z"
+  },
+  "vijaythecoder/awesome-claude-agents": {
+    "description": "An orchestrated sub agent dev team powered by claude code",
+    "stars": 3232,
+    "lastUpdated": "2025-10-02T07:00:31Z"
+  },
+  "lvalics/claude_code_stuffs": {
+    "description": "",
+    "stars": 159,
+    "lastUpdated": "2025-10-02T14:05:58Z"
+  },
+  "davepoon/claude-code-subagents-collection": {
+    "description": "Claude Code Subagents & Commands Collection + CLI Tool",
+    "stars": 1814,
+    "lastUpdated": "2025-10-02T02:51:00Z"
+  },
+  "wshobson/agents": {
+    "description": "A collection of production-ready subagents for Claude Code",
+    "stars": 14529,
+    "lastUpdated": "2025-10-02T14:48:17Z"
+  },
+  "iannuttall/claude-agents": {
+    "description": "Custom subagents to use with Claude Code.",
+    "stars": 1822,
+    "lastUpdated": "2025-10-02T02:38:33Z"
+  },
+  "lst97/claude-code-sub-agents": {
+    "description": "Collection of specialized AI subagents for Claude Code for personal use (full-stack development).",
+    "stars": 980,
+    "lastUpdated": "2025-09-30T19:45:16Z"
+  },
+  "hesreallyhim/awesome-claude-code-agents": {
+    "description": "A curated list of awesome Claude Code Sub-Agents",
+    "stars": 945,
+    "lastUpdated": "2025-10-02T12:57:44Z"
+  },
+  "Dicklesworthstone/claude_code_agent_farm": {
+    "description": "",
+    "stars": 546,
+    "lastUpdated": "2025-10-02T13:56:51Z"
+  },
+  "arnaldo-delisio/claude-code-studio": {
+    "description": "Transform Claude Code into a complete development studio with 40+ specialized AI agents, MCP integrations, and enterprise-grade workflows",
+    "stars": 166,
+    "lastUpdated": "2025-10-02T13:59:49Z"
+  },
+  "NicholasSpisak/claude-code-subagents": {
+    "description": "",
+    "stars": 174,
+    "lastUpdated": "2025-10-02T14:01:02Z"
+  },
+  "vanzan01/claude-code-sub-agent-collective": {
+    "description": "  🧠 Context Engineering Research - Not just another agent collection, but using research and context engineering to function as a collective. Hub-and-spoke coordination through Claude   Code.",
+    "stars": 221,
+    "lastUpdated": "2025-10-02T14:05:11Z"
+  },
+  "dl-ezo/claude-code-sub-agents": {
+    "description": "A complete collection of 35 specialized sub-agents for Claude Code that enable end-to-end software development automation",
+    "stars": 148,
+    "lastUpdated": "2025-10-02T14:05:49Z"
+  },
+  "Weaverse/claude-code-agents": {
+    "description": "🤖 Weaverse's sauce: Claude Code subagents for reviews, debugging, docs & architecture that save developers hours daily.",
+    "stars": 62,
+    "lastUpdated": "2025-10-02T14:08:24Z"
+  },
+  "darcyegb/ClaudeCodeAgents": {
+    "description": "A set of useful QA agents for Claude Code.",
+    "stars": 272,
+    "lastUpdated": "2025-10-02T14:16:52Z"
+  },
+  "siteboon/claudecodeui": {
+    "description": "Use Claude Code or Cursor CLI on mobile and web with Claude Code UI. Claude Code UI free open source webui/GUI that helps you manage your Claude Code session and projects remotely",
+    "stars": 4181,
+    "lastUpdated": "2025-10-02T13:39:38Z"
+  },
+  "winfunc/opcode": {
+    "description": "A powerful GUI app and Toolkit for Claude Code - Create custom agents, manage interactive Claude Code sessions, run secure background agents, and more.",
+    "stars": 17737,
+    "lastUpdated": "2025-10-02T15:10:10Z"
+  },
+  "ObservedObserver/async-code": {
+    "description": "Use Claude Code / CodeX CLI to perform multiple tasks in parallel with a Codex-style UI. Your personal codex/cursor-background agent. Claude Code UI.",
+    "stars": 429,
+    "lastUpdated": "2025-10-02T14:05:24Z"
+  },
+  "sugyan/claude-code-webui": {
+    "description": "Web-based interface for Claude CLI with streaming chat responses",
+    "stars": 620,
+    "lastUpdated": "2025-10-01T23:47:27Z"
+  },
+  "d-kimuson/claude-code-viewer": {
+    "description": "A full-featured web-based Claude Code client that provides complete interactive functionality for managing Claude Code projects",
+    "stars": 424,
+    "lastUpdated": "2025-09-30T07:35:22Z"
+  },
+  "wbopan/cui": {
+    "description": "A web UI for Claude Code agents",
+    "stars": 929,
+    "lastUpdated": "2025-10-02T13:50:48Z"
+  },
+  "qdhenry/Claude-Command-Suite": {
+    "description": "Professional slash commands for Claude Code that provide   structured workflows for software development tasks including   code review, feature creation, security auditing, and architectural analysis.",
+    "stars": 714,
+    "lastUpdated": "2025-10-02T10:05:27Z"
+  },
+  "EveryInc/claude_commands": {
+    "description": "Our favorite Claude Code commands",
+    "stars": 195,
+    "lastUpdated": "2025-10-02T14:01:30Z"
+  },
+  "badlogic/claude-commands": {
+    "description": "Global Claude Code commands and workflows",
+    "stars": 444,
+    "lastUpdated": "2025-10-02T14:03:21Z"
+  },
+  "wshobson/commands": {
+    "description": "A collection of production-ready slash commands for Claude Code",
+    "stars": 835,
+    "lastUpdated": "2025-10-02T14:06:24Z"
+  },
+  "Owloops/claude-powerline": {
+    "description": "Beautiful vim-style powerline statusline for Claude Code",
+    "stars": 382,
+    "lastUpdated": "2025-10-02T13:08:32Z"
+  },
+  "kiliczsh/claude-cmd": {
+    "description": "Claude Code Commands Manager",
+    "stars": 237,
+    "lastUpdated": "2025-10-02T14:07:20Z"
+  },
+  "daaain/claude-code-log": {
+    "description": "A Python CLI tool that converts Claude Code transcript JSONL files into readable HTML format.",
+    "stars": 412,
+    "lastUpdated": "2025-10-01T21:08:30Z"
+  },
+  "kodu-ai/claude-coder": {
+    "description": "Kodu is an autonomous coding agent that lives in your IDE. It is a VSCode extension that can help you build your dream project step by step by leveraging the latest technologies in automated coding agents ",
+    "stars": 5037,
+    "lastUpdated": "2025-10-02T13:33:16Z"
+  },
+  "greggh/claude-code.nvim": {
+    "description": "Seamless integration between Claude Code AI assistant and Neovim",
+    "stars": 1397,
+    "lastUpdated": "2025-10-02T13:55:45Z"
+  },
+  "coder/claudecode.nvim": {
+    "description": "🧩 Claude Code Neovim IDE Extension",
+    "stars": 1156,
+    "lastUpdated": "2025-10-02T13:27:18Z"
+  },
+  "manzaltu/claude-code-ide.el": {
+    "description": "Claude Code IDE integration for Emacs",
+    "stars": 1079,
+    "lastUpdated": "2025-10-02T05:03:07Z"
+  },
+  "andrepimenta/claude-code-chat": {
+    "description": "Beautiful Claude Code Chat Interface for VS Code",
+    "stars": 838,
+    "lastUpdated": "2025-10-02T13:53:41Z"
+  },
+  "SuperClaude-Org/SuperClaude_Framework": {
+    "description": "A configuration framework that enhances Claude Code with specialized commands, cognitive personas, and development methodologies.",
+    "stars": 16162,
+    "lastUpdated": "2025-10-02T13:47:47Z"
+  },
+  "obie/claude-on-rails": {
+    "description": "A development framework for Ruby on Rails developers using Claude Code, inspired by SuperClaude",
+    "stars": 597,
+    "lastUpdated": "2025-10-02T15:02:57Z"
+  },
+  "superbasicstudio/claude-conductor": {
+    "description": "Claude Conductor - a simple Claude Code framework",
+    "stars": 216,
+    "lastUpdated": "2025-10-02T14:07:58Z"
+  },
+  "1rgs/claude-code-proxy": {
+    "description": "Run Claude Code on OpenAI models",
+    "stars": 2275,
+    "lastUpdated": "2025-10-02T13:47:58Z"
+  },
+  "ujisati/claude-code-provider-proxy": {
+    "description": "claude-code-provider-proxy",
+    "stars": 135,
+    "lastUpdated": "2025-10-02T14:06:30Z"
+  },
+  "zilliztech/claude-context": {
+    "description": "Code search MCP for Claude Code. Make entire codebase the context for any coding agent.",
+    "stars": 3857,
+    "lastUpdated": "2025-10-02T12:48:28Z"
+  },
+  "ericbuess/claude-code-project-index": {
+    "description": "PROJECT_INDEX system for Claude Code - provides architectural awareness for AI coding",
+    "stars": 139,
+    "lastUpdated": "2025-10-02T14:00:06Z"
+  },
+  "campfirein/cipher": {
+    "description": "Byterover Cipher is an opensource memory layer specifically designed for coding agents. Compatible with Cursor, Codex, Claude Code, Windsurf, Cline, Claude Desktop, Gemini CLI, AWS's Kiro, VS Code, Roo Code, Trae, Amp Code and Warp through MCP. Built by https://byterover.dev/",
+    "stars": 2957,
+    "lastUpdated": "2025-10-02T12:06:31Z"
+  },
+  "Maciek-roboblog/Claude-Code-Usage-Monitor": {
+    "description": "Real-time Claude Code usage monitor with predictions and warnings",
+    "stars": 5374,
+    "lastUpdated": "2025-10-02T13:48:21Z"
+  },
+  "ryoppippi/ccusage": {
+    "description": "A CLI tool for analyzing Claude Code/Codex CLI usage from local JSONL files.",
+    "stars": 8360,
+    "lastUpdated": "2025-10-02T14:16:11Z"
+  },
+  "Yuyz0112/claude-code-reverse": {
+    "description": "A Tool to Visualize Claude Code's LLM Interactions",
+    "stars": 1445,
+    "lastUpdated": "2025-10-02T13:48:29Z"
+  },
+  "disler/claude-code-hooks-mastery": {
+    "description": "",
+    "stars": 1564,
+    "lastUpdated": "2025-10-02T12:15:36Z"
+  },
+  "Cranot/claude-code-guide": {
+    "description": "Claude Code Comprehensive Guide",
+    "stars": 1454,
+    "lastUpdated": "2025-10-02T14:15:47Z"
+  },
+  "undeadpickle/claude-code-mcpinstall": {
+    "description": "Easy guide to installing Claude Code MCPs globally on your machine.",
+    "stars": 232,
+    "lastUpdated": "2025-10-02T14:03:10Z"
+  },
+  "anthropics/claude-code-security-review": {
+    "description": "An AI-powered security review GitHub Action using Claude to analyze code changes for security vulnerabilities.",
+    "stars": 2468,
+    "lastUpdated": "2025-10-02T15:03:29Z"
+  },
+  "textcortex/claude-code-sandbox": {
+    "description": "Run Claude Code safely in local Docker containers without having to approve every permission",
+    "stars": 194,
+    "lastUpdated": "2025-10-02T14:01:59Z"
+  },
+  "Ido-Levi/claude-code-tamagotchi": {
+    "description": "Real-time behavioral enforcement for Claude Code. Monitors AI actions, detects violations, and interrupts misbehavior. Also has a cute pet.",
+    "stars": 223,
+    "lastUpdated": "2025-10-02T14:02:09Z"
+  },
+  "steipete/agent-rules": {
+    "description": "Rules and Knowledge to work better with agents such as Claude Code or Cursor",
+    "stars": 4497,
+    "lastUpdated": "2025-10-02T14:49:29Z"
+  },
+  "penwyp/ClaudePreference": {
+    "description": "A comprehensive collection of development workflow commands for Claude Code",
+    "stars": 138,
+    "lastUpdated": "2025-10-02T14:07:01Z"
+  },
+  "czlonkowski/n8n-mcp": {
+    "description": "A MCP for Claude Desktop / Claude Code / Windsurf / Cursor to build n8n workflows for you ",
+    "stars": 7665,
+    "lastUpdated": "2025-10-02T14:54:21Z"
+  }
+}

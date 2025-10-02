@@ -1,0 +1,27 @@
+{
+  "name": "awesome-claude-code",
+  "version": "1.0.0",
+  "description": "A curated list of awesome Claude Code projects, tools, and resources",
+  "scripts": {
+    "build": "node private/scripts/build-readme.js",
+    "generate-combined": "node private/scripts/generate-combined-json.js",
+    "build:all": "npm run generate-combined && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danielrosehill/Cool-Claude-Code-Stuff.git"
+  },
+  "keywords": [
+    "claude",
+    "claude-code",
+    "awesome",
+    "awesome-list",
+    "ai",
+    "coding-assistant"
+  ],
+  "author": "Daniel Rosehill",
+  "license": "MIT",
+  "devDependencies": {
+    "dotenv": "^17.2.3"
+  }
+}

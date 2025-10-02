@@ -1,0 +1,646 @@
+{
+  "meta": {
+    "title": "Awesome Claude Code",
+    "description": "A curated list of awesome Claude Code projects, tools, and resources",
+    "lastUpdated": "2025-10-02"
+  },
+  "repositories": [
+    {
+      "url": "https://github.com/anthropics/claude-code",
+      "name": "claude-code",
+      "description": "",
+      "categoryId": "source",
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code-action",
+      "name": "claude-code-action",
+      "description": "",
+      "categoryId": "actions",
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/davila7/claude-code-templates",
+      "name": "claude-code-templates",
+      "description": "",
+      "categoryId": "templates",
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/OneRedOak/claude-code-workflows",
+      "name": "claude-code-workflows",
+      "description": "",
+      "categoryId": "workflows",
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/Pimzino/claude-code-spec-workflow",
+      "name": "claude-code-spec-workflow",
+      "description": "Spec driven development",
+      "categoryId": "workflows",
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/hesreallyhim/awesome-claude-code",
+      "name": "awesome-claude-code",
+      "description": "",
+      "categoryId": "awesome-lists",
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+      "name": "awesome-claude-code-subagents",
+      "description": "",
+      "categoryId": "awesome-lists",
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/vijaythecoder/awesome-claude-agents",
+      "name": "awesome-claude-agents",
+      "description": "",
+      "categoryId": "awesome-lists",
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/lvalics/claude_code_stuffs",
+      "name": "claude_code_stuffs",
+      "description": "",
+      "categoryId": "awesome-lists",
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/davepoon/claude-code-subagents-collection",
+      "name": "claude-code-subagents-collection",
+      "description": "",
+      "categoryId": "subagents-lists",
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/wshobson/agents",
+      "name": "agents",
+      "description": "",
+      "categoryId": "subagents-lists",
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/iannuttall/claude-agents",
+      "name": "claude-agents",
+      "description": "",
+      "categoryId": "subagents-lists",
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/lst97/claude-code-sub-agents",
+      "name": "claude-code-sub-agents",
+      "description": "",
+      "categoryId": "subagents-lists",
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/hesreallyhim/awesome-claude-code-agents",
+      "name": "awesome-claude-code-agents",
+      "description": "",
+      "categoryId": "subagents-lists",
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/Dicklesworthstone/claude_code_agent_farm",
+      "name": "claude_code_agent_farm",
+      "description": "",
+      "categoryId": "subagents-lists",
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/arnaldo-delisio/claude-code-studio",
+      "name": "claude-code-studio",
+      "description": "",
+      "categoryId": "subagents-lists",
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/NicholasSpisak/claude-code-subagents",
+      "name": "claude-code-subagents",
+      "description": "",
+      "categoryId": "subagents-lists",
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/vanzan01/claude-code-sub-agent-collective",
+      "name": "claude-code-sub-agent-collective",
+      "description": "",
+      "categoryId": "subagents-lists",
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/dl-ezo/claude-code-sub-agents",
+      "name": "claude-code-sub-agents",
+      "description": "",
+      "categoryId": "subagents-lists",
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/Weaverse/claude-code-agents",
+      "name": "claude-code-agents",
+      "description": "",
+      "categoryId": "subagents-lists",
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/darcyegb/ClaudeCodeAgents",
+      "name": "ClaudeCodeAgents",
+      "description": "",
+      "categoryId": "purpose-specific-agent-networks",
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/siteboon/claudecodeui",
+      "name": "claudecodeui",
+      "description": "",
+      "categoryId": "uis",
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/winfunc/opcode",
+      "name": "opcode",
+      "description": "",
+      "categoryId": "uis",
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/ObservedObserver/async-code",
+      "name": "async-code",
+      "description": "",
+      "categoryId": "uis",
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/sugyan/claude-code-webui",
+      "name": "claude-code-webui",
+      "description": "",
+      "categoryId": "web-uis",
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/d-kimuson/claude-code-viewer",
+      "name": "claude-code-viewer",
+      "description": "",
+      "categoryId": "web-uis",
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/wbopan/cui",
+      "name": "cui",
+      "description": "",
+      "categoryId": "web-uis",
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/qdhenry/Claude-Command-Suite",
+      "name": "Claude-Command-Suite",
+      "description": "",
+      "categoryId": "ui-slash-commands",
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/EveryInc/claude_commands",
+      "name": "claude_commands",
+      "description": "",
+      "categoryId": "ui-slash-commands",
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/badlogic/claude-commands",
+      "name": "claude-commands",
+      "description": "",
+      "categoryId": "ui-slash-commands",
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/wshobson/commands",
+      "name": "commands",
+      "description": "",
+      "categoryId": "ui-slash-commands",
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/Owloops/claude-powerline",
+      "name": "claude-powerline",
+      "description": "",
+      "categoryId": "ui-other",
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/kiliczsh/claude-cmd",
+      "name": "claude-cmd",
+      "description": "UIs for managing components such as slash commands",
+      "categoryId": "supplementary-uis",
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/daaain/claude-code-log",
+      "name": "claude-code-log",
+      "description": "",
+      "categoryId": "log-viewers",
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/kodu-ai/claude-coder",
+      "name": "claude-coder",
+      "description": "",
+      "categoryId": "ide-extensions",
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/greggh/claude-code.nvim",
+      "name": "claude-code.nvim",
+      "description": "",
+      "categoryId": "ide-extension-neovim",
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/coder/claudecode.nvim",
+      "name": "claudecode.nvim",
+      "description": "",
+      "categoryId": "ide-extension-neovim",
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/manzaltu/claude-code-ide.el",
+      "name": "claude-code-ide.el",
+      "description": "",
+      "categoryId": "ide-extension-emacs",
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/andrepimenta/claude-code-chat",
+      "name": "claude-code-chat",
+      "description": "",
+      "categoryId": "ide-extension-vscode",
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/SuperClaude-Org/SuperClaude_Framework",
+      "name": "SuperClaude_Framework",
+      "description": "",
+      "categoryId": "frameworks",
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/obie/claude-on-rails",
+      "name": "claude-on-rails",
+      "description": "",
+      "categoryId": "frameworks-ruby",
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/superbasicstudio/claude-conductor",
+      "name": "claude-conductor",
+      "description": "",
+      "categoryId": "frameworks-general",
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/1rgs/claude-code-proxy",
+      "name": "claude-code-proxy",
+      "description": "Claude code to other backends",
+      "categoryId": "proxies",
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/ujisati/claude-code-provider-proxy",
+      "name": "claude-code-provider-proxy",
+      "description": "",
+      "categoryId": "proxies",
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/zilliztech/claude-context",
+      "name": "claude-context",
+      "description": "",
+      "categoryId": "context",
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/ericbuess/claude-code-project-index",
+      "name": "claude-code-project-index",
+      "description": "",
+      "categoryId": "context",
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/campfirein/cipher",
+      "name": "cipher",
+      "description": "",
+      "categoryId": "context",
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/Maciek-roboblog/Claude-Code-Usage-Monitor",
+      "name": "Claude-Code-Usage-Monitor",
+      "description": "",
+      "categoryId": "usage",
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/ryoppippi/ccusage",
+      "name": "ccusage",
+      "description": "",
+      "categoryId": "usage",
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/Yuyz0112/claude-code-reverse",
+      "name": "claude-code-reverse",
+      "description": "",
+      "categoryId": "visualisation",
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/disler/claude-code-hooks-mastery",
+      "name": "claude-code-hooks-mastery",
+      "description": "",
+      "categoryId": "educational",
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/Cranot/claude-code-guide",
+      "name": "claude-code-guide",
+      "description": "",
+      "categoryId": "educational",
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/undeadpickle/claude-code-mcpinstall",
+      "name": "claude-code-mcpinstall",
+      "description": "",
+      "categoryId": "educational",
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code-security-review",
+      "name": "claude-code-security-review",
+      "description": "",
+      "categoryId": "security",
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/textcortex/claude-code-sandbox",
+      "name": "claude-code-sandbox",
+      "description": "",
+      "categoryId": "security-sandboxing",
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/Ido-Levi/claude-code-tamagotchi",
+      "name": "claude-code-tamagotchi",
+      "description": "",
+      "categoryId": "security-behavioral-enforcement",
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/steipete/agent-rules",
+      "name": "agent-rules",
+      "description": "",
+      "categoryId": "security-rules",
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/penwyp/ClaudePreference",
+      "name": "ClaudePreference",
+      "description": "",
+      "categoryId": "security-rules",
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/czlonkowski/n8n-mcp",
+      "name": "n8n-mcp",
+      "description": "",
+      "categoryId": "mcp",
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/ezyang/codemcp",
+      "name": "codemcp",
+      "description": "",
+      "categoryId": "mcp",
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/steipete/claude-code-mcp",
+      "name": "claude-code-mcp",
+      "description": "",
+      "categoryId": "mcp",
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/SDGLBL/mcp-claude-code",
+      "name": "mcp-claude-code",
+      "description": "",
+      "categoryId": "mcp",
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/willccbb/claude-code-mcp",
+      "name": "claude-code-mcp",
+      "description": "",
+      "categoryId": "mcp",
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/ruvnet/claude-flow",
+      "name": "claude-flow",
+      "description": "",
+      "categoryId": "orchestration",
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/parruda/claude-swarm",
+      "name": "claude-swarm",
+      "description": "",
+      "categoryId": "orchestration",
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/smtg-ai/claude-squad",
+      "name": "claude-squad",
+      "description": "",
+      "categoryId": "multi-system-managers",
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/ErlichLiu/DeepClaude",
+      "name": "DeepClaude",
+      "description": "",
+      "categoryId": "multi-system-managers",
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/rizethereum/claude-code-requirements-builder",
+      "name": "claude-code-requirements-builder",
+      "description": "",
+      "categoryId": "other-misc",
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/peterkrueck/Claude-Code-Development-Kit",
+      "name": "Claude-Code-Development-Kit",
+      "description": "",
+      "categoryId": "kits",
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/carlrannaberg/claudekit",
+      "name": "claudekit",
+      "description": "",
+      "categoryId": "toolkit",
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/centminmod/my-claude-code-setup",
+      "name": "my-claude-code-setup",
+      "description": "",
+      "categoryId": "utilities",
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/JessyTsui/Claude-Code-Remote",
+      "name": "Claude-Code-Remote",
+      "description": "",
+      "categoryId": "remote-control",
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/feiskyer/claude-code-settings",
+      "name": "claude-code-settings",
+      "description": "",
+      "categoryId": "configs",
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/UfoMiao/zcf",
+      "name": "zcf",
+      "description": "",
+      "categoryId": "configs",
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/wasabeef/claude-code-cookbook",
+      "name": "claude-code-cookbook",
+      "description": "",
+      "categoryId": "cookbooks",
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/iannuttall/claude-sessions",
+      "name": "claude-sessions",
+      "description": "",
+      "categoryId": "project-management",
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/Helmi/claude-simone",
+      "name": "claude-simone",
+      "description": "",
+      "categoryId": "project-management",
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/coffeegrind123/gemini-for-claude-code",
+      "name": "gemini-for-claude-code",
+      "description": "",
+      "categoryId": "bridges-gemini",
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/tkaufmann/claude-gemini-bridge",
+      "name": "claude-gemini-bridge",
+      "description": "",
+      "categoryId": "bridges-gemini",
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/RichardAtCT/claude-code-openai-wrapper",
+      "name": "claude-code-openai-wrapper",
+      "description": "Bridging Claude Code functionalities to OpenAI",
+      "categoryId": "bridges-openai",
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/glidea/claude-worker-proxy",
+      "name": "claude-worker-proxy",
+      "description": "",
+      "categoryId": "bridges-cloudflare",
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/RchGrav/claudebox",
+      "name": "claudebox",
+      "description": "",
+      "categoryId": "development-environments",
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/kxn/claude-code-companion",
+      "name": "claude-code-companion",
+      "description": "",
+      "categoryId": "unsorted",
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/KroMiose/claude-code-nexus",
+      "name": "claude-code-nexus",
+      "description": "",
+      "categoryId": "unsorted",
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/musistudio/claude-code-router",
+      "name": "claude-code-router",
+      "description": "",
+      "categoryId": "router",
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/pchalasani/claude-code-tools",
+      "name": "claude-code-tools",
+      "description": "",
+      "categoryId": "tooling",
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/yifanzz/claude-code-boost",
+      "name": "claude-code-boost",
+      "description": "",
+      "categoryId": "hooks",
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/zxdxjtu/claudecode-rule2hook",
+      "name": "claudecode-rule2hook",
+      "description": "",
+      "categoryId": "hooks",
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/willccbb/claude-deep-research",
+      "name": "claude-deep-research",
+      "description": "",
+      "categoryId": "use-case-deep-research",
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/c0dezli/claude-code-personal-assistant",
+      "name": "claude-code-personal-assistant",
+      "description": "",
+      "categoryId": "use-case-personal-assistant",
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/udecode/dotai",
+      "name": "dotai",
+      "description": "",
+      "categoryId": "stacks",
+      "added": "2025-10-02"
+    }
+  ]
+}

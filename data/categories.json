@@ -1,0 +1,316 @@
+{
+  "categories": [
+    {
+      "id": "source",
+      "name": "Source Project",
+      "description": "Official Claude Code repository",
+      "parentId": null
+    },
+    {
+      "id": "router",
+      "name": "Router",
+      "description": "Routing and orchestration tools",
+      "parentId": null
+    },
+    {
+      "id": "actions",
+      "name": "Actions",
+      "description": "Action extensions and plugins",
+      "parentId": null
+    },
+    {
+      "id": "templates",
+      "name": "Templates",
+      "description": "Project templates and boilerplates",
+      "parentId": null
+    },
+    {
+      "id": "workflows",
+      "name": "Workflows",
+      "description": "Development workflows and methodologies",
+      "parentId": null
+    },
+    {
+      "id": "awesome-lists",
+      "name": "Awesome Lists",
+      "description": "Curated lists of resources",
+      "parentId": null
+    },
+    {
+      "id": "subagents-lists",
+      "name": "Subagents Collections",
+      "description": "Collections of Claude Code subagents",
+      "parentId": null
+    },
+    {
+      "id": "purpose-specific-agent-networks",
+      "name": "Purpose Specific Agent Networks",
+      "description": "Agent networks designed for specific purposes",
+      "parentId": null
+    },
+    {
+      "id": "uis",
+      "name": "UIs & Frontend",
+      "description": "User interfaces and frontends",
+      "parentId": null
+    },
+    {
+      "id": "web-uis",
+      "name": "Web UIs",
+      "description": "Web-based user interfaces",
+      "parentId": "uis"
+    },
+    {
+      "id": "ui-slash-commands",
+      "name": "Slash Commands",
+      "description": "User interface enhancements for slash commands",
+      "parentId": "uis"
+    },
+    {
+      "id": "ui-other",
+      "name": "Other UI Enhancements",
+      "description": "Other UI improvements and enhancements",
+      "parentId": "uis"
+    },
+    {
+      "id": "supplementary-uis",
+      "name": "Supplementary UIs",
+      "description": "UIs for managing components such as slash commands",
+      "parentId": "uis"
+    },
+    {
+      "id": "log-viewers",
+      "name": "Log Viewers",
+      "description": "Tools for viewing and analyzing Claude Code logs",
+      "parentId": null
+    },
+    {
+      "id": "ide-extensions",
+      "name": "IDE Extensions",
+      "description": "Integrations with IDEs and code editors",
+      "parentId": null
+    },
+    {
+      "id": "ide-extension-neovim",
+      "name": "Neovim",
+      "description": "Neovim specific extensions",
+      "parentId": "ide-extensions"
+    },
+    {
+      "id": "ide-extension-vscode",
+      "name": "VS Code",
+      "description": "VS Code specific extensions",
+      "parentId": "ide-extensions"
+    },
+    {
+      "id": "ide-extension-emacs",
+      "name": "Emacs",
+      "description": "Emacs specific extensions",
+      "parentId": "ide-extensions"
+    },
+    {
+      "id": "frameworks",
+      "name": "Frameworks",
+      "description": "Development frameworks built on Claude Code",
+      "parentId": null
+    },
+    {
+      "id": "frameworks-ruby",
+      "name": "Ruby Frameworks",
+      "description": "Ruby-based development frameworks",
+      "parentId": "frameworks"
+    },
+    {
+      "id": "frameworks-general",
+      "name": "General Frameworks",
+      "description": "General-purpose frameworks and conductors",
+      "parentId": "frameworks"
+    },
+    {
+      "id": "proxies",
+      "name": "Proxies",
+      "description": "Proxy servers and middleware for routing to other backends",
+      "parentId": null
+    },
+    {
+      "id": "context",
+      "name": "Context and Memory",
+      "description": "Context management, memory systems, and enhancement tools",
+      "parentId": null
+    },
+    {
+      "id": "usage",
+      "name": "Usage",
+      "description": "Usage tracking and monitoring",
+      "parentId": null
+    },
+    {
+      "id": "visualisation",
+      "name": "Visualisation",
+      "description": "Visualization and debugging tools",
+      "parentId": null
+    },
+    {
+      "id": "educational",
+      "name": "Educational",
+      "description": "Learning resources and tutorials",
+      "parentId": null
+    },
+    {
+      "id": "security",
+      "name": "Security",
+      "description": "Security tools and reviews",
+      "parentId": null
+    },
+    {
+      "id": "security-sandboxing",
+      "name": "Sandboxing",
+      "description": "Security sandboxing and isolation tools",
+      "parentId": "security"
+    },
+    {
+      "id": "security-behavioral-enforcement",
+      "name": "Behavioral Enforcement",
+      "description": "Security through behavioral enforcement and monitoring",
+      "parentId": "security"
+    },
+    {
+      "id": "security-rules",
+      "name": "Rules",
+      "description": "Security rules and rule management systems",
+      "parentId": "security"
+    },
+    {
+      "id": "mcp",
+      "name": "MCP",
+      "description": "Model Context Protocol integrations",
+      "parentId": null
+    },
+    {
+      "id": "orchestration",
+      "name": "Orchestration",
+      "description": "Workflow orchestration and automation",
+      "parentId": null
+    },
+    {
+      "id": "multi-system-managers",
+      "name": "Multi-System Managers",
+      "description": "For managing multi agent systems",
+      "parentId": null
+    },
+    {
+      "id": "other-misc",
+      "name": "Other/Misc",
+      "description": "Other miscellaneous tools and utilities",
+      "parentId": null
+    },
+    {
+      "id": "kits",
+      "name": "Kits",
+      "description": "Development kits and SDKs",
+      "parentId": null
+    },
+    {
+      "id": "toolkit",
+      "name": "Toolkit",
+      "description": "Comprehensive toolkits and tool collections",
+      "parentId": null
+    },
+    {
+      "id": "utilities",
+      "name": "Utilities",
+      "description": "Utility scripts and tools",
+      "parentId": null
+    },
+    {
+      "id": "remote-control",
+      "name": "Remote Control",
+      "description": "Remote control and management tools",
+      "parentId": null
+    },
+    {
+      "id": "configs",
+      "name": "Configs",
+      "description": "Configuration files and settings",
+      "parentId": null
+    },
+    {
+      "id": "cookbooks",
+      "name": "Cookbooks",
+      "description": "Recipe collections and guides",
+      "parentId": null
+    },
+    {
+      "id": "project-management",
+      "name": "Project Management and Task Tracking",
+      "description": "Tools for managing projects and tracking tasks",
+      "parentId": null
+    },
+    {
+      "id": "claude-code-bridges",
+      "name": "Claude Code Bridges",
+      "description": "Frameworks for allowing Claude Code CLI to use other LLMs as backend",
+      "parentId": null
+    },
+    {
+      "id": "bridges-gemini",
+      "name": "Gemini Bridges",
+      "description": "Bridges to connect Claude Code with Google Gemini",
+      "parentId": "claude-code-bridges"
+    },
+    {
+      "id": "bridges-openai",
+      "name": "OpenAI Bridges",
+      "description": "Bridges to connect Claude Code with OpenAI",
+      "parentId": "claude-code-bridges"
+    },
+    {
+      "id": "bridges-cloudflare",
+      "name": "Cloudflare Bridges",
+      "description": "Bridges using Cloudflare Workers",
+      "parentId": "claude-code-bridges"
+    },
+    {
+      "id": "development-environments",
+      "name": "Development Environments",
+      "description": "Complete development environments for Claude Code",
+      "parentId": null
+    },
+    {
+      "id": "tooling",
+      "name": "Tooling",
+      "description": "Development tools and utilities",
+      "parentId": null
+    },
+    {
+      "id": "hooks",
+      "name": "Hooks",
+      "description": "Hook system extensions and enhancements",
+      "parentId": null
+    },
+    {
+      "id": "use-case-deep-research",
+      "name": "Use-case: Deep Research",
+      "description": "Tools and workflows for deep research tasks",
+      "parentId": null
+    },
+    {
+      "id": "use-case-personal-assistant",
+      "name": "Use-case: Personal Assistant",
+      "description": "Personal assistant implementations and workflows",
+      "parentId": null
+    },
+    {
+      "id": "stacks",
+      "name": "Stacks",
+      "description": "Complete technology stacks and integrated solutions",
+      "parentId": null
+    },
+    {
+      "id": "unsorted",
+      "name": "Unsorted",
+      "description": "Recently added repositories awaiting categorization",
+      "parentId": null
+    }
+  ]
+}
