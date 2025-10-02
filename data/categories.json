@@ -385,6 +385,24 @@
       "parentId": "use-cases"
     },
     {
+      "id": "use-case-pr-reviews",
+      "name": "PR Reviews",
+      "description": "Tools and workflows for automated pull request reviews and code review assistance",
+      "parentId": "use-cases"
+    },
+    {
+      "id": "use-case-document-reformatting",
+      "name": "Document Reformatting",
+      "description": "Tools for reformatting and transforming documents using Claude Code",
+      "parentId": "use-cases"
+    },
+    {
+      "id": "use-case-bioinformatics",
+      "name": "Bioinformatics & Life Sciences",
+      "description": "Tools for bioinformatics research, medical data analysis, and life sciences applications",
+      "parentId": "use-cases"
+    },
+    {
       "id": "stacks",
       "name": "Stacks",
       "description": "Complete technology stacks and integrated solutions",
@@ -406,6 +424,528 @@
       "id": "backup",
       "name": "Backup And Snapshot",
       "description": "Backup and snapshotting utilities",
+      "parentId": null
+    },
+    {
+      "id": "swarm-management",
+      "name": "Swarm Management",
+      "description": "Tools for managing and coordinating swarms of AI agents",
+      "parentId": null
+    },
+    {
+      "id": "research-use-case",
+      "name": "Research",
+      "description": "Tools to assist with using Claude code for research",
+      "parentId": "use-cases"
+    },
+    {
+      "id": "provider-switchers",
+      "name": "Provider Switchers",
+      "description": "Tools for switching between different API providers and proxy configurations",
+      "parentId": null
+    },
+    {
+      "id": "agent-managers",
+      "name": "Agent Managers",
+      "description": "Tools for managing and coordinating multiple AI coding agents in parallel with isolated environments",
+      "parentId": null
+    },
+    {
+      "id": "autonomy-enhancers",
+      "name": "Autonomy Enhancers",
+      "description": "Tools that enhance Claude Code's autonomous capabilities with continuous development loops and intelligent task management",
+      "parentId": null
+    },
+    {
+      "id": "voice-interface",
+      "name": "Voice Interface",
+      "description": "Tools that bring voice capabilities to Claude Code for hands-free interaction and voice-driven development",
+      "parentId": null
+    },
+    {
+      "id": "api-providers",
+      "name": "API Providers",
+      "description": "Tools that provide local API endpoints around Claude Code for integration with other applications",
+      "parentId": null
+    },
+    {
+      "id": "debugging-tools",
+      "name": "Debugging Tools",
+      "description": "Tools for debugging and troubleshooting Claude Code sessions and workflows",
+      "parentId": null
+    },
+    {
+      "id": "mobile",
+      "name": "Mobile",
+      "description": "Tools for bringing Claude Code support to mobile devices and enabling mobile development previews from desktop",
+      "parentId": null
+    },
+    {
+      "id": "experiments",
+      "name": "Experiments",
+      "description": "Experimental projects exploring innovative and creative uses of Claude Code",
+      "parentId": null
+    },
+    {
+      "id": "os-specific-tools",
+      "name": "OS-Specific Tools",
+      "description": "Tools and utilities designed for specific operating systems",
+      "parentId": null
+    },
+    {
+      "id": "os-macos",
+      "name": "macOS Tools",
+      "description": "Tools and utilities specifically for macOS",
+      "parentId": "os-specific-tools"
+    },
+    {
+      "id": "os-windows",
+      "name": "Windows Tools",
+      "description": "Tools and utilities specifically for Windows",
+      "parentId": "os-specific-tools"
+    },
+    {
+      "id": "os-linux",
+      "name": "Linux Tools",
+      "description": "Tools and utilities specifically for Linux distributions",
+      "parentId": "os-specific-tools"
+    },
+    {
+      "id": "os-ubuntu",
+      "name": "Ubuntu Tools",
+      "description": "Tools and utilities specifically for Ubuntu",
+      "parentId": "os-linux"
+    },
+    {
+      "id": "testing",
+      "name": "Testing & QA",
+      "description": "Testing frameworks, test automation, and quality assurance tools for Claude Code workflows",
+      "parentId": null
+    },
+    {
+      "id": "deployment",
+      "name": "Deployment",
+      "description": "Tools for deploying and shipping applications built with Claude Code",
+      "parentId": null
+    },
+    {
+      "id": "ci-cd",
+      "name": "CI/CD",
+      "description": "Continuous integration and continuous deployment tools for Claude Code projects",
+      "parentId": null
+    },
+    {
+      "id": "documentation-generators",
+      "name": "Documentation Generators",
+      "description": "Tools for automatically generating documentation from code using Claude Code",
+      "parentId": null
+    },
+    {
+      "id": "code-quality",
+      "name": "Code Quality",
+      "description": "Linting, formatting, and code quality analysis tools integrated with Claude Code",
+      "parentId": null
+    },
+    {
+      "id": "collaboration",
+      "name": "Collaboration",
+      "description": "Tools for team collaboration and sharing Claude Code sessions or outputs",
+      "parentId": null
+    },
+    {
+      "id": "prompt-engineering",
+      "name": "Prompt Engineering",
+      "description": "Tools and libraries for optimizing prompts and interactions with Claude Code",
+      "parentId": null
+    },
+    {
+      "id": "analytics",
+      "name": "Analytics",
+      "description": "Analytics and insights tools for Claude Code usage patterns and productivity",
+      "parentId": null
+    },
+    {
+      "id": "use-case-data-science",
+      "name": "Data Science & ML",
+      "description": "Tools and workflows for data science and machine learning tasks",
+      "parentId": "use-cases"
+    },
+    {
+      "id": "use-case-content-creation",
+      "name": "Content Creation",
+      "description": "Tools for content creation, writing, and creative work",
+      "parentId": "use-cases"
+    },
+    {
+      "id": "use-case-documentation",
+      "name": "Documentation",
+      "description": "Using Claude Code for writing and maintaining technical documentation",
+      "parentId": "use-cases"
+    },
+    {
+      "id": "use-case-book-writing",
+      "name": "Book Writing",
+      "description": "Tools for authoring books and long-form content with Claude Code",
+      "parentId": "use-case-content-creation"
+    },
+    {
+      "id": "use-case-video-content",
+      "name": "Video Content",
+      "description": "Tools for video production workflows, including scripts and editing assistance",
+      "parentId": "use-case-content-creation"
+    },
+    {
+      "id": "use-case-audio-podcasting",
+      "name": "Audio & Podcasting",
+      "description": "Tools for podcast production, audio content, and script creation",
+      "parentId": "use-case-content-creation"
+    },
+    {
+      "id": "use-case-blogging",
+      "name": "Blogging & Articles",
+      "description": "Tools for blog writing and article creation",
+      "parentId": "use-case-content-creation"
+    },
+    {
+      "id": "use-case-social-media",
+      "name": "Social Media",
+      "description": "Tools for creating and managing social media content",
+      "parentId": "use-case-content-creation"
+    },
+    {
+      "id": "use-case-education",
+      "name": "Education & Learning",
+      "description": "Educational applications and learning tools built with Claude Code",
+      "parentId": "use-cases"
+    },
+    {
+      "id": "use-case-gaming",
+      "name": "Gaming",
+      "description": "Game development and gaming-related projects using Claude Code",
+      "parentId": "use-cases"
+    },
+    {
+      "id": "ide-extension-jetbrains",
+      "name": "JetBrains IDEs",
+      "description": "Extensions for JetBrains IDEs (IntelliJ, PyCharm, WebStorm, etc.)",
+      "parentId": "ide-extensions"
+    },
+    {
+      "id": "ide-extension-vim",
+      "name": "Vim",
+      "description": "Vim specific extensions",
+      "parentId": "ide-extensions"
+    },
+    {
+      "id": "ide-extension-sublime",
+      "name": "Sublime Text",
+      "description": "Sublime Text specific extensions",
+      "parentId": "ide-extensions"
+    },
+    {
+      "id": "bridges-other",
+      "name": "Other LLM Bridges",
+      "description": "Bridges to connect Claude Code with other LLM providers",
+      "parentId": "claude-code-bridges"
+    },
+    {
+      "id": "terminal-enhancements",
+      "name": "Terminal Enhancements",
+      "description": "Tools that enhance the terminal experience when using Claude Code",
+      "parentId": null
+    },
+    {
+      "id": "session-management",
+      "name": "Session Management",
+      "description": "Tools for managing, saving, and restoring Claude Code sessions",
+      "parentId": null
+    },
+    {
+      "id": "cost-optimization",
+      "name": "Cost Optimization",
+      "description": "Tools for tracking and optimizing API costs and token usage",
+      "parentId": null
+    },
+    {
+      "id": "browser-extensions",
+      "name": "Browser Extensions",
+      "description": "Browser extensions that integrate with or enhance Claude Code",
+      "parentId": null
+    },
+    {
+      "id": "plugins",
+      "name": "Plugins",
+      "description": "General-purpose plugins that extend Claude Code functionality",
+      "parentId": null
+    },
+    {
+      "id": "plugins-statuslines",
+      "name": "Statuslines",
+      "description": "Statusline plugins and customizations",
+      "parentId": "plugins"
+    },
+    {
+      "id": "migration-tools",
+      "name": "Migration Tools",
+      "description": "Tools for migrating to/from Claude Code or between different AI coding assistants",
+      "parentId": null
+    },
+    {
+      "id": "use-case-web-development",
+      "name": "Web Development",
+      "description": "Tools and workflows specifically for web development projects",
+      "parentId": "use-cases"
+    },
+    {
+      "id": "use-case-mobile-development",
+      "name": "Mobile App Development",
+      "description": "Tools for iOS, Android, and cross-platform mobile development",
+      "parentId": "use-cases"
+    },
+    {
+      "id": "use-case-backend-development",
+      "name": "Backend Development",
+      "description": "Tools for server-side and API development",
+      "parentId": "use-cases"
+    },
+    {
+      "id": "use-case-database",
+      "name": "Database & Data Management",
+      "description": "Tools for database design, queries, and data management",
+      "parentId": "use-cases"
+    },
+    {
+      "id": "use-case-api-development",
+      "name": "API Development",
+      "description": "Tools for designing and building APIs",
+      "parentId": "use-cases"
+    },
+    {
+      "id": "use-case-refactoring",
+      "name": "Code Refactoring",
+      "description": "Tools focused on code refactoring and modernization",
+      "parentId": "use-cases"
+    },
+    {
+      "id": "use-case-bug-fixing",
+      "name": "Bug Fixing & Debugging",
+      "description": "Tools specifically for identifying and fixing bugs",
+      "parentId": "use-cases"
+    },
+    {
+      "id": "use-case-prototyping",
+      "name": "Prototyping & MVPs",
+      "description": "Tools for rapid prototyping and building MVPs",
+      "parentId": "use-cases"
+    },
+    {
+      "id": "use-case-legacy-code",
+      "name": "Legacy Code Modernization",
+      "description": "Tools for working with and modernizing legacy codebases",
+      "parentId": "use-cases"
+    },
+    {
+      "id": "use-case-blockchain",
+      "name": "Blockchain & Web3",
+      "description": "Tools for blockchain development and Web3 projects",
+      "parentId": "use-cases"
+    },
+    {
+      "id": "use-case-iot",
+      "name": "IoT & Embedded Systems",
+      "description": "Tools for Internet of Things and embedded systems development",
+      "parentId": "use-cases"
+    },
+    {
+      "id": "use-case-automation-scripting",
+      "name": "Automation & Scripting",
+      "description": "Tools for creating automation scripts and workflows",
+      "parentId": "use-cases"
+    },
+    {
+      "id": "use-case-cloud-infrastructure",
+      "name": "Cloud Infrastructure",
+      "description": "Tools for cloud architecture and infrastructure as code",
+      "parentId": "use-cases"
+    },
+    {
+      "id": "use-case-security-auditing",
+      "name": "Security Auditing",
+      "description": "Tools for security analysis and vulnerability assessment",
+      "parentId": "use-cases"
+    },
+    {
+      "id": "use-case-translation",
+      "name": "Translation & Localization",
+      "description": "Tools for code translation between languages and i18n",
+      "parentId": "use-cases"
+    },
+    {
+      "id": "use-case-legal-compliance",
+      "name": "Legal & Compliance",
+      "description": "Tools for legal document analysis and compliance workflows",
+      "parentId": "use-cases"
+    },
+    {
+      "id": "use-case-finance",
+      "name": "Finance & Fintech",
+      "description": "Tools for financial applications and fintech development",
+      "parentId": "use-cases"
+    },
+    {
+      "id": "use-case-ecommerce",
+      "name": "E-commerce",
+      "description": "Tools for building e-commerce platforms and features",
+      "parentId": "use-cases"
+    },
+    {
+      "id": "use-case-knowledge-management",
+      "name": "Knowledge Management",
+      "description": "Tools for organizing, managing, and retrieving knowledge bases and information",
+      "parentId": "use-cases"
+    },
+    {
+      "id": "frameworks-python",
+      "name": "Python Frameworks",
+      "description": "Python-based development frameworks",
+      "parentId": "frameworks"
+    },
+    {
+      "id": "frameworks-javascript",
+      "name": "JavaScript Frameworks",
+      "description": "JavaScript/TypeScript-based development frameworks",
+      "parentId": "frameworks"
+    },
+    {
+      "id": "frameworks-go",
+      "name": "Go Frameworks",
+      "description": "Go-based development frameworks",
+      "parentId": "frameworks"
+    },
+    {
+      "id": "frameworks-rust",
+      "name": "Rust Frameworks",
+      "description": "Rust-based development frameworks",
+      "parentId": "frameworks"
+    },
+    {
+      "id": "docker-tools",
+      "name": "Docker & Containerization",
+      "description": "Tools for Docker and container-based workflows with Claude Code",
+      "parentId": null
+    },
+    {
+      "id": "kubernetes-tools",
+      "name": "Kubernetes & Orchestration",
+      "description": "Tools for Kubernetes and container orchestration",
+      "parentId": null
+    },
+    {
+      "id": "git-tools",
+      "name": "Git & Version Control",
+      "description": "Tools for Git workflows and version control integration",
+      "parentId": null
+    },
+    {
+      "id": "shell-tools",
+      "name": "Shell & CLI Tools",
+      "description": "Command-line tools and shell integrations",
+      "parentId": null
+    },
+    {
+      "id": "notification-tools",
+      "name": "Notifications & Alerts",
+      "description": "Tools for notifications and alerts about Claude Code activities",
+      "parentId": null
+    },
+    {
+      "id": "search-tools",
+      "name": "Search & Discovery",
+      "description": "Tools for searching through code, documentation, and Claude Code history",
+      "parentId": null
+    },
+    {
+      "id": "code-snippets",
+      "name": "Code Snippets & Libraries",
+      "description": "Collections of reusable code snippets and utility libraries",
+      "parentId": null
+    },
+    {
+      "id": "ai-model-selection",
+      "name": "Model Selection & Routing",
+      "description": "Tools for dynamically selecting and routing between different AI models",
+      "parentId": null
+    },
+    {
+      "id": "rate-limiting",
+      "name": "Rate Limiting & Throttling",
+      "description": "Tools for managing API rate limits and request throttling",
+      "parentId": null
+    },
+    {
+      "id": "caching",
+      "name": "Caching",
+      "description": "Tools for caching Claude Code responses and optimizing performance",
+      "parentId": null
+    },
+    {
+      "id": "error-handling",
+      "name": "Error Handling",
+      "description": "Tools for advanced error handling and recovery in Claude Code workflows",
+      "parentId": null
+    },
+    {
+      "id": "streaming",
+      "name": "Streaming & Real-time",
+      "description": "Tools for streaming responses and real-time interactions",
+      "parentId": null
+    },
+    {
+      "id": "batch-processing",
+      "name": "Batch Processing",
+      "description": "Tools for batch operations and bulk processing with Claude Code",
+      "parentId": null
+    },
+    {
+      "id": "ui-themes",
+      "name": "Themes & Customization",
+      "description": "Themes and visual customization tools for Claude Code interfaces",
+      "parentId": "uis"
+    },
+    {
+      "id": "accessibility",
+      "name": "Accessibility",
+      "description": "Tools that improve accessibility of Claude Code",
+      "parentId": null
+    },
+    {
+      "id": "internationalization",
+      "name": "Internationalization",
+      "description": "Tools for multi-language support in Claude Code interfaces",
+      "parentId": null
+    },
+    {
+      "id": "algorithm-design",
+      "name": "Algorithm Design",
+      "description": "Tools and resources for algorithm design, optimization, and analysis",
+      "parentId": null
+    },
+    {
+      "id": "notifiers",
+      "name": "Notifiers",
+      "description": "Tools for sending notifications and alerts about Claude Code activities",
+      "parentId": null
+    },
+    {
+      "id": "spec-driven-development",
+      "name": "Spec-Driven Development",
+      "description": "Tools and workflows for specification-driven development approaches",
+      "parentId": null
+    },
+    {
+      "id": "cognitive-frameworks",
+      "name": "Cognitive Frameworks & Exercises",
+      "description": "Cognitive exercises, analytical frameworks, and thinking protocols for improving AI-assisted development workflows",
       "parentId": null
     }
   ],
