@@ -387,7 +387,10 @@
       "url": "https://github.com/textcortex/claude-code-sandbox",
       "name": "claude-code-sandbox",
       "description": "",
-      "categoryId": "security-sandboxing",
+      "categoryIds": [
+        "security-sandboxing",
+        "docker-tools"
+      ],
       "added": "2025-10-02"
     },
     {
@@ -576,7 +579,10 @@
       "url": "https://github.com/RchGrav/claudebox",
       "name": "claudebox",
       "description": "",
-      "categoryId": "development-environments",
+      "categoryIds": [
+        "development-environments",
+        "docker-tools"
+      ],
       "added": "2025-10-02"
     },
     {
@@ -991,7 +997,8 @@
       "name": "claude-container",
       "description": "",
       "categoryIds": [
-        "security-sandboxing"
+        "security-sandboxing",
+        "docker-tools"
       ],
       "added": "2025-10-02"
     },
@@ -1072,7 +1079,8 @@
       "name": "bubblewrap-claude",
       "description": "",
       "categoryIds": [
-        "security-sandboxing"
+        "security-sandboxing",
+        "docker-tools"
       ],
       "added": "2025-10-02"
     },
@@ -1279,7 +1287,8 @@
       "name": "aibox",
       "description": "",
       "categoryIds": [
-        "security-sandboxing"
+        "security-sandboxing",
+        "docker-tools"
       ],
       "added": "2025-10-02"
     },
@@ -1396,7 +1405,8 @@
       "name": "morphbox",
       "description": "",
       "categoryIds": [
-        "security-sandboxing"
+        "security-sandboxing",
+        "docker-tools"
       ],
       "added": "2025-10-02"
     },
@@ -1432,7 +1442,8 @@
       "name": "claude-container-tool",
       "description": "",
       "categoryIds": [
-        "security-sandboxing"
+        "security-sandboxing",
+        "docker-tools"
       ],
       "added": "2025-10-02"
     },
@@ -1896,7 +1907,8 @@
       "name": "vibekit",
       "description": "",
       "categoryIds": [
-        "security-sandboxing"
+        "security-sandboxing",
+        "docker-tools"
       ],
       "added": "2025-10-02"
     },
@@ -1914,7 +1926,8 @@
       "name": "clodpod",
       "description": "",
       "categoryIds": [
-        "security-sandboxing"
+        "security-sandboxing",
+        "docker-tools"
       ],
       "added": "2025-10-02"
     },
@@ -1979,6 +1992,1219 @@
       "categoryIds": [
         "usage",
         "os-macos"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/gapurov/claude-code-env-switcher",
+      "name": "claude-code-env-switcher",
+      "description": "",
+      "categoryIds": [
+        "utilities"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/fuergaosi233/claude-code-proxy",
+      "name": "claude-code-proxy",
+      "description": "",
+      "categoryIds": [
+        "proxies",
+        "bridges-openai"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/Njengah/claude-code-cheat-sheet",
+      "name": "claude-code-cheat-sheet",
+      "description": "",
+      "categoryIds": [
+        "educational"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/nizos/tdd-guard",
+      "name": "tdd-guard",
+      "description": "",
+      "categoryIds": [
+        "security-behavioral-enforcement"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/mufeedvh/code2prompt",
+      "name": "code2prompt",
+      "description": "",
+      "categoryIds": [
+        "utilities"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/seifghazi/claude-code-proxy",
+      "name": "claude-code-proxy",
+      "description": "",
+      "categoryIds": [
+        "proxies"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/somersby10ml/win-claude-code",
+      "name": "win-claude-code",
+      "description": "",
+      "categoryIds": [
+        "os-windows"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/ericc-ch/copilot-api",
+      "name": "copilot-api",
+      "description": "",
+      "categoryIds": [
+        "integrations"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/Haleclipse/CCometixLine",
+      "name": "CCometixLine",
+      "description": "",
+      "categoryIds": [
+        "plugins-statuslines"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/mpociot/claude-code-slack-bot",
+      "name": "claude-code-slack-bot",
+      "description": "",
+      "categoryIds": [
+        "integrations"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/RichardAtCT/claude-code-telegram",
+      "name": "claude-code-telegram",
+      "description": "",
+      "categoryIds": [
+        "remote-control",
+        "integrations"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/coder/anyclaude",
+      "name": "anyclaude",
+      "description": "",
+      "categoryIds": [
+        "bridges-other"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/jasonjmcghee/claude-debugs-for-you",
+      "name": "claude-debugs-for-you",
+      "description": "",
+      "categoryIds": [
+        "debugging-tools"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/zhisheng17/claude_code_settings",
+      "name": "claude_code_settings",
+      "description": "",
+      "categoryIds": [
+        "configs"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/LLM-Red-Team/kimi-cc",
+      "name": "kimi-cc",
+      "description": "",
+      "categoryIds": [
+        "bridges-other"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/jhlee0409/claude-code-history-viewer",
+      "name": "claude-code-history-viewer",
+      "description": "",
+      "categoryIds": [
+        "session-management"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/PaulDuvall/claude-code",
+      "name": "claude-code",
+      "description": "",
+      "categoryIds": [
+        "ui-slash-commands"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/chiphuyen/sniffly",
+      "name": "sniffly",
+      "description": "",
+      "categoryIds": [
+        "ui-dashboards"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/claude-did-this/claude-hub",
+      "name": "claude-hub",
+      "description": "",
+      "categoryIds": [
+        "integrations-webhooks"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/automazeio/claude-code-for-power-users",
+      "name": "claude-code-for-power-users",
+      "description": "",
+      "categoryIds": [
+        "educational"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/slopus/happy",
+      "name": "happy",
+      "description": "",
+      "categoryIds": [
+        "web-uis",
+        "mobile"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/eugenepyvovarov/CodeAgentsMobile",
+      "name": "CodeAgentsMobile",
+      "description": "",
+      "categoryIds": [
+        "mobile"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/ktnyt/cclsp",
+      "name": "cclsp",
+      "description": "",
+      "categoryIds": [
+        "integrations"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/grahama1970/claude-code-mcp-enhanced",
+      "name": "claude-code-mcp-enhanced",
+      "description": "",
+      "categoryIds": [
+        "mcp"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/LangGPT/awesome-claude-code",
+      "name": "awesome-claude-code",
+      "description": "",
+      "categoryIds": [
+        "awesome-lists"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/xixu-me/Claude-Code-Toolkit",
+      "name": "Claude-Code-Toolkit",
+      "description": "",
+      "categoryIds": [
+        "toolkit"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/router-for-me/CLIProxyAPI",
+      "name": "CLIProxyAPI",
+      "description": "",
+      "categoryIds": [
+        "proxies",
+        "api-providers"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/disler/infinite-agentic-loop",
+      "name": "infinite-agentic-loop",
+      "description": "",
+      "categoryIds": [
+        "experiments"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/philippb/claude-homeassistant",
+      "name": "claude-homeassistant",
+      "description": "",
+      "categoryIds": [
+        "use-case-home-assistant"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/benbasha/Claude-Autopilot",
+      "name": "Claude-Autopilot",
+      "description": "",
+      "categoryIds": [
+        "ide-extensions",
+        "ide-extension-cursor",
+        "ide-extension-windsurf"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/rz1989s/claude-code-statusline",
+      "name": "claude-code-statusline",
+      "description": "",
+      "categoryIds": [
+        "plugins-statuslines"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/luohy15/y-router",
+      "name": "y-router",
+      "description": "",
+      "categoryIds": [
+        "proxies"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/VishalJ99/claude-docker",
+      "name": "claude-docker",
+      "description": "",
+      "categoryIds": [
+        "docker-tools"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/Davincible/claude-code-open",
+      "name": "claude-code-open",
+      "description": "",
+      "categoryIds": [
+        "bridges-other"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/GWUDCAP/cc-sessions",
+      "name": "cc-sessions",
+      "description": "",
+      "categoryIds": [
+        "kits"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/papaoloba/spec-based-claude-code",
+      "name": "spec-based-claude-code",
+      "description": "",
+      "categoryIds": [
+        "spec-driven-development"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/mustafakendiguzel/claude-code-ui-agents",
+      "name": "claude-code-ui-agents",
+      "description": "",
+      "categoryIds": [
+        "use-case-ui-ux"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/langchain-ai/claude-code-evals",
+      "name": "claude-code-evals",
+      "description": "",
+      "categoryIds": [
+        "evals"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/benjaminr/chrome-devtools-mcp",
+      "name": "chrome-devtools-mcp",
+      "description": "",
+      "categoryIds": [
+        "mcp",
+        "integrations"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/webdevtodayjason/sub-agents",
+      "name": "sub-agents",
+      "description": "",
+      "categoryIds": [
+        "subagents-lists"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/kbwo/ccmanager",
+      "name": "ccmanager",
+      "description": "",
+      "categoryIds": [
+        "session-management"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/rahulvrane/awesome-claude-agents",
+      "name": "awesome-claude-agents",
+      "description": "",
+      "categoryIds": [
+        "awesome-lists"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/tintinweb/claude-code-container",
+      "name": "claude-code-container",
+      "description": "",
+      "categoryIds": [
+        "docker-tools"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code-monitoring-guide",
+      "name": "claude-code-monitoring-guide",
+      "description": "",
+      "categoryIds": [
+        "documentation-official"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know",
+      "name": "Claude-Code-Everything-You-Need-to-Know",
+      "description": "",
+      "categoryIds": [
+        "educational"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/opactorai/Claudable",
+      "name": "Claudable",
+      "description": "",
+      "categoryIds": [
+        "use-case-web-development"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/iansinnott/obsidian-claude-code-mcp",
+      "name": "obsidian-claude-code-mcp",
+      "description": "",
+      "categoryIds": [
+        "mcp",
+        "integrations"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/to-na/claude-code-crew",
+      "name": "claude-code-crew",
+      "description": "",
+      "categoryIds": [
+        "session-management"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/fakerybakery/openbridge",
+      "name": "openbridge",
+      "description": "",
+      "categoryIds": [
+        "bridges-other"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/bobmatnyc/claude-multiagent-pm",
+      "name": "claude-multiagent-pm",
+      "description": "",
+      "categoryIds": [
+        "project-management"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/anthropics/devcontainer-features",
+      "name": "devcontainer-features",
+      "description": "",
+      "categoryIds": [
+        "documentation-official"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/e2b-dev/mcp-server",
+      "name": "mcp-server",
+      "description": "",
+      "categoryIds": [
+        "mcp"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/pascalporedda/awesome-claude-code",
+      "name": "awesome-claude-code",
+      "description": "",
+      "categoryIds": [
+        "awesome-lists"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/supatest-ai/awesome-claude-code-sub-agents",
+      "name": "awesome-claude-code-sub-agents",
+      "description": "",
+      "categoryIds": [
+        "awesome-lists",
+        "subagents-lists"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/jimmc414/cctrace",
+      "name": "cctrace",
+      "description": "",
+      "categoryIds": [
+        "session-management"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/Comfy-Org/comfy-claude-prompt-library",
+      "name": "comfy-claude-prompt-library",
+      "description": "",
+      "categoryIds": [
+        "ui-slash-commands"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/stacklok/codegate",
+      "name": "codegate",
+      "description": "",
+      "categoryIds": [
+        "security"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/RonitSachdev/ccundo",
+      "name": "ccundo",
+      "description": "",
+      "categoryIds": [
+        "utilities",
+        "backup"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/sahithvibudhi/vibe-tree",
+      "name": "vibe-tree",
+      "description": "",
+      "categoryIds": [
+        "workflows"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/cmdaltctr/claude-gemini-mcp-slim",
+      "name": "claude-gemini-mcp-slim",
+      "description": "",
+      "categoryIds": [
+        "bridges-gemini"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/ZeroSumQuant/claude-conversation-extractor",
+      "name": "claude-conversation-extractor",
+      "description": "",
+      "categoryIds": [
+        "session-management"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/chongdashu/browserbase-claude-code-stagehand",
+      "name": "browserbase-claude-code-stagehand",
+      "description": "",
+      "categoryIds": [
+        "subagents"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/liangdabiao/claude-data-analysis",
+      "name": "claude-data-analysis",
+      "description": "",
+      "categoryIds": [
+        "use-case-data-science"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/jqueryscript/awesome-claude-code",
+      "name": "awesome-claude-code",
+      "description": "",
+      "categoryIds": [
+        "awesome-lists"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/maynetee/codeselect",
+      "name": "codeselect",
+      "description": "",
+      "categoryIds": [
+        "uis"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/brennercruvinel/CCPlugins",
+      "name": "CCPlugins",
+      "description": "",
+      "categoryIds": [
+        "frameworks"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/Vvkmnn/claude-historian",
+      "name": "claude-historian",
+      "description": "",
+      "categoryIds": [
+        "session-management"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/AnkitClassicVision/Claude-Code-Deep-Research",
+      "name": "Claude-Code-Deep-Research",
+      "description": "",
+      "categoryIds": [
+        "use-case-deep-research"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/pminervini/deep-research-mcp",
+      "name": "deep-research-mcp",
+      "description": "",
+      "categoryIds": [
+        "mcp"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/quant-sentiment-ai/claude-equity-research",
+      "name": "claude-equity-research",
+      "description": "",
+      "categoryIds": [
+        "use-case-finance"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/imdirtydan23/claude-code-agents",
+      "name": "claude-code-agents",
+      "description": "",
+      "categoryIds": [
+        "research-use-case"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/webdevtodayjason/context-forge",
+      "name": "context-forge",
+      "description": "",
+      "categoryIds": [
+        "context"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/augmnt/subagents.sh",
+      "name": "subagents.sh",
+      "description": "",
+      "categoryIds": [
+        "subagents-lists"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/yzyydev/agentic-coding-structure",
+      "name": "agentic-coding-structure",
+      "description": "",
+      "categoryIds": [
+        "scaffolds"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/mylee04/claude-notify",
+      "name": "claude-notify",
+      "description": "",
+      "categoryIds": [
+        "notifiers"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/juddflamm/asterisk",
+      "name": "asterisk",
+      "description": "",
+      "categoryIds": [
+        "account-management"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/paperMoose/fix_email",
+      "name": "fix_email",
+      "description": "",
+      "categoryIds": [
+        "use-case-email-management"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/LuRenJiasWorld/Claude-Code-Mailer",
+      "name": "Claude-Code-Mailer",
+      "description": "",
+      "categoryIds": [
+        "notifiers"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/btafoya/spamassassin-mcp",
+      "name": "spamassassin-mcp",
+      "description": "",
+      "categoryIds": [
+        "mcp",
+        "integrations"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/parolkar/context-engineering-for-writers",
+      "name": "context-engineering-for-writers",
+      "description": "",
+      "categoryIds": [
+        "educational"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/forsonny/Claude-Code-Novel-Writer",
+      "name": "Claude-Code-Novel-Writer",
+      "description": "",
+      "categoryIds": [
+        "use-case-writing"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/Victor-Evogor/ai-blog-writer",
+      "name": "ai-blog-writer",
+      "description": "",
+      "categoryIds": [
+        "use-case-writing"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/sealionryan/blog-writer",
+      "name": "blog-writer",
+      "description": "",
+      "categoryIds": [
+        "use-case-writing"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/guilhermexp/claudecodeui-kanban",
+      "name": "claudecodeui-kanban",
+      "description": "",
+      "categoryIds": [
+        "uis"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/masx200/claudecodeui",
+      "name": "claudecodeui",
+      "description": "",
+      "categoryIds": [
+        "web-uis"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/ArjunDivecha/claude-web-ui",
+      "name": "claude-web-ui",
+      "description": "",
+      "categoryIds": [
+        "web-uis"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/davidmold/code-crow",
+      "name": "code-crow",
+      "description": "",
+      "categoryIds": [
+        "web-uis"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/suhail-ak-2/claude-code-ui",
+      "name": "claude-code-ui",
+      "description": "",
+      "categoryIds": [
+        "web-uis"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/samihalawa/claude-code-ui",
+      "name": "claude-code-ui",
+      "description": "",
+      "categoryIds": [
+        "web-uis"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/botingw/rulebook-ai",
+      "name": "rulebook-ai",
+      "description": "",
+      "categoryIds": [
+        "security-rules"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/MCP-Defender/MCP-Defender",
+      "name": "MCP-Defender",
+      "description": "",
+      "categoryIds": [
+        "security",
+        "mcp"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/ssakone/crossrule",
+      "name": "crossrule",
+      "description": "",
+      "categoryIds": [
+        "security-rules"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/roderik/ai-rules",
+      "name": "ai-rules",
+      "description": "",
+      "categoryIds": [
+        "security-rules"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/ydeng11/rulesify",
+      "name": "rulesify",
+      "description": "",
+      "categoryIds": [
+        "security-rules"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/czottmann/agent-toolbox",
+      "name": "agent-toolbox",
+      "description": "",
+      "categoryIds": [
+        "security-rules"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/roy2392/vibe-agents-rules",
+      "name": "vibe-agents-rules",
+      "description": "",
+      "categoryIds": [
+        "security-rules"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/nikuscs/glooit",
+      "name": "glooit",
+      "description": "",
+      "categoryIds": [
+        "security-rules"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/Ratler/airuler",
+      "name": "airuler",
+      "description": "",
+      "categoryIds": [
+        "security-rules"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/melonicecream/cc-enhanced",
+      "name": "cc-enhanced",
+      "description": "",
+      "categoryIds": [
+        "ui-dashboards"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/p32929/ccheckpoints",
+      "name": "ccheckpoints",
+      "description": "",
+      "categoryIds": [
+        "checkpoints"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/yigong-yg/claude-code-dashboard",
+      "name": "claude-code-dashboard",
+      "description": "",
+      "categoryIds": [
+        "ui-dashboards"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/Rokurolize/claude-code-realtime-dashboard",
+      "name": "claude-code-realtime-dashboard",
+      "description": "",
+      "categoryIds": [
+        "ui-dashboards"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/istealersn-dev/claude-code-analytics",
+      "name": "claude-code-analytics",
+      "description": "",
+      "categoryIds": [
+        "ui-dashboards"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/kingchenc/Dragon-Ui",
+      "name": "Dragon-Ui",
+      "description": "",
+      "categoryIds": [
+        "ui-dashboards",
+        "usage"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/cloudstreet-dev/Because-Ruby",
+      "name": "Because-Ruby",
+      "description": "",
+      "categoryIds": [
+        "demos-books"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/danielrosehill/The-Jerusalem-Odyssey-Text",
+      "name": "The-Jerusalem-Odyssey-Text",
+      "description": "",
+      "categoryIds": [
+        "demos-books"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/danielrosehill/Claude-Code-Writing-Squad",
+      "name": "Claude-Code-Writing-Squad",
+      "description": "",
+      "categoryIds": [
+        "subagents-lists",
+        "use-case-writing"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/danielrosehill/Claude-Sub-Agent-Network",
+      "name": "Claude-Sub-Agent-Network",
+      "description": "",
+      "categoryIds": [
+        "subagents-lists"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/cloudstreet-dev/MySQL-and-You",
+      "name": "MySQL-and-You",
+      "description": "",
+      "categoryIds": [
+        "demos-books"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/archer-paul/CareSync-AI-Triage",
+      "name": "CareSync-AI-Triage",
+      "description": "",
+      "categoryIds": [
+        "use-case-medical"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
+      "name": "DesktopCommanderMCP",
+      "description": "",
+      "categoryIds": [
+        "mcp"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/dwmkerr/terminal-ai",
+      "name": "terminal-ai",
+      "description": "",
+      "categoryIds": [
+        "terminal-assistants"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/BeehiveInnovations/ClaudeAutoResponder",
+      "name": "ClaudeAutoResponder",
+      "description": "",
+      "categoryIds": [
+        "uis"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/StrawHatAI/claude-dev-tools",
+      "name": "claude-dev-tools",
+      "description": "",
+      "categoryIds": [
+        "mcp"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/BrowserMCP/mcp",
+      "name": "mcp",
+      "description": "",
+      "categoryIds": [
+        "mcp"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/firecrawl/firecrawl-mcp-server",
+      "name": "firecrawl-mcp-server",
+      "description": "",
+      "categoryIds": [
+        "mcp"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/executeautomation/mcp-playwright",
+      "name": "mcp-playwright",
+      "description": "",
+      "categoryIds": [
+        "mcp"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/hangwin/mcp-chrome",
+      "name": "mcp-chrome",
+      "description": "",
+      "categoryIds": [
+        "mcp"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/cloudflare/workers-mcp",
+      "name": "workers-mcp",
+      "description": "",
+      "categoryIds": [
+        "mcp"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/robotmcp/ros-mcp-server",
+      "name": "ros-mcp-server",
+      "description": "",
+      "categoryIds": [
+        "mcp"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/CoderGamester/mcp-unity",
+      "name": "mcp-unity",
+      "description": "",
+      "categoryIds": [
+        "mcp"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/v-3/discordmcp",
+      "name": "discordmcp",
+      "description": "",
+      "categoryIds": [
+        "mcp"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/chongdashu/unreal-mcp",
+      "name": "unreal-mcp",
+      "description": "",
+      "categoryIds": [
+        "mcp"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/danhilse/notion_mcp",
+      "name": "notion_mcp",
+      "description": "",
+      "categoryIds": [
+        "mcp"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/evalstate/mcp-hfspace",
+      "name": "mcp-hfspace",
+      "description": "",
+      "categoryIds": [
+        "mcp"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/shaneholloman/mcp-knowledge-graph",
+      "name": "mcp-knowledge-graph",
+      "description": "",
+      "categoryIds": [
+        "mcp"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/54yyyu/zotero-mcp",
+      "name": "zotero-mcp",
+      "description": "",
+      "categoryIds": [
+        "mcp"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/abhiz123/todoist-mcp-server",
+      "name": "todoist-mcp-server",
+      "description": "",
+      "categoryIds": [
+        "mcp"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/GongRzhe/Gmail-MCP-Server",
+      "name": "Gmail-MCP-Server",
+      "description": "",
+      "categoryIds": [
+        "mcp"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/joryeugene/calmhive-cli",
+      "name": "calmhive-cli",
+      "description": "",
+      "categoryIds": [
+        "voice-interface"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/jdpsc/claude-code-voice",
+      "name": "claude-code-voice",
+      "description": "",
+      "categoryIds": [
+        "voice-interface"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/stevenYZZ/claude-code-reminder",
+      "name": "claude-code-reminder",
+      "description": "",
+      "categoryIds": [
+        "voice-interface",
+        "notifiers"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/ZeldOcarina/claude-code-voice-notifications",
+      "name": "claude-code-voice-notifications",
+      "description": "",
+      "categoryIds": [
+        "voice-interface",
+        "notifiers"
       ],
       "added": "2025-10-02"
     }

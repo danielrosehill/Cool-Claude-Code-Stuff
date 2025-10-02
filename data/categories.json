@@ -25,6 +25,12 @@
       "parentId": null
     },
     {
+      "id": "scaffolds",
+      "name": "Scaffolds",
+      "description": "Project scaffolding tools and generators",
+      "parentId": null
+    },
+    {
       "id": "workflows",
       "name": "Workflows",
       "description": "Development workflows and methodologies",
@@ -94,6 +100,12 @@
       "id": "supplementary-uis",
       "name": "Supplementary UIs",
       "description": "UIs for managing components such as slash commands",
+      "parentId": "uis"
+    },
+    {
+      "id": "ui-dashboards",
+      "name": "Dashboards",
+      "description": "Dashboard interfaces for monitoring and managing Claude Code",
       "parentId": "uis"
     },
     {
@@ -193,10 +205,34 @@
       "parentId": null
     },
     {
+      "id": "documentation",
+      "name": "Documentation",
+      "description": "Documentation resources for Claude Code",
+      "parentId": null
+    },
+    {
+      "id": "documentation-official",
+      "name": "Official Documentation",
+      "description": "Official documentation written by Anthropic",
+      "parentId": "documentation"
+    },
+    {
+      "id": "documentation-community",
+      "name": "Community Documentation",
+      "description": "Third-party and community-created documentation",
+      "parentId": "documentation"
+    },
+    {
       "id": "security",
       "name": "Security",
       "description": "Security tools and reviews",
       "parentId": null
+    },
+    {
+      "id": "security-tools",
+      "name": "Security Tools",
+      "description": "Security analysis and code review tools",
+      "parentId": "security"
     },
     {
       "id": "security-sandboxing",
@@ -238,6 +274,12 @@
       "id": "multi-system-managers",
       "name": "Multi-System Managers",
       "description": "For managing multi agent systems",
+      "parentId": null
+    },
+    {
+      "id": "management-servers",
+      "name": "Management Servers",
+      "description": "Server applications for centralized management and control of Claude Code instances",
       "parentId": null
     },
     {
@@ -331,6 +373,12 @@
       "parentId": null
     },
     {
+      "id": "writing-tools",
+      "name": "Writing Tools",
+      "description": "Tools specifically designed for writing and editing workflows",
+      "parentId": null
+    },
+    {
       "id": "hooks",
       "name": "Hooks",
       "description": "Hook system extensions and enhancements",
@@ -341,6 +389,24 @@
       "name": "Use Cases",
       "description": "Specific use case implementations and workflows",
       "parentId": null
+    },
+    {
+      "id": "use-case-code-review-security",
+      "name": "Code Review Security",
+      "description": "Tools and workflows for security-focused code reviews",
+      "parentId": "use-cases"
+    },
+    {
+      "id": "use-case-pii-review",
+      "name": "PII Review",
+      "description": "Tools and workflows for identifying and reviewing personally identifiable information",
+      "parentId": "use-cases"
+    },
+    {
+      "id": "non-coding-use-cases",
+      "name": "Non-Coding Use Cases",
+      "description": "Use cases beyond code generation/review that leverage Claude Code",
+      "parentId": "use-cases"
     },
     {
       "id": "domain-specific-projects",
@@ -355,10 +421,28 @@
       "parentId": null
     },
     {
+      "id": "integrations-webhooks",
+      "name": "Webhooks",
+      "description": "Webhook integrations for Claude Code events and notifications",
+      "parentId": "integrations"
+    },
+    {
       "id": "made-with-claude-code",
       "name": "Made With Claude Code",
       "description": "Projects that were vibe coded/built using Claude Code",
       "parentId": null
+    },
+    {
+      "id": "demos",
+      "name": "Demos & Showcases",
+      "description": "Demonstration projects and showcases of Claude Code capabilities",
+      "parentId": null
+    },
+    {
+      "id": "demos-books",
+      "name": "Claude-Generated Books",
+      "description": "Books written by or with Claude Code",
+      "parentId": "demos"
     },
     {
       "id": "use-case-deep-research",
@@ -375,7 +459,13 @@
     {
       "id": "use-case-job-hunting",
       "name": "Job Hunting",
-      "description": "Tools and workflows for job search and career development",
+      "description": "Tools and workflows for job search, resume building, and interview preparation",
+      "parentId": "use-cases"
+    },
+    {
+      "id": "use-case-career-development",
+      "name": "Career Development",
+      "description": "Tools and workflows for professional growth, skill development, and career planning",
       "parentId": "use-cases"
     },
     {
@@ -403,6 +493,12 @@
       "parentId": "use-cases"
     },
     {
+      "id": "use-case-medical",
+      "name": "Medical & Healthcare",
+      "description": "Tools for medical documentation, healthcare workflows, and clinical applications",
+      "parentId": "use-cases"
+    },
+    {
       "id": "stacks",
       "name": "Stacks",
       "description": "Complete technology stacks and integrated solutions",
@@ -424,6 +520,12 @@
       "id": "backup",
       "name": "Backup And Snapshot",
       "description": "Backup and snapshotting utilities",
+      "parentId": null
+    },
+    {
+      "id": "checkpoints",
+      "name": "Checkpoints",
+      "description": "Checkpoint and restore point management for Claude Code sessions",
       "parentId": null
     },
     {
@@ -463,6 +565,24 @@
       "parentId": null
     },
     {
+      "id": "use-case-note-taking",
+      "name": "Note Taking",
+      "description": "Tools for capturing, organizing, and managing notes",
+      "parentId": "use-cases"
+    },
+    {
+      "id": "use-case-transcription",
+      "name": "Transcription",
+      "description": "Tools for transcribing audio and video to text",
+      "parentId": "voice-interface"
+    },
+    {
+      "id": "use-case-tts",
+      "name": "Text-to-Speech",
+      "description": "Tools for converting text to speech output",
+      "parentId": "voice-interface"
+    },
+    {
       "id": "api-providers",
       "name": "API Providers",
       "description": "Tools that provide local API endpoints around Claude Code for integration with other applications",
@@ -479,6 +599,18 @@
       "name": "Mobile",
       "description": "Tools for bringing Claude Code support to mobile devices and enabling mobile development previews from desktop",
       "parentId": null
+    },
+    {
+      "id": "mobile-android",
+      "name": "Android",
+      "description": "Android-specific tools and applications for Claude Code",
+      "parentId": "mobile"
+    },
+    {
+      "id": "mobile-ios",
+      "name": "iOS",
+      "description": "iOS-specific tools and applications for Claude Code",
+      "parentId": "mobile"
     },
     {
       "id": "experiments",
@@ -520,6 +652,12 @@
       "id": "testing",
       "name": "Testing & QA",
       "description": "Testing frameworks, test automation, and quality assurance tools for Claude Code workflows",
+      "parentId": null
+    },
+    {
+      "id": "evals",
+      "name": "Evaluations & Benchmarking",
+      "description": "Tools for evaluating and benchmarking Claude Code performance and output quality",
       "parentId": null
     },
     {
@@ -574,6 +712,12 @@
       "id": "use-case-content-creation",
       "name": "Content Creation",
       "description": "Tools for content creation, writing, and creative work",
+      "parentId": "use-cases"
+    },
+    {
+      "id": "use-case-writing",
+      "name": "Writing & Editing",
+      "description": "Tools for writing, editing, and improving written content",
       "parentId": "use-cases"
     },
     {
@@ -643,6 +787,24 @@
       "parentId": "ide-extensions"
     },
     {
+      "id": "ide-extension-cursor",
+      "name": "Cursor",
+      "description": "Cursor IDE specific extensions and integrations",
+      "parentId": "ide-extensions"
+    },
+    {
+      "id": "ide-extension-windsurf",
+      "name": "Windsurf",
+      "description": "Windsurf IDE specific extensions and integrations",
+      "parentId": "ide-extensions"
+    },
+    {
+      "id": "ide-extension-zed",
+      "name": "Zed",
+      "description": "Zed editor specific extensions and integrations",
+      "parentId": "ide-extensions"
+    },
+    {
       "id": "bridges-other",
       "name": "Other LLM Bridges",
       "description": "Bridges to connect Claude Code with other LLM providers",
@@ -655,9 +817,21 @@
       "parentId": null
     },
     {
+      "id": "terminal-assistants",
+      "name": "Terminal Assistants",
+      "description": "AI assistants and helpers that work within the terminal environment",
+      "parentId": null
+    },
+    {
       "id": "session-management",
       "name": "Session Management",
       "description": "Tools for managing, saving, and restoring Claude Code sessions",
+      "parentId": null
+    },
+    {
+      "id": "account-management",
+      "name": "Account Management",
+      "description": "Tools for managing multiple Claude Code accounts and switching between them",
       "parentId": null
     },
     {
@@ -694,6 +868,12 @@
       "id": "use-case-web-development",
       "name": "Web Development",
       "description": "Tools and workflows specifically for web development projects",
+      "parentId": "use-cases"
+    },
+    {
+      "id": "use-case-ui-ux",
+      "name": "UI/UX Design",
+      "description": "Tools and workflows for user interface and user experience design",
       "parentId": "use-cases"
     },
     {
@@ -796,6 +976,30 @@
       "id": "use-case-ecommerce",
       "name": "E-commerce",
       "description": "Tools for building e-commerce platforms and features",
+      "parentId": "use-cases"
+    },
+    {
+      "id": "use-case-home-assistant",
+      "name": "Home Assistant & Home Automation",
+      "description": "Tools for integrating with Home Assistant and home automation systems",
+      "parentId": "use-cases"
+    },
+    {
+      "id": "use-case-email-management",
+      "name": "Email Management",
+      "description": "Tools for managing, organizing, and automating email workflows",
+      "parentId": "use-cases"
+    },
+    {
+      "id": "use-case-calendar-management",
+      "name": "Calendar Management",
+      "description": "Tools for managing schedules, appointments, and calendar automation",
+      "parentId": "use-cases"
+    },
+    {
+      "id": "use-case-task-management",
+      "name": "Task Management",
+      "description": "Tools for managing personal and professional tasks (non-development)",
       "parentId": "use-cases"
     },
     {
