@@ -8,9 +8,11 @@ A curated list of awesome Claude Code projects, tools, and resources
 
 ---
 
-## Actions
+# Actions
 
 Action extensions and plugins
+
+---
 
 ### claude-code-action
 
@@ -34,9 +36,11 @@ A GitHub Actions project that strategically automates Claude Code session resets
 
 ---
 
-## Agent Managers
+# Agent Managers
 
 Tools for managing and coordinating multiple AI coding agents in parallel with isolated environments
+
+---
 
 ### ClaudeDirector
 
@@ -70,9 +74,11 @@ The intelligent Claude Code command center for autonomous project execution
 
 ---
 
-## API Providers
+# API Providers
 
 Tools that provide local API endpoints around Claude Code for integration with other applications
+
+---
 
 ### agentapi
 
@@ -88,9 +94,11 @@ HTTP API for Claude Code, Goose, Aider, Gemini, Amp, and Codex
 
 ---
 
-## Automation
+# Automation
 
 Automation tools and scripts
+
+---
 
 ### cc-blueprint-toolkit
 
@@ -98,9 +106,11 @@ Automation tools and scripts
 
 ---
 
-## Autonomy Enhancers
+# Autonomy Enhancers
 
 Tools that enhance Claude Code's autonomous capabilities with continuous development loops and intelligent task management
+
+---
 
 ### ralph-claude-code
 
@@ -110,9 +120,11 @@ Autonomous AI development loop for Claude Code with intelligent exit detection
 
 ---
 
-## Awesome Lists
+# Awesome Lists
 
 Curated lists of resources
+
+---
 
 ### awesome-ai-coding-all-in-one
 
@@ -152,9 +164,11 @@ Production-ready Claude subagents collection with 100+ specialized AI agents for
 
 ---
 
-## Backup And Snapshot
+# Backup And Snapshot
 
 Backup and snapshotting utilities
+
+---
 
 ### claude-code-rewind
 
@@ -164,9 +178,11 @@ Time-travel debugging tool for Claude Code sessions with intelligent snapshot sy
 
 ---
 
-## Claude Code Bridges
+# Claude Code Bridges
 
 Frameworks for allowing Claude Code CLI to use other LLMs as backend
+
+---
 
 ### Cloudflare Bridges
 
@@ -236,9 +252,11 @@ OpenAI API-compatible wrapper for Claude Code. Use it with any OpenAI client lib
 
 ---
 
-## Cognitive Frameworks & Exercises
+# Cognitive Frameworks & Exercises
 
 Cognitive exercises, analytical frameworks, and thinking protocols for improving AI-assisted development workflows
+
+---
 
 ### claude-exercises
 
@@ -246,9 +264,11 @@ Cognitive exercises, analytical frameworks, and thinking protocols for improving
 
 ---
 
-## Configs
+# Configs
 
 Configuration files and settings
+
+---
 
 ### agentinit
 
@@ -302,9 +322,11 @@ Zero-Config Code Flow for Claude code & Codex
 
 ---
 
-## Context and Memory
+# Context and Memory
 
 Context management, memory systems, and enhancement tools
+
+---
 
 ### ai-code-context-helper
 
@@ -416,9 +438,11 @@ Resumable Working Memory server for Codex/Claude CLI — an MCP backend that cap
 
 ---
 
-## Conversation History
+# Conversation History
 
 Tools for viewing and managing conversation history
+
+---
 
 ### ccresume
 
@@ -428,9 +452,11 @@ Browse and manage your Claude Code conversations easily with ccreresume, a CUI t
 
 ---
 
-## Cookbooks
+# Cookbooks
 
 Recipe collections and guides
+
+---
 
 ### claude-code-cookbook
 
@@ -440,9 +466,11 @@ A collection of settings to make Claude Code more useful.
 
 ---
 
-## Debugging Tools
+# Debugging Tools
 
 Tools for debugging and troubleshooting Claude Code sessions and workflows
+
+---
 
 ### ccdebug
 
@@ -452,9 +480,11 @@ claude code debug tool
 
 ---
 
-## Development Environments
+# Development Environments
 
 Complete development environments for Claude Code
+
+---
 
 ### claudebox
 
@@ -464,9 +494,11 @@ The Ultimate Claude Code Docker Development Environment - Run Claude AI's coding
 
 ---
 
-## Educational
+# Educational
 
 Learning resources and tutorials
+
+---
 
 ### claude-code-guide
 
@@ -490,9 +522,11 @@ Easy guide to installing Claude Code MCPs globally on your machine.
 
 ---
 
-## Experiments
+# Experiments
 
 Experimental projects exploring innovative and creative uses of Claude Code
+
+---
 
 ### fantasy-hockey
 
@@ -502,9 +536,11 @@ Wanted to see if use Claude Code could help me draft a great fantasy hockey team
 
 ---
 
-## Frameworks
+# Frameworks
 
 Development frameworks built on Claude Code
+
+---
 
 ### cc-coding-agents
 
@@ -552,9 +588,11 @@ A development framework for Ruby on Rails developers using Claude Code, inspired
 
 ---
 
-## Harnesses
+# Harnesses
 
 Harnesses
+
+---
 
 ### ccharness
 
@@ -564,9 +602,11 @@ A lightweight harness for Claude Code
 
 ---
 
-## Hooks
+# Hooks
 
 Hook system extensions and enhancements
+
+---
 
 ### claude-code-agent-hooks
 
@@ -592,9 +632,11 @@ Transform natural language project rules into Claude Code automation hooks - Wri
 
 ---
 
-## IDE Extensions
+# IDE Extensions
 
 Integrations with IDEs and code editors
+
+---
 
 ### claude-coder
 
@@ -678,9 +720,11 @@ Beautiful Claude Code Chat Interface for VS Code
 
 ---
 
-## Integrations
+# Integrations
 
 Projects that integrate Claude Code into other tools and platforms
+
+---
 
 ### claude-code-sdk-langchain
 
@@ -762,9 +806,11 @@ Autonomous CLI agent integrations for the Spring AI ecosystem with Claude Code, 
 
 ---
 
-## Kits
+# Kits
 
 Development kits and SDKs
+
+---
 
 ### Claude-Code-Development-Kit
 
@@ -774,9 +820,11 @@ Handle context at scale - my custom Claude Code workflow including hooks, mcp an
 
 ---
 
-## Log Viewers
+# Log Viewers
 
 Tools for viewing and analyzing Claude Code logs
+
+---
 
 ### claude-code-log
 
@@ -794,9 +842,11 @@ A CLI tool for analyzing Claude Code sessions
 
 ---
 
-## Made With Claude Code
+# Made With Claude Code
 
 Projects that were vibe coded/built using Claude Code
+
+---
 
 ### bpdiscord
 
@@ -846,9 +896,11 @@ Code written by Claude Opus to generate an RSS feed from my InfoWorld articles
 
 ---
 
-## MCP
+# MCP
 
 Model Context Protocol integrations
+
+---
 
 ### adb_screenshot_mcp
 
@@ -970,9 +1022,11 @@ Stop AI coding disasters before they cost you weeks. Real-time anti-pattern dete
 
 ---
 
-## Methodologies
+# Methodologies
 
 Specific methodologies and approaches for AI-assisted coding
+
+---
 
 ### ICMwRIPER-5
 
@@ -988,9 +1042,11 @@ Investigation-first development methodology for Claude Code. Deploy 7 specialize
 
 ---
 
-## Mobile
+# Mobile
 
 Tools for bringing Claude Code support to mobile devices and enabling mobile development previews from desktop
+
+---
 
 ### happy-cli
 
@@ -1000,9 +1056,11 @@ Happy Coder CLI to connect your local Claude Code to mobile device
 
 ---
 
-## Model Selection & Routing
+# Model Selection & Routing
 
 Tools for dynamically selecting and routing between different AI models
+
+---
 
 ### claude-code-switch
 
@@ -1010,9 +1068,11 @@ Tools for dynamically selecting and routing between different AI models
 
 ---
 
-## Multi-System Managers
+# Multi-System Managers
 
 For managing multi agent systems
+
+---
 
 ### claude-squad
 
@@ -1036,9 +1096,11 @@ Unleash Next-Level AI! 🚀  💻 Code Generation: DeepSeek r1 + Claude 3.7 Sonn
 
 ---
 
-## Notifiers
+# Notifiers
 
 Tools for sending notifications and alerts about Claude Code activities
+
+---
 
 ### nclaude
 
@@ -1046,9 +1108,11 @@ Tools for sending notifications and alerts about Claude Code activities
 
 ---
 
-## Observability
+# Observability
 
 Observability and instrumentation tools
+
+---
 
 ### claude-code-hooks-multi-agent-observability
 
@@ -1072,9 +1136,11 @@ Real-time observability for Claude Code agents with hook event tracking. Monitor
 
 ---
 
-## Orchestration
+# Orchestration
 
 Workflow orchestration and automation
+
+---
 
 ### agentwise
 
@@ -1124,9 +1190,11 @@ This mode serves as a code-first swarm orchestration layer, enabling Claude Code
 
 ---
 
-## OS-Specific Tools
+# OS-Specific Tools
 
 Tools and utilities designed for specific operating systems
+
+---
 
 ### Linux Tools
 
@@ -1156,9 +1224,11 @@ The World's Fastest Claude Code Launcher  Make Claude Code launching simpler, bu
 
 ---
 
-## Other/Misc
+# Other/Misc
 
 Other miscellaneous tools and utilities
+
+---
 
 ### claude-code-requirements-builder
 
@@ -1166,9 +1236,11 @@ Other miscellaneous tools and utilities
 
 ---
 
-## Performance & Efficiency Tools
+# Performance & Efficiency Tools
 
 Tools for running Claude Code more efficiently, including parallel sessions and workflow optimization
+
+---
 
 ### crystal
 
@@ -1186,9 +1258,11 @@ Production-ready spec-driven AI development methodology with Claude Code agents 
 
 ---
 
-## Plugins
+# Plugins
 
 General-purpose plugins that extend Claude Code functionality
+
+---
 
 ### Statuslines
 
@@ -1200,9 +1274,11 @@ Statusline plugins and customizations
 
 ---
 
-## Project Management and Task Tracking
+# Project Management and Task Tracking
 
 Tools for managing projects and tracking tasks
+
+---
 
 ### claude-sessions
 
@@ -1242,9 +1318,11 @@ Claude Code Best Friend, a workbench for task management and swarm orchestration
 
 ---
 
-## Provider Switchers
+# Provider Switchers
 
 Tools for switching between different API providers and proxy configurations
+
+---
 
 ### changeVibe
 
@@ -1260,9 +1338,11 @@ A command-line tool for switching between different Claude Code and Codex proxy 
 
 ---
 
-## Proxies
+# Proxies
 
 Proxy servers and middleware for routing to other backends
+
+---
 
 ### claude_code_proxy
 
@@ -1288,9 +1368,11 @@ Claude code to other backends
 
 ---
 
-## Remote Control
+# Remote Control
 
 Remote control and management tools
+
+---
 
 ### ccremote
 
@@ -1306,9 +1388,11 @@ Control Claude Code remotely via email、discord、telegram. Start tasks locally
 
 ---
 
-## Router
+# Router
 
 Routing and orchestration tools
+
+---
 
 ### claude-code-router
 
@@ -1318,9 +1402,11 @@ Use Claude Code as the foundation for coding infrastructure, allowing you to dec
 
 ---
 
-## Security
+# Security
 
 Security tools and reviews
+
+---
 
 ### claude-code-security-review
 
@@ -1446,9 +1532,11 @@ Built 100% With CC. Browser light sandboxed self building IDE wrapper for Claude
 
 ---
 
-## Session Management
+# Session Management
 
 Tools for managing, saving, and restoring Claude Code sessions
+
+---
 
 ### cchistory
 
@@ -1462,9 +1550,11 @@ Tools for managing, saving, and restoring Claude Code sessions
 
 ---
 
-## Source Project
+# Source Project
 
 Official Claude Code repository
+
+---
 
 ### claude-code
 
@@ -1474,9 +1564,11 @@ Claude Code is an agentic coding tool that lives in your terminal, understands y
 
 ---
 
-## Spec-Driven Development
+# Spec-Driven Development
 
 Tools and workflows for specification-driven development approaches
+
+---
 
 ### claude-code-ccpm
 
@@ -1484,9 +1576,11 @@ Tools and workflows for specification-driven development approaches
 
 ---
 
-## Stacks
+# Stacks
 
 Complete technology stacks and integrated solutions
+
+---
 
 ### dotai
 
@@ -1496,9 +1590,11 @@ Ultimate AI development stack: Claude Code + Task Master + Cursor
 
 ---
 
-## Subagents
+# Subagents
 
 Subagent collections and networks
+
+---
 
 ### dotclaude
 
@@ -1678,9 +1774,11 @@ Claude Code Unified Agents delivers 54 ready sub-agents with orchestration for q
 
 ---
 
-## Templates
+# Templates
 
 Project templates and boilerplates
+
+---
 
 ### claude-code-templates
 
@@ -1690,9 +1788,11 @@ CLI tool for configuring and monitoring Claude Code
 
 ---
 
-## Tooling
+# Tooling
 
 Development tools and utilities
+
+---
 
 ### claude-code-tools
 
@@ -1702,9 +1802,11 @@ Collection of practical productivity tools for Claude Code
 
 ---
 
-## Toolkit
+# Toolkit
 
 Comprehensive toolkits and tool collections
+
+---
 
 ### claude-code-toolbox
 
@@ -1722,9 +1824,11 @@ A toolkit of custom commands, hooks, and utilities for Claude Code
 
 ---
 
-## UIs & Frontend
+# UIs & Frontend
 
 User interfaces and frontends
+
+---
 
 ### async-code
 
@@ -1930,9 +2034,11 @@ A web UI for Claude Code agents
 
 ---
 
-## Unsorted
+# Unsorted
 
 Recently added repositories awaiting categorization
+
+---
 
 ### claude-code-companion
 
@@ -1948,9 +2054,11 @@ Claude API Proxy platform - Seamlessly forward Claude Code requests to any OpenA
 
 ---
 
-## Usage
+# Usage
 
 Usage tracking and monitoring
+
+---
 
 ### better-ccusage
 
@@ -1980,9 +2088,11 @@ Real-time Claude Code usage monitor with predictions and warnings
 
 ---
 
-## Use Cases
+# Use Cases
 
 Specific use case implementations and workflows
+
+---
 
 ### Bioinformatics & Life Sciences
 
@@ -2100,9 +2210,11 @@ A Claude Code research infrastructure that enforces citation compliance, validat
 
 ---
 
-## Utilities
+# Utilities
 
 Utility scripts and tools
+
+---
 
 ### CodeCompass
 
@@ -2126,9 +2238,11 @@ Shared starter template configuration and CLAUDE.md memory bank system for Claud
 
 ---
 
-## Vibe Coding
+# Vibe Coding
 
 Tools and resources for vibe coding workflows
+
+---
 
 ### vibe-check-mcp
 
@@ -2138,9 +2252,11 @@ Stop AI coding disasters before they cost you weeks. Real-time anti-pattern dete
 
 ---
 
-## Visualisation
+# Visualisation
 
 Visualization and debugging tools
+
+---
 
 ### claude-code-reverse
 
@@ -2150,9 +2266,11 @@ A Tool to Visualize Claude Code's LLM Interactions
 
 ---
 
-## Voice Interface
+# Voice Interface
 
 Tools that bring voice capabilities to Claude Code for hands-free interaction and voice-driven development
+
+---
 
 ### Claude-Code-Voice
 
@@ -2168,9 +2286,11 @@ Tools that bring voice capabilities to Claude Code for hands-free interaction an
 
 ---
 
-## Workflows
+# Workflows
 
 Development workflows and methodologies
+
+---
 
 ### cc-blueprint-toolkit
 
