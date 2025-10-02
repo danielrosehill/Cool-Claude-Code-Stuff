@@ -641,6 +641,404 @@
       "description": "",
       "categoryId": "stacks",
       "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/nlsherman-24861/claude-context-sync",
+      "name": "claude-context-sync",
+      "description": "",
+      "categoryIds": [
+        "context"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/Mojave-Research-Inc/Claude-MCP-Agents",
+      "name": "Claude-MCP-Agents",
+      "description": "",
+      "categoryIds": [
+        "mcp"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/jee14/claude-code",
+      "name": "claude-code",
+      "description": "",
+      "categoryIds": [
+        "workflows"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/stravu/crystal",
+      "name": "crystal",
+      "description": "",
+      "categoryIds": [
+        "performance-tools"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/ThisisJere/GTM-Analytics-Agents",
+      "name": "GTM-Analytics-Agents",
+      "description": "",
+      "categoryIds": [
+        "purpose-specific-agent-networks"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/RAIT-09/obsidian-agent-client",
+      "name": "obsidian-agent-client",
+      "description": "",
+      "categoryIds": [
+        "integrations"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/mikefwille/spec-driven-ai-dev-research",
+      "name": "spec-driven-ai-dev-research",
+      "description": "",
+      "categoryIds": [
+        "performance-tools"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/abean23/claude-code-agent-hooks",
+      "name": "claude-code-agent-hooks",
+      "description": "",
+      "categoryIds": [
+        "hooks"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/JeremiahDoyle/gtm-sub-agents",
+      "name": "gtm-sub-agents",
+      "description": "",
+      "categoryIds": [
+        "subagents",
+        "purpose-specific-agent-networks"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/the-amber-joy/witchyLookup",
+      "name": "witchyLookup",
+      "description": "",
+      "categoryIds": [
+        "made-with-claude-code"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/Hey-Diga/dotclaude",
+      "name": "dotclaude",
+      "description": "",
+      "categoryIds": [
+        "ui-slash-commands"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/javiera-vasquez/claude-code-job-tailor",
+      "name": "claude-code-job-tailor",
+      "description": "",
+      "categoryIds": [
+        "use-case-job-hunting"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/vibe-log/vibe-log-cli",
+      "name": "vibe-log-cli",
+      "description": "",
+      "categoryIds": [
+        "log-viewers"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/lukadfagundes/trinity-method-sdk",
+      "name": "trinity-method-sdk",
+      "description": "",
+      "categoryIds": [
+        "methodologies"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/kesslerio/vibe-check-mcp",
+      "name": "vibe-check-mcp",
+      "description": "",
+      "categoryIds": [
+        "vibe-coding",
+        "mcp"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/TechNickAI/ai-coding-config",
+      "name": "ai-coding-config",
+      "description": "",
+      "categoryIds": [
+        "configs"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/CorentinGC/junk-email",
+      "name": "junk-email",
+      "description": "",
+      "categoryIds": [
+        "made-with-claude-code"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/Santxs999/awesome-claude-code-sub-agents",
+      "name": "awesome-claude-code-sub-agents",
+      "description": "",
+      "categoryIds": [
+        "subagents-lists"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/dennisonbertram/claudeops",
+      "name": "claudeops",
+      "description": "",
+      "categoryIds": [
+        "use-case-devops"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/muzvo/claude-code-openai-wrapper",
+      "name": "claude-code-openai-wrapper",
+      "description": "",
+      "categoryIds": [
+        "bridges-openai"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/catlog22/Claude-Code-Workflow",
+      "name": "Claude-Code-Workflow",
+      "description": "",
+      "categoryIds": [
+        "workflows"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/codeotter0201/claude-daily-check-in",
+      "name": "claude-daily-check-in",
+      "description": "",
+      "categoryIds": [
+        "actions"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/Iski08/dotclaude",
+      "name": "dotclaude",
+      "description": "",
+      "categoryIds": [
+        "subagents"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/muhammad-bu/claude-code-unified-agents",
+      "name": "claude-code-unified-agents",
+      "description": "",
+      "categoryIds": [
+        "subagents-lists"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/Cake-sweet/agents",
+      "name": "agents",
+      "description": "",
+      "categoryIds": [
+        "subagents-lists"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/RedPlanetHQ/core",
+      "name": "core",
+      "description": "",
+      "categoryIds": [
+        "context"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/toomas-tt/claude-code-hooks-multi-agent-observability",
+      "name": "claude-code-hooks-multi-agent-observability",
+      "description": "",
+      "categoryIds": [
+        "observability"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/Kfirm1208/claude-daily-fixes",
+      "name": "claude-daily-fixes",
+      "description": "",
+      "categoryIds": [
+        "workflows"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/ALTIbaba/claude-code-openai-wrapper",
+      "name": "claude-code-openai-wrapper",
+      "description": "",
+      "categoryIds": [
+        "bridges-openai"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/A2A-MC/ccresume",
+      "name": "ccresume",
+      "description": "",
+      "categoryIds": [
+        "conversation-history"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/tninja/ai-code-interface.el",
+      "name": "ai-code-interface.el",
+      "description": "",
+      "categoryIds": [
+        "ide-extension-emacs"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/pangansteven/claude-code-base-action",
+      "name": "claude-code-base-action",
+      "description": "",
+      "categoryIds": [
+        "actions"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/hawier-dev/adb_screenshot_mcp",
+      "name": "adb_screenshot_mcp",
+      "description": "",
+      "categoryIds": [
+        "mcp"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/ahmedsamy-244/ai-code-context-helper",
+      "name": "ai-code-context-helper",
+      "description": "",
+      "categoryIds": [
+        "context"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/afiffattouh/hildens-prism",
+      "name": "hildens-prism",
+      "description": "",
+      "categoryIds": [
+        "supplementary-uis"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/Pinochollo/CodeCompass",
+      "name": "CodeCompass",
+      "description": "",
+      "categoryIds": [
+        "utilities"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/spring-ai-community/spring-ai-agents",
+      "name": "spring-ai-agents",
+      "description": "",
+      "categoryIds": [
+        "integrations"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/pc035860/scratchpad-mcp",
+      "name": "scratchpad-mcp",
+      "description": "",
+      "categoryIds": [
+        "mcp"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/nezhar/claude-container",
+      "name": "claude-container",
+      "description": "",
+      "categoryIds": [
+        "security-sandboxing"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/elct9620/ccharness",
+      "name": "ccharness",
+      "description": "",
+      "categoryIds": [
+        "harness"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/jpotterlabs/claude-code-rewind",
+      "name": "claude-code-rewind",
+      "description": "",
+      "categoryIds": [
+        "backup"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/covertlabsaus/colab-mcp",
+      "name": "colab-mcp",
+      "description": "",
+      "categoryIds": [
+        "context"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/i-conoclast/ochestrator-pilot",
+      "name": "ochestrator-pilot",
+      "description": "",
+      "categoryIds": [
+        "orchestration"
+      ],
+      "added": "2025-10-02"
+    },
+    {
+      "url": "https://github.com/papitasur/RAG-system-cars",
+      "name": "RAG-system-cars",
+      "description": "",
+      "categoryIds": [
+        "made-with-claude-code"
+      ],
+      "added": "2025-10-02"
     }
   ]
 }

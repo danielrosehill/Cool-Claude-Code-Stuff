@@ -31,22 +31,40 @@
       "parentId": null
     },
     {
+      "id": "methodologies",
+      "name": "Methodologies",
+      "description": "Specific methodologies and approaches for AI-assisted coding",
+      "parentId": null
+    },
+    {
+      "id": "vibe-coding",
+      "name": "Vibe Coding",
+      "description": "Tools and resources for vibe coding workflows",
+      "parentId": null
+    },
+    {
       "id": "awesome-lists",
       "name": "Awesome Lists",
       "description": "Curated lists of resources",
       "parentId": null
     },
     {
+      "id": "subagents",
+      "name": "Subagents",
+      "description": "Subagent collections and networks",
+      "parentId": null
+    },
+    {
       "id": "subagents-lists",
       "name": "Subagents Collections",
       "description": "Collections of Claude Code subagents",
-      "parentId": null
+      "parentId": "subagents"
     },
     {
       "id": "purpose-specific-agent-networks",
       "name": "Purpose Specific Agent Networks",
       "description": "Agent networks designed for specific purposes",
-      "parentId": null
+      "parentId": "subagents"
     },
     {
       "id": "uis",
@@ -82,6 +100,12 @@
       "id": "log-viewers",
       "name": "Log Viewers",
       "description": "Tools for viewing and analyzing Claude Code logs",
+      "parentId": null
+    },
+    {
+      "id": "conversation-history",
+      "name": "Conversation History",
+      "description": "Tools for viewing and managing conversation history",
       "parentId": null
     },
     {
@@ -145,6 +169,18 @@
       "parentId": null
     },
     {
+      "id": "monitoring",
+      "name": "Monitoring",
+      "description": "Monitoring utilities and tools for Claude Code",
+      "parentId": null
+    },
+    {
+      "id": "observability",
+      "name": "Observability",
+      "description": "Observability and instrumentation tools",
+      "parentId": null
+    },
+    {
       "id": "visualisation",
       "name": "Visualisation",
       "description": "Visualization and debugging tools",
@@ -193,6 +229,12 @@
       "parentId": null
     },
     {
+      "id": "automation",
+      "name": "Automation",
+      "description": "Automation tools and scripts",
+      "parentId": null
+    },
+    {
       "id": "multi-system-managers",
       "name": "Multi-System Managers",
       "description": "For managing multi agent systems",
@@ -220,6 +262,12 @@
       "id": "utilities",
       "name": "Utilities",
       "description": "Utility scripts and tools",
+      "parentId": null
+    },
+    {
+      "id": "performance-tools",
+      "name": "Performance & Efficiency Tools",
+      "description": "Tools for running Claude Code more efficiently, including parallel sessions and workflow optimization",
       "parentId": null
     },
     {
@@ -289,16 +337,52 @@
       "parentId": null
     },
     {
-      "id": "use-case-deep-research",
-      "name": "Use-case: Deep Research",
-      "description": "Tools and workflows for deep research tasks",
+      "id": "use-cases",
+      "name": "Use Cases",
+      "description": "Specific use case implementations and workflows",
       "parentId": null
     },
     {
-      "id": "use-case-personal-assistant",
-      "name": "Use-case: Personal Assistant",
-      "description": "Personal assistant implementations and workflows",
+      "id": "domain-specific-projects",
+      "name": "Domain-Specific Projects",
+      "description": "Projects using Claude Code for specific domains or niche purposes",
       "parentId": null
+    },
+    {
+      "id": "integrations",
+      "name": "Integrations",
+      "description": "Projects that integrate Claude Code into other tools and platforms",
+      "parentId": null
+    },
+    {
+      "id": "made-with-claude-code",
+      "name": "Made With Claude Code",
+      "description": "Projects that were vibe coded/built using Claude Code",
+      "parentId": null
+    },
+    {
+      "id": "use-case-deep-research",
+      "name": "Deep Research",
+      "description": "Tools and workflows for deep research tasks",
+      "parentId": "use-cases"
+    },
+    {
+      "id": "use-case-personal-assistant",
+      "name": "Personal Assistant",
+      "description": "Personal assistant implementations and workflows",
+      "parentId": "use-cases"
+    },
+    {
+      "id": "use-case-job-hunting",
+      "name": "Job Hunting",
+      "description": "Tools and workflows for job search and career development",
+      "parentId": "use-cases"
+    },
+    {
+      "id": "use-case-devops",
+      "name": "DevOps",
+      "description": "DevOps workflows and automation tools",
+      "parentId": "use-cases"
     },
     {
       "id": "stacks",
@@ -311,6 +395,35 @@
       "name": "Unsorted",
       "description": "Recently added repositories awaiting categorization",
       "parentId": null
+    },
+    {
+      "id": "harness",
+      "name": "Harnesses",
+      "description": "Harnesses",
+      "parentId": null
+    },
+    {
+      "id": "backup",
+      "name": "Backup And Snapshot",
+      "description": "Backup and snapshotting utilities",
+      "parentId": null
+    }
+  ],
+  "tags": [
+    {
+      "id": "gui",
+      "name": "GUI",
+      "description": "Graphical user interface"
+    },
+    {
+      "id": "cli",
+      "name": "CLI",
+      "description": "Command-line interface"
+    },
+    {
+      "id": "web-ui",
+      "name": "Web UI",
+      "description": "Web-based user interface"
     }
   ]
 }

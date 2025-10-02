@@ -453,5 +453,220 @@
     "description": "Ultimate AI development stack: Claude Code + Task Master + Cursor",
     "stars": 1027,
     "lastUpdated": "2025-10-02T14:06:52Z"
+  },
+  "nlsherman-24861/claude-context-sync": {
+    "description": "Sync your Claude preferences across chat, code, and projects with a single source of truth",
+    "stars": 1,
+    "lastUpdated": "2025-10-02T17:13:01Z"
+  },
+  "Mojave-Research-Inc/Claude-MCP-Agents": {
+    "description": "Complete collection of Model Context Protocol (MCP) servers and specialized agents for Claude Code",
+    "stars": 1,
+    "lastUpdated": "2025-10-02T16:58:11Z"
+  },
+  "jee14/claude-code": {
+    "description": "🤖 Vibe Coding: AI agents autonomously develop entire projects without humans ever seeing the production code",
+    "stars": 1,
+    "lastUpdated": "2025-10-02T17:01:11Z"
+  },
+  "stravu/crystal": {
+    "description": "Run multiple Codex and Claude Code AI sessions in parallel git worktrees. Test, compare approaches & manage AI-assisted development workflows in one desktop app.",
+    "stars": 2045,
+    "lastUpdated": "2025-10-02T17:09:19Z"
+  },
+  "ThisisJere/GTM-Analytics-Agents": {
+    "description": "A suite of GTM Claude Code Sub Agents, that can run advanced data science analytics and build GTM plans, identify missing revenue opportunities and more.",
+    "stars": 1,
+    "lastUpdated": "2025-10-02T17:42:34Z"
+  },
+  "RAIT-09/obsidian-agent-client": {
+    "description": "Bring AI agents into Obsidian via Agent Client Protocol (ACP), such as Claude Code and Gemini CLI.",
+    "stars": 0,
+    "lastUpdated": "2025-10-02T16:50:10Z"
+  },
+  "mikefwille/spec-driven-ai-dev-research": {
+    "description": "Production-ready spec-driven AI development methodology with Claude Code agents and commands",
+    "stars": 1,
+    "lastUpdated": "2025-10-02T17:23:39Z"
+  },
+  "abean23/claude-code-agent-hooks": {
+    "description": "This repo demonstrates how to build a multi-agent self-testing hook-enabled workflow in Claude Code.",
+    "stars": 0,
+    "lastUpdated": "2025-10-02T16:33:44Z"
+  },
+  "JeremiahDoyle/gtm-sub-agents": {
+    "description": "A suite of GTM Claude Code Sub Agents, that can run advanced data science analytics and build GTM plans, identify missing revenue opportunities and more.",
+    "stars": 0,
+    "lastUpdated": "2025-10-02T16:34:15Z"
+  },
+  "the-amber-joy/witchyLookup": {
+    "description": "100% vibe coded. I pasted some lists from websites into text files and let Claude Sonnet 4 go wild",
+    "stars": 0,
+    "lastUpdated": "2025-10-02T16:17:15Z"
+  },
+  "Hey-Diga/dotclaude": {
+    "description": ".claude commands for Agentic Programming Flow for Claude Code",
+    "stars": 6,
+    "lastUpdated": "2025-10-02T15:49:16Z"
+  },
+  "javiera-vasquez/claude-code-job-tailor": {
+    "description": "PDF Resume generator build for React and Claude Code. Write your career history once in YAML, Use /tailor to generate job-specific resumes and cover letters in PDF, all powered by Claude.",
+    "stars": 7,
+    "lastUpdated": "2025-10-02T15:36:27Z"
+  },
+  "vibe-log/vibe-log-cli": {
+    "description": "A CLI tool for analyzing Claude Code sessions",
+    "stars": 91,
+    "lastUpdated": "2025-10-02T17:35:35Z"
+  },
+  "lukadfagundes/trinity-method-sdk": {
+    "description": "Investigation-first development methodology for Claude Code. Deploy 7 specialized AI agents, work order system, and Trinity Method to any project. Includes comprehensive debugging patterns, knowledge base management, and quality gates. Built for systematic AI-assisted development.",
+    "stars": 0,
+    "lastUpdated": "2025-10-02T15:33:09Z"
+  },
+  "kesslerio/vibe-check-mcp": {
+    "description": "Stop AI coding disasters before they cost you weeks. Real-time anti-pattern detection for vibe coders who love AI tools but need a safety net to avoid expensive overengineering traps.",
+    "stars": 11,
+    "lastUpdated": "2025-10-02T17:38:51Z"
+  },
+  "TechNickAI/ai-coding-config": {
+    "description": "Reusable AI coding configurations for Cursor, Claude, and VS Code. Includes thoughtful commit message guidelines, prompt engineering best practices, and workspace settings you can symlink into any project.",
+    "stars": 1,
+    "lastUpdated": "2025-10-02T15:38:27Z"
+  },
+  "CorentinGC/junk-email": {
+    "description": "Junk email app vibe coded /w claude",
+    "stars": 0,
+    "lastUpdated": "2025-10-02T15:24:21Z"
+  },
+  "Santxs999/awesome-claude-code-sub-agents": {
+    "description": "🤖 Unlock expert architectural guidance and best practices with specialized Claude Code agents for informed software development decisions.",
+    "stars": 0,
+    "lastUpdated": "2025-10-02T15:10:35Z"
+  },
+  "dennisonbertram/claudeops": {
+    "description": "Autonomous Server Management with Claude Code - Let AI be your DevOps engineer",
+    "stars": 2,
+    "lastUpdated": "2025-10-02T17:47:04Z"
+  },
+  "muzvo/claude-code-openai-wrapper": {
+    "description": "🚀 Use the Claude Code OpenAI wrapper to seamlessly integrate Claude Code with any OpenAI client library for enhanced performance and features.",
+    "stars": 0,
+    "lastUpdated": "2025-10-02T14:56:28Z"
+  },
+  "catlog22/Claude-Code-Workflow": {
+    "description": "Claude Code Workflow (CCW) - Intelligent Development Workflow System with AI-powered orchestration, progressive complexity management, and multi-agent coordination",
+    "stars": 84,
+    "lastUpdated": "2025-10-02T17:25:32Z"
+  },
+  "codeotter0201/claude-daily-check-in": {
+    "description": "A GitHub Actions project that strategically automates Claude Code session resets. It schedules triggers to align with your work hours, ensuring you get a fresh 5-hour usage window precisely when you need it for maximum productivity.",
+    "stars": 8,
+    "lastUpdated": "2025-10-02T17:50:44Z"
+  },
+  "Iski08/dotclaude": {
+    "description": "Multi-agent config for Claude Code with specialized agents and templates to speed code review, refactoring, security audits, tech-lead guidance, and UX evaluations across CI pipelines. 🐙",
+    "stars": 1,
+    "lastUpdated": "2025-10-02T14:27:36Z"
+  },
+  "muhammad-bu/claude-code-unified-agents": {
+    "description": "Claude Code Unified Agents delivers 54 ready sub-agents with orchestration for quick automation in development and AI/ML. Domain org makes discovery easy 🐙",
+    "stars": 2,
+    "lastUpdated": "2025-10-02T17:51:34Z"
+  },
+  "Cake-sweet/agents": {
+    "description": "Claude Code Agents offer specialized AI agents for code, localization, architecture, and automation. Build review and tailor agents for tasks with trust 🐙",
+    "stars": 0,
+    "lastUpdated": "2025-10-02T14:23:30Z"
+  },
+  "RedPlanetHQ/core": {
+    "description": "Your unified, shareable memory layer for AI apps. Compatible with Cursor, Claude Desktop, Claude Code, Gemini CLI, Windsurf, AWS's Kiro, VSCode, Cline",
+    "stars": 733,
+    "lastUpdated": "2025-10-02T17:31:34Z"
+  },
+  "toomas-tt/claude-code-hooks-multi-agent-observability": {
+    "description": "Real-time observability for Claude Code agents with hook event tracking. Monitor multiple agents and visualize data seamlessly. 🌐🚀",
+    "stars": 3,
+    "lastUpdated": "2025-10-02T17:52:46Z"
+  },
+  "Kfirm1208/claude-daily-fixes": {
+    "description": "Daily fixes and workarounds for Claude Code issues. Streamline your workflow with scripts like wsl-paste-workaround.py. 🚀🛠️",
+    "stars": 0,
+    "lastUpdated": "2025-10-02T14:20:25Z"
+  },
+  "ALTIbaba/claude-code-openai-wrapper": {
+    "description": "OpenAI API-compatible wrapper for Claude Code. Use it with any OpenAI client library for fast, seamless integration. 🚀🌟",
+    "stars": 9,
+    "lastUpdated": "2025-10-02T14:19:41Z"
+  },
+  "A2A-MC/ccresume": {
+    "description": "Browse and manage your Claude Code conversations easily with ccreresume, a CUI tool for quick access and organization. 🌟📂",
+    "stars": 0,
+    "lastUpdated": "2025-10-02T14:19:23Z"
+  },
+  "tninja/ai-code-interface.el": {
+    "description": "Unified emacs interface supporting Claude Code, Gemini CLI, OpenAI Codex and Github Copilot CLI",
+    "stars": 29,
+    "lastUpdated": "2025-10-02T14:17:13Z"
+  },
+  "pangansteven/claude-code-base-action": {
+    "description": "This GitHub Action enables seamless integration of Claude Code into your workflows, allowing you to execute commands easily. Enhance your projects with powerful tools and streamline your development process! 🛠️🚀",
+    "stars": 3,
+    "lastUpdated": "2025-10-02T14:10:26Z"
+  },
+  "hawier-dev/adb_screenshot_mcp": {
+    "description": "MCP server that captures Android screenshots via ADB for analysis in Claude Code or Cursor.",
+    "stars": 0,
+    "lastUpdated": "2025-10-02T14:00:14Z"
+  },
+  "ahmedsamy-244/ai-code-context-helper": {
+    "description": "🤖 A lightweight desktop tool for developers working with AI assistants. 📊 Visualize project structure, 📋 selectively export file paths and code to clipboard, making collaboration with ChatGPT, Claude and other AI assistants more efficient. 🌐 Supports multi-language UI, 🔍 file filtering, and ⚙️ customizable output formats.",
+    "stars": 2,
+    "lastUpdated": "2025-10-02T18:06:48Z"
+  },
+  "afiffattouh/hildens-prism": {
+    "description": "PRISM (Persistent Real-time Intelligent System Management) is an enterprise-grade context management framework that enhances Claude Code with Persistent Memory, Context Management, Specialized Agents, CLI, and Security-First Design.",
+    "stars": 0,
+    "lastUpdated": "2025-10-02T13:57:05Z"
+  },
+  "Pinochollo/CodeCompass": {
+    "description": "CodeCompass: AI-powered Vibe Coding with MCP. Connects Git repositories to AI assistants like Claude, using Ollama for privacy or OpenAI for cloud. Integrates with VSCode, Cursor, and more.",
+    "stars": 2,
+    "lastUpdated": "2025-10-02T18:06:55Z"
+  },
+  "spring-ai-community/spring-ai-agents": {
+    "description": "Autonomous CLI agent integrations for the Spring AI ecosystem with Claude Code, Gemini CLI, and secure sandbox execution",
+    "stars": 14,
+    "lastUpdated": "2025-10-02T13:50:52Z"
+  },
+  "pc035860/scratchpad-mcp": {
+    "description": "lAn MCP server that provides shared scratchpads for Claude Code agents to collaborate and share context.",
+    "stars": 2,
+    "lastUpdated": "2025-10-02T13:47:04Z"
+  },
+  "nezhar/claude-container": {
+    "description": "Container workflow with Claude Code. Complete isolation from host system while maintaining persistent credentials and workspace access.",
+    "stars": 39,
+    "lastUpdated": "2025-10-02T13:36:29Z"
+  },
+  "elct9620/ccharness": {
+    "description": "A lightweight harness for Claude Code",
+    "stars": 3,
+    "lastUpdated": "2025-10-02T13:10:57Z"
+  },
+  "jpotterlabs/claude-code-rewind": {
+    "description": "Time-travel debugging tool for Claude Code sessions with intelligent snapshot system",
+    "stars": 0,
+    "lastUpdated": "2025-10-02T13:05:29Z"
+  },
+  "covertlabsaus/colab-mcp": {
+    "description": "Share context across AI coding tools - Claude, Cursor, Codex & more",
+    "stars": 2,
+    "lastUpdated": "2025-10-02T13:38:26Z"
+  },
+  "i-conoclast/ochestrator-pilot": {
+    "description": "3-depth agent orchestration CLI powered by Claude Code",
+    "stars": 0,
+    "lastUpdated": "2025-10-02T12:55:26Z"
   }
 }

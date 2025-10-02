@@ -18,6 +18,12 @@ Action extensions and plugins
 
 ---
 
+## Automation
+
+Automation tools and scripts
+
+*No repositories yet*
+
 ## Awesome Lists
 
 Curated lists of resources
@@ -51,6 +57,12 @@ Production-ready Claude subagents collection with 100+ specialized AI agents for
 [![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat-square&logo=github)](https://github.com/lvalics/claude_code_stuffs) ![Stars](https://img.shields.io/github/stars/lvalics/claude_code_stuffs?style=flat-square&logo=github) ![Last Commit](https://img.shields.io/github/last-commit/lvalics/claude_code_stuffs?style=flat-square&logo=github)
 
 ---
+
+## Backup And Snapshot
+
+Backup and snapshotting utilities
+
+*No repositories yet*
 
 ## Claude Code Bridges
 
@@ -148,6 +160,12 @@ Code search MCP for Claude Code. Make entire codebase the context for any coding
 
 ---
 
+## Conversation History
+
+Tools for viewing and managing conversation history
+
+*No repositories yet*
+
 ## Cookbooks
 
 Recipe collections and guides
@@ -171,6 +189,12 @@ The Ultimate Claude Code Docker Development Environment - Run Claude AI's coding
 [![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat-square&logo=github)](https://github.com/RchGrav/claudebox) ![Stars](https://img.shields.io/github/stars/RchGrav/claudebox?style=flat-square&logo=github) ![Last Commit](https://img.shields.io/github/last-commit/RchGrav/claudebox?style=flat-square&logo=github)
 
 ---
+
+## Domain-Specific Projects
+
+Projects using Claude Code for specific domains or niche purposes
+
+*No repositories yet*
 
 ## Educational
 
@@ -233,6 +257,12 @@ A development framework for Ruby on Rails developers using Claude Code, inspired
 [![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat-square&logo=github)](https://github.com/obie/claude-on-rails) ![Stars](https://img.shields.io/github/stars/obie/claude-on-rails?style=flat-square&logo=github) ![Last Commit](https://img.shields.io/github/last-commit/obie/claude-on-rails?style=flat-square&logo=github)
 
 ---
+
+## Harnesses
+
+Harnesses
+
+*No repositories yet*
 
 ## Hooks
 
@@ -310,6 +340,12 @@ Beautiful Claude Code Chat Interface for VS Code
 
 ---
 
+## Integrations
+
+Projects that integrate Claude Code into other tools and platforms
+
+*No repositories yet*
+
 ## Kits
 
 Development kits and SDKs
@@ -333,6 +369,12 @@ A Python CLI tool that converts Claude Code transcript JSONL files into readable
 [![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat-square&logo=github)](https://github.com/daaain/claude-code-log) ![Stars](https://img.shields.io/github/stars/daaain/claude-code-log?style=flat-square&logo=github) ![Last Commit](https://img.shields.io/github/last-commit/daaain/claude-code-log?style=flat-square&logo=github)
 
 ---
+
+## Made With Claude Code
+
+Projects that were vibe coded/built using Claude Code
+
+*No repositories yet*
 
 ## MCP
 
@@ -378,6 +420,18 @@ A MCP for Claude Desktop / Claude Code / Windsurf / Cursor to build n8n workflow
 
 ---
 
+## Methodologies
+
+Specific methodologies and approaches for AI-assisted coding
+
+*No repositories yet*
+
+## Monitoring
+
+Monitoring utilities and tools for Claude Code
+
+*No repositories yet*
+
 ## Multi-System Managers
 
 For managing multi agent systems
@@ -397,6 +451,12 @@ Unleash Next-Level AI! 🚀  💻 Code Generation: DeepSeek r1 + Claude 3.7 Sonn
 [![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat-square&logo=github)](https://github.com/ErlichLiu/DeepClaude) ![Stars](https://img.shields.io/github/stars/ErlichLiu/DeepClaude?style=flat-square&logo=github) ![Last Commit](https://img.shields.io/github/last-commit/ErlichLiu/DeepClaude?style=flat-square&logo=github)
 
 ---
+
+## Observability
+
+Observability and instrumentation tools
+
+*No repositories yet*
 
 ## Orchestration
 
@@ -427,6 +487,12 @@ Other miscellaneous tools and utilities
 [![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat-square&logo=github)](https://github.com/rizethereum/claude-code-requirements-builder) ![Stars](https://img.shields.io/github/stars/rizethereum/claude-code-requirements-builder?style=flat-square&logo=github) ![Last Commit](https://img.shields.io/github/last-commit/rizethereum/claude-code-requirements-builder?style=flat-square&logo=github)
 
 ---
+
+## Performance & Efficiency Tools
+
+Tools for running Claude Code more efficiently, including parallel sessions and workflow optimization
+
+*No repositories yet*
 
 ## Project Management and Task Tracking
 
@@ -465,18 +531,6 @@ claude-code-provider-proxy
 Claude code to other backends
 
 [![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat-square&logo=github)](https://github.com/1rgs/claude-code-proxy) ![Stars](https://img.shields.io/github/stars/1rgs/claude-code-proxy?style=flat-square&logo=github) ![Last Commit](https://img.shields.io/github/last-commit/1rgs/claude-code-proxy?style=flat-square&logo=github)
-
----
-
-## Purpose Specific Agent Networks
-
-Agent networks designed for specific purposes
-
-### ClaudeCodeAgents
-
-A set of useful QA agents for Claude Code.
-
-[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat-square&logo=github)](https://github.com/darcyegb/ClaudeCodeAgents) ![Stars](https://img.shields.io/github/stars/darcyegb/ClaudeCodeAgents?style=flat-square&logo=github) ![Last Commit](https://img.shields.io/github/last-commit/darcyegb/ClaudeCodeAgents?style=flat-square&logo=github)
 
 ---
 
@@ -584,11 +638,27 @@ Ultimate AI development stack: Claude Code + Task Master + Cursor
 
 ---
 
-## Subagents Collections
+## Subagents
+
+Subagent collections and networks
+
+### Purpose Specific Agent Networks
+
+Agent networks designed for specific purposes
+
+#### ClaudeCodeAgents
+
+A set of useful QA agents for Claude Code.
+
+[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat-square&logo=github)](https://github.com/darcyegb/ClaudeCodeAgents) ![Stars](https://img.shields.io/github/stars/darcyegb/ClaudeCodeAgents?style=flat-square&logo=github) ![Last Commit](https://img.shields.io/github/last-commit/darcyegb/ClaudeCodeAgents?style=flat-square&logo=github)
+
+---
+
+### Subagents Collections
 
 Collections of Claude Code subagents
 
-### agents
+#### agents
 
 A collection of production-ready subagents for Claude Code
 
@@ -596,7 +666,7 @@ A collection of production-ready subagents for Claude Code
 
 ---
 
-### awesome-claude-code-agents
+#### awesome-claude-code-agents
 
 A curated list of awesome Claude Code Sub-Agents
 
@@ -604,13 +674,13 @@ A curated list of awesome Claude Code Sub-Agents
 
 ---
 
-### claude_code_agent_farm
+#### claude_code_agent_farm
 
 [![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat-square&logo=github)](https://github.com/Dicklesworthstone/claude_code_agent_farm) ![Stars](https://img.shields.io/github/stars/Dicklesworthstone/claude_code_agent_farm?style=flat-square&logo=github) ![Last Commit](https://img.shields.io/github/last-commit/Dicklesworthstone/claude_code_agent_farm?style=flat-square&logo=github)
 
 ---
 
-### claude-agents
+#### claude-agents
 
 Custom subagents to use with Claude Code.
 
@@ -618,7 +688,7 @@ Custom subagents to use with Claude Code.
 
 ---
 
-### claude-code-agents
+#### claude-code-agents
 
 🤖 Weaverse's sauce: Claude Code subagents for reviews, debugging, docs & architecture that save developers hours daily.
 
@@ -626,7 +696,7 @@ Custom subagents to use with Claude Code.
 
 ---
 
-### claude-code-studio
+#### claude-code-studio
 
 Transform Claude Code into a complete development studio with 40+ specialized AI agents, MCP integrations, and enterprise-grade workflows
 
@@ -634,7 +704,7 @@ Transform Claude Code into a complete development studio with 40+ specialized AI
 
 ---
 
-### claude-code-sub-agent-collective
+#### claude-code-sub-agent-collective
 
   🧠 Context Engineering Research - Not just another agent collection, but using research and context engineering to function as a collective. Hub-and-spoke coordination through Claude   Code.
 
@@ -642,7 +712,7 @@ Transform Claude Code into a complete development studio with 40+ specialized AI
 
 ---
 
-### claude-code-sub-agents
+#### claude-code-sub-agents
 
 Collection of specialized AI subagents for Claude Code for personal use (full-stack development).
 
@@ -650,7 +720,7 @@ Collection of specialized AI subagents for Claude Code for personal use (full-st
 
 ---
 
-### claude-code-sub-agents
+#### claude-code-sub-agents
 
 A complete collection of 35 specialized sub-agents for Claude Code that enable end-to-end software development automation
 
@@ -658,13 +728,13 @@ A complete collection of 35 specialized sub-agents for Claude Code that enable e
 
 ---
 
-### claude-code-subagents
+#### claude-code-subagents
 
 [![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat-square&logo=github)](https://github.com/NicholasSpisak/claude-code-subagents) ![Stars](https://img.shields.io/github/stars/NicholasSpisak/claude-code-subagents?style=flat-square&logo=github) ![Last Commit](https://img.shields.io/github/last-commit/NicholasSpisak/claude-code-subagents?style=flat-square&logo=github)
 
 ---
 
-### claude-code-subagents-collection
+#### claude-code-subagents-collection
 
 Claude Code Subagents & Commands Collection + CLI Tool
 
@@ -862,11 +932,15 @@ Real-time Claude Code usage monitor with predictions and warnings
 
 ---
 
-## Use-case: Deep Research
+## Use Cases
+
+Specific use case implementations and workflows
+
+### Deep Research
 
 Tools and workflows for deep research tasks
 
-### claude-deep-research
+#### claude-deep-research
 
 Claude Deep Research config for Claude Code.
 
@@ -874,11 +948,23 @@ Claude Deep Research config for Claude Code.
 
 ---
 
-## Use-case: Personal Assistant
+### DevOps
+
+DevOps workflows and automation tools
+
+*No repositories yet*
+
+### Job Hunting
+
+Tools and workflows for job search and career development
+
+*No repositories yet*
+
+### Personal Assistant
 
 Personal assistant implementations and workflows
 
-### claude-code-personal-assistant
+#### claude-code-personal-assistant
 
 AI personal assistant setup for Claude Code
 
@@ -897,6 +983,12 @@ Shared starter template configuration and CLAUDE.md memory bank system for Claud
 [![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat-square&logo=github)](https://github.com/centminmod/my-claude-code-setup) ![Stars](https://img.shields.io/github/stars/centminmod/my-claude-code-setup?style=flat-square&logo=github) ![Last Commit](https://img.shields.io/github/last-commit/centminmod/my-claude-code-setup?style=flat-square&logo=github)
 
 ---
+
+## Vibe Coding
+
+Tools and resources for vibe coding workflows
+
+*No repositories yet*
 
 ## Visualisation
 
