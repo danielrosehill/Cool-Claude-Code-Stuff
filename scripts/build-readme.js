@@ -76,7 +76,9 @@ function fetchGitHubInfo(owner, repo) {
         // Add GitHub token if available
         const token = process.env.GITHUB_TOKEN || process.env.GITHUB_API_KEY;
         if (token) {
-            options.headers['Authorization'] = `token ${token}`;
+            // Use 'Bearer' for fine-grained tokens (github_pat_*), 'token' for classic tokens (ghp_*)
+            const authType = token.startsWith('github_pat_') ? 'Bearer' : 'token';
+            options.headers['Authorization'] = `${authType} ${token}`;
         }
 
         const req = https.request(options, (res) => {
