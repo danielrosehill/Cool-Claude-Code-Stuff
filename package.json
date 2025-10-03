@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "description": "A curated list of awesome Claude Code projects, tools, and resources",
   "scripts": {
-    "build": "node private/scripts/build-readme.js",
+    "build": "node scripts/build-readme.js",
     "generate-combined": "node private/scripts/generate-combined-json.js",
-    "build:all": "npm run generate-combined && npm run build"
+    "generate-categories": "node scripts/generate-categories.js",
+    "generate-tags": "node scripts/generate-tags.js",
+    "build:all": "node scripts/build-all.js"
   },
   "repository": {
     "type": "git",

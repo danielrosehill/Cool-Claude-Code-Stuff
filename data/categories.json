@@ -205,6 +205,42 @@
       "parentId": null
     },
     {
+      "id": "educational-guides",
+      "name": "Guides & Tutorials",
+      "description": "Step-by-step guides and tutorial content for learning Claude Code",
+      "parentId": "educational"
+    },
+    {
+      "id": "educational-courses",
+      "name": "Courses",
+      "description": "Structured courses and learning paths for Claude Code",
+      "parentId": "educational"
+    },
+    {
+      "id": "educational-videos",
+      "name": "Videos & Screencasts",
+      "description": "Video tutorials and screencasts demonstrating Claude Code usage",
+      "parentId": "educational"
+    },
+    {
+      "id": "educational-examples",
+      "name": "Examples & Samples",
+      "description": "Example projects and code samples for learning Claude Code",
+      "parentId": "educational"
+    },
+    {
+      "id": "educational-books",
+      "name": "Books & eBooks",
+      "description": "Books and comprehensive written resources about Claude Code",
+      "parentId": "educational"
+    },
+    {
+      "id": "educational-cheatsheets",
+      "name": "Cheatsheets & Reference",
+      "description": "Quick reference guides and cheatsheets for Claude Code",
+      "parentId": "educational"
+    },
+    {
       "id": "documentation",
       "name": "Documentation",
       "description": "Documentation resources for Claude Code",
@@ -259,6 +295,12 @@
       "parentId": null
     },
     {
+      "id": "acp",
+      "name": "ACP",
+      "description": "Agent Communication Protocol integrations",
+      "parentId": null
+    },
+    {
       "id": "orchestration",
       "name": "Orchestration",
       "description": "Workflow orchestration and automation",
@@ -304,6 +346,12 @@
       "id": "utilities",
       "name": "Utilities",
       "description": "Utility scripts and tools",
+      "parentId": null
+    },
+    {
+      "id": "setup-assistants",
+      "name": "Setup & Installation Assistants",
+      "description": "Tools that help with installing, configuring, and setting up Claude Code",
       "parentId": null
     },
     {
@@ -358,6 +406,12 @@
       "id": "bridges-cloudflare",
       "name": "Cloudflare Bridges",
       "description": "Bridges using Cloudflare Workers",
+      "parentId": "claude-code-bridges"
+    },
+    {
+      "id": "bridges-kimi",
+      "name": "Kimi Bridges",
+      "description": "Bridges to connect Claude Code with Kimi AI",
       "parentId": "claude-code-bridges"
     },
     {
@@ -424,6 +478,18 @@
       "id": "integrations-webhooks",
       "name": "Webhooks",
       "description": "Webhook integrations for Claude Code events and notifications",
+      "parentId": "integrations"
+    },
+    {
+      "id": "integrations-laravel",
+      "name": "Laravel",
+      "description": "Laravel framework integrations and packages for Claude Code",
+      "parentId": "integrations"
+    },
+    {
+      "id": "integrations-browserless",
+      "name": "Browserless Platforms",
+      "description": "Integrations with browserless and headless browser automation platforms",
       "parentId": "integrations"
     },
     {
@@ -653,6 +719,12 @@
       "name": "Testing & QA",
       "description": "Testing frameworks, test automation, and quality assurance tools for Claude Code workflows",
       "parentId": null
+    },
+    {
+      "id": "tdd",
+      "name": "Test-Driven Development",
+      "description": "Tools and workflows for test-driven development with Claude Code",
+      "parentId": "testing"
     },
     {
       "id": "evals",
@@ -1069,6 +1141,12 @@
       "parentId": null
     },
     {
+      "id": "search-enhancements",
+      "name": "Search Enhancements",
+      "description": "Tools that enhance and improve Claude Code's search capabilities",
+      "parentId": "search-tools"
+    },
+    {
       "id": "code-snippets",
       "name": "Code Snippets & Libraries",
       "description": "Collections of reusable code snippets and utility libraries",
@@ -1151,23 +1229,12 @@
       "name": "Cognitive Frameworks & Exercises",
       "description": "Cognitive exercises, analytical frameworks, and thinking protocols for improving AI-assisted development workflows",
       "parentId": null
-    }
-  ],
-  "tags": [
-    {
-      "id": "gui",
-      "name": "GUI",
-      "description": "Graphical user interface"
     },
     {
-      "id": "cli",
-      "name": "CLI",
-      "description": "Command-line interface"
-    },
-    {
-      "id": "web-ui",
-      "name": "Web UI",
-      "description": "Web-based user interface"
+      "id": "output-styles",
+      "name": "Output Styles",
+      "description": "Custom output style configurations and editors for Claude Code",
+      "parentId": null
     }
   ]
 }

@@ -2,6 +2,7 @@
 
 - [Accessibility](README.md#accessibility)
 - [Account Management](README.md#account-management)
+- [ACP](README.md#acp)
 - [Actions](README.md#actions)
 - [Agent Managers](README.md#agent-managers)
 - [Algorithm Design](README.md#algorithm-design)
@@ -63,6 +64,7 @@
 - [Orchestration](README.md#orchestration)
 - [OS-Specific Tools](README.md#os-specific-tools)
 - [Other/Misc](README.md#othermisc)
+- [Output Styles](README.md#output-styles)
 - [Performance & Efficiency Tools](README.md#performance--efficiency-tools)
 - [Plugins](README.md#plugins)
 - [Project Management and Task Tracking](README.md#project-management-and-task-tracking)
@@ -76,6 +78,7 @@
 - [Search & Discovery](README.md#search--discovery)
 - [Security](README.md#security)
 - [Session Management](README.md#session-management)
+- [Setup & Installation Assistants](README.md#setup--installation-assistants)
 - [Shell & CLI Tools](README.md#shell--cli-tools)
 - [Source Project](README.md#source-project)
 - [Spec-Driven Development](README.md#spec-driven-development)

@@ -2228,7 +2228,8 @@
       "name": "Claude-Code-Toolkit",
       "description": "",
       "categoryIds": [
-        "toolkit"
+        "toolkit",
+        "bridges-kimi"
       ],
       "added": "2025-10-02"
     },
@@ -2303,7 +2304,8 @@
       "name": "claude-code-open",
       "description": "",
       "categoryIds": [
-        "bridges-other"
+        "bridges-other",
+        "bridges-kimi"
       ],
       "added": "2025-10-02"
     },
@@ -2440,7 +2442,8 @@
       "name": "openbridge",
       "description": "",
       "categoryIds": [
-        "bridges-other"
+        "bridges-other",
+        "bridges-kimi"
       ],
       "added": "2025-10-02"
     },
@@ -3232,6 +3235,333 @@
       "description": "",
       "categoryIds": [
         "use-case-deep-research"
+      ],
+      "added": "2025-10-03"
+    },
+    {
+      "url": "https://github.com/eyaltoledano/claude-task-master",
+      "name": "claude-task-master",
+      "description": "",
+      "categoryIds": [
+        "use-case-task-management"
+      ],
+      "added": "2025-10-03"
+    },
+    {
+      "url": "https://github.com/ruvnet/claude-code-flow",
+      "name": "claude-code-flow",
+      "description": "",
+      "categoryIds": [
+        "orchestration"
+      ],
+      "added": "2025-10-03"
+    },
+    {
+      "url": "https://github.com/grahama1970/claude-task-runner",
+      "name": "claude-task-runner",
+      "description": "",
+      "categoryIds": [
+        "project-management"
+      ],
+      "added": "2025-10-03"
+    },
+    {
+      "url": "https://github.com/rsmdt/the-startup",
+      "name": "the-startup",
+      "description": "",
+      "categoryIds": [
+        "orchestration"
+      ],
+      "added": "2025-10-03"
+    },
+    {
+      "url": "https://github.com/viveknair/ccoutputstyles",
+      "name": "ccoutputstyles",
+      "description": "",
+      "categoryIds": [
+        "output-styles"
+      ],
+      "added": "2025-10-03"
+    },
+    {
+      "url": "https://github.com/0xfurai/claude-code-subagents",
+      "name": "claude-code-subagents",
+      "description": "",
+      "categoryIds": [
+        "subagents-lists"
+      ],
+      "added": "2025-10-03"
+    },
+    {
+      "url": "https://github.com/stretchcloud/claude-code-unified-agents",
+      "name": "claude-code-unified-agents",
+      "description": "",
+      "categoryIds": [
+        "subagents-lists"
+      ],
+      "added": "2025-10-03"
+    },
+    {
+      "url": "https://github.com/zed-industries/claude-code-acp",
+      "name": "claude-code-acp",
+      "description": "",
+      "categoryIds": [
+        "acp"
+      ],
+      "added": "2025-10-03"
+    },
+    {
+      "url": "https://github.com/anthropics/claude-code-sdk-demos",
+      "name": "claude-code-sdk-demos",
+      "description": "",
+      "categoryIds": [
+        "kits",
+        "demos"
+      ],
+      "added": "2025-10-03"
+    },
+    {
+      "url": "https://github.com/zhsama/claude-sub-agent",
+      "name": "claude-sub-agent",
+      "description": "",
+      "categoryIds": [
+        "subagents"
+      ],
+      "added": "2025-10-03"
+    },
+    {
+      "url": "https://github.com/bestK/kiro2cc",
+      "name": "kiro2cc",
+      "description": "",
+      "categoryIds": [
+        "integrations"
+      ],
+      "added": "2025-10-03"
+    },
+    {
+      "url": "https://github.com/laraben/laravel-claude-code-setup",
+      "name": "laravel-claude-code-setup",
+      "description": "",
+      "categoryIds": [
+        "integrations-laravel"
+      ],
+      "added": "2025-10-03"
+    },
+    {
+      "url": "https://github.com/jiahaoxiang2000/claude-code-zed",
+      "name": "claude-code-zed",
+      "description": "",
+      "categoryIds": [
+        "integrations",
+        "ide-extension-zed"
+      ],
+      "added": "2025-10-03"
+    },
+    {
+      "url": "https://github.com/instantlyeasy/claude-code-sdk-ts",
+      "name": "claude-code-sdk-ts",
+      "description": "",
+      "categoryIds": [
+        "kits"
+      ],
+      "added": "2025-10-03"
+    },
+    {
+      "url": "https://github.com/backant-io/backant-agents",
+      "name": "backant-agents",
+      "description": "",
+      "categoryIds": [
+        "integrations"
+      ],
+      "added": "2025-10-03"
+    },
+    {
+      "url": "https://github.com/Xuanwo/acp-claude-code",
+      "name": "acp-claude-code",
+      "description": "",
+      "categoryIds": [
+        "acp"
+      ],
+      "added": "2025-10-03"
+    },
+    {
+      "url": "https://github.com/oxygen-fragment/claude-modular",
+      "name": "claude-modular",
+      "description": "",
+      "categoryIds": [
+        "frameworks"
+      ],
+      "added": "2025-10-03"
+    },
+    {
+      "url": "https://github.com/ColeMurray/claude-code-otel",
+      "name": "claude-code-otel",
+      "description": "",
+      "categoryIds": [
+        "observability"
+      ],
+      "added": "2025-10-03"
+    },
+    {
+      "url": "https://github.com/ben-vargas/ai-sdk-provider-claude-code",
+      "name": "ai-sdk-provider-claude-code",
+      "description": "",
+      "categoryIds": [
+        "integrations"
+      ],
+      "added": "2025-10-03"
+    },
+    {
+      "url": "https://github.com/kaichen/kimicc",
+      "name": "kimicc",
+      "description": "",
+      "categoryIds": [
+        "bridges-kimi"
+      ],
+      "added": "2025-10-03"
+    },
+    {
+      "url": "https://github.com/whitesmith/kimi-code",
+      "name": "kimi-code",
+      "description": "",
+      "categoryIds": [
+        "bridges-kimi"
+      ],
+      "added": "2025-10-03"
+    },
+    {
+      "url": "https://github.com/terryso/claude-code-playwright-mcp-test",
+      "name": "claude-code-playwright-mcp-test",
+      "description": "",
+      "categoryIds": [
+        "mcp",
+        "integrations"
+      ],
+      "added": "2025-10-03"
+    },
+    {
+      "url": "https://github.com/gtrusler/claude-code-heavy",
+      "name": "claude-code-heavy",
+      "description": "",
+      "categoryIds": [
+        "orchestration"
+      ],
+      "added": "2025-10-03"
+    },
+    {
+      "url": "https://github.com/Bklieger/Claude-React-Jumpstart",
+      "name": "Claude-React-Jumpstart",
+      "description": "",
+      "categoryIds": [
+        "educational"
+      ],
+      "added": "2025-10-03"
+    },
+    {
+      "url": "https://github.com/mo-haggag/claude-code-induced-introspection",
+      "name": "claude-code-induced-introspection",
+      "description": "",
+      "categoryIds": [
+        "cognitive-frameworks"
+      ],
+      "added": "2025-10-03"
+    },
+    {
+      "url": "https://github.com/binggg/Claude-Code-Web-GUI",
+      "name": "Claude-Code-Web-GUI",
+      "description": "",
+      "categoryIds": [
+        "web-uis"
+      ],
+      "added": "2025-10-03"
+    },
+    {
+      "url": "https://github.com/squadbase/streamlit-claude-code-starter",
+      "name": "streamlit-claude-code-starter",
+      "description": "",
+      "categoryIds": [
+        "templates"
+      ],
+      "added": "2025-10-03"
+    },
+    {
+      "url": "https://github.com/Veraticus/claude-code-ntfy",
+      "name": "claude-code-ntfy",
+      "description": "",
+      "categoryIds": [
+        "integrations"
+      ],
+      "added": "2025-10-03"
+    },
+    {
+      "url": "https://github.com/jlowin/claude-wt",
+      "name": "claude-wt",
+      "description": "",
+      "categoryIds": [
+        "workflows"
+      ],
+      "added": "2025-10-03"
+    },
+    {
+      "url": "https://github.com/PACHAKUTlQ/ClaudeCage",
+      "name": "ClaudeCage",
+      "description": "",
+      "categoryIds": [
+        "security-sandboxing"
+      ],
+      "added": "2025-10-03"
+    },
+    {
+      "url": "https://github.com/say828/claude-router",
+      "name": "claude-router",
+      "description": "",
+      "categoryIds": [
+        "proxies"
+      ],
+      "added": "2025-10-03"
+    },
+    {
+      "url": "https://github.com/paulrobello/par_cc_usage",
+      "name": "par_cc_usage",
+      "description": "",
+      "categoryIds": [
+        "monitoring"
+      ],
+      "added": "2025-10-03"
+    },
+    {
+      "url": "https://github.com/lodetomasi/agents-claude-code",
+      "name": "agents-claude-code",
+      "description": "",
+      "categoryIds": [
+        "subagents-lists"
+      ],
+      "added": "2025-10-03"
+    },
+    {
+      "url": "https://github.com/gotalab/cc-sdd",
+      "name": "cc-sdd",
+      "description": "",
+      "categoryIds": [
+        "spec-driven-development"
+      ],
+      "added": "2025-10-03"
+    },
+    {
+      "url": "https://github.com/FarhanAliRaza/claude-context-local",
+      "name": "claude-context-local",
+      "description": "",
+      "categoryIds": [
+        "context"
+      ],
+      "added": "2025-10-03"
+    },
+    {
+      "url": "https://github.com/0ldh/claude-code-agents-orchestra",
+      "name": "claude-code-agents-orchestra",
+      "description": "",
+      "categoryIds": [
+        "orchestration"
       ],
       "added": "2025-10-03"
     }
