@@ -22,6 +22,14 @@ Manage multiple Anthropic Claude accounts with Claude Code CLI — easily switch
 
 ---
 
+### cc-account-switcher
+
+Account Switcher for Claude Code
+
+[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat-square&logo=github)](https://github.com/ming86/cc-account-switcher) ![Stars](https://img.shields.io/github/stars/ming86/cc-account-switcher?style=flat-square&logo=github) ![Last Commit](https://img.shields.io/github/last-commit/ming86/cc-account-switcher?style=flat-square&logo=github)
+
+---
+
 # ACP
 
 Agent Communication Protocol integrations
@@ -334,6 +342,14 @@ This python program allows you to use Claude Code with Google's Gemini models.
 
 ---
 
+#### gemini-mcp
+
+MCP Server that enables Claude code to interact with Gemini
+
+[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat-square&logo=github)](https://github.com/RLabs-Inc/gemini-mcp) ![Stars](https://img.shields.io/github/stars/RLabs-Inc/gemini-mcp?style=flat-square&logo=github) ![Last Commit](https://img.shields.io/github/last-commit/RLabs-Inc/gemini-mcp?style=flat-square&logo=github)
+
+---
+
 ### Kimi Bridges
 
 Bridges to connect Claude Code with Kimi AI
@@ -588,6 +604,14 @@ Byterover Cipher is an opensource memory layer specifically designed for coding 
 
 ---
 
+### claude-code-memory-bank
+
+Memory management optimized for Claude Code, based on the Cline Memory Bank.
+
+[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat-square&logo=github)](https://github.com/hudrazine/claude-code-memory-bank) ![Stars](https://img.shields.io/github/stars/hudrazine/claude-code-memory-bank?style=flat-square&logo=github) ![Last Commit](https://img.shields.io/github/last-commit/hudrazine/claude-code-memory-bank?style=flat-square&logo=github)
+
+---
+
 ### claude-code-project-index
 
 PROJECT_INDEX system for Claude Code - provides architectural awareness for AI coding
@@ -668,6 +692,14 @@ Context Management for Claude Code
 
 ---
 
+### getspecstory
+
+Install our extensions for GH Copilot, Cursor and Claude Code. Try SpecStory Cloud and BearClaude. File issues and requests.
+
+[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat-square&logo=github)](https://github.com/specstoryai/getspecstory) ![Stars](https://img.shields.io/github/stars/specstoryai/getspecstory?style=flat-square&logo=github) ![Last Commit](https://img.shields.io/github/last-commit/specstoryai/getspecstory?style=flat-square&logo=github)
+
+---
+
 ### kb-conduit
 
 Context management for Claude Code across multiple workspaces. Stop copy/pasting context - define once, agent loads automatically.
@@ -700,9 +732,25 @@ Resumable Working Memory server for Codex/Claude CLI — an MCP backend that cap
 
 ---
 
+### sidekick-dev-web
+
+Automatically generate high-quality markdown context files for AI coding agents like Claude, Cursor, and Gemini, Powered By DeepWiki
+
+[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat-square&logo=github)](https://github.com/saharmor/sidekick-dev-web) ![Stars](https://img.shields.io/github/stars/saharmor/sidekick-dev-web?style=flat-square&logo=github) ![Last Commit](https://img.shields.io/github/last-commit/saharmor/sidekick-dev-web?style=flat-square&logo=github)
+
+---
+
 # Conversation History
 
 Tools for viewing and managing conversation history
+
+---
+
+### cchistory
+
+Extract and compare system prompts and tools from different Claude Code versions
+
+[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat-square&logo=github)](https://github.com/badlogic/cchistory) ![Stars](https://img.shields.io/github/stars/badlogic/cchistory?style=flat-square&logo=github) ![Last Commit](https://img.shields.io/github/last-commit/badlogic/cchistory?style=flat-square&logo=github)
 
 ---
 
@@ -984,11 +1032,39 @@ Easy guide to installing Claude Code MCPs globally on your machine.
 
 ---
 
+### coding-with-ai
+
+Practical techniques for coding with Claude Code, Codex CLI, Cursor, etc. Available in: English • Español • Deutsch • Français • 日本語
+
+[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat-square&logo=github)](https://github.com/inmve/coding-with-ai) ![Stars](https://img.shields.io/github/stars/inmve/coding-with-ai?style=flat-square&logo=github) ![Last Commit](https://img.shields.io/github/last-commit/inmve/coding-with-ai?style=flat-square&logo=github)
+
+---
+
 ### context-engineering-for-writers
 
 Context Engineering For Writers (with Claude Swarm)
 
 [![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat-square&logo=github)](https://github.com/parolkar/context-engineering-for-writers) ![Stars](https://img.shields.io/github/stars/parolkar/context-engineering-for-writers?style=flat-square&logo=github) ![Last Commit](https://img.shields.io/github/last-commit/parolkar/context-engineering-for-writers?style=flat-square&logo=github)
+
+---
+
+### Guides & Tutorials
+
+Step-by-step guides and tutorial content for learning Claude Code
+
+#### guides
+
+step by step tutorials from my Claude Code projects for the community
+
+[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat-square&logo=github)](https://github.com/boringmarketer/guides) ![Stars](https://img.shields.io/github/stars/boringmarketer/guides?style=flat-square&logo=github) ![Last Commit](https://img.shields.io/github/last-commit/boringmarketer/guides?style=flat-square&logo=github)
+
+---
+
+#### i-love-claude-code
+
+Claude Code discussion of shortcuts, automation, hacks and overall productivity with Claude Code
+
+[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat-square&logo=github)](https://github.com/alchemiststudiosDOTai/i-love-claude-code) ![Stars](https://img.shields.io/github/stars/alchemiststudiosDOTai/i-love-claude-code?style=flat-square&logo=github) ![Last Commit](https://img.shields.io/github/last-commit/alchemiststudiosDOTai/i-love-claude-code?style=flat-square&logo=github)
 
 ---
 
@@ -1025,6 +1101,20 @@ Wanted to see if use Claude Code could help me draft a great fantasy hockey team
 An experimental project demonstrating Infinite Agentic Loop in a two prompt system using Claude Code.
 
 [![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat-square&logo=github)](https://github.com/disler/infinite-agentic-loop) ![Stars](https://img.shields.io/github/stars/disler/infinite-agentic-loop?style=flat-square&logo=github) ![Last Commit](https://img.shields.io/github/last-commit/disler/infinite-agentic-loop?style=flat-square&logo=github)
+
+---
+
+# File Organization & Management
+
+Tools for organizing, categorizing, and managing files in Claude Code workflows
+
+---
+
+### claude-organizer
+
+AI-powered file organization tool for Claude Code workflows that automatically categorizes and moves files into appropriate directories
+
+[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat-square&logo=github)](https://github.com/ramakay/claude-organizer) ![Stars](https://img.shields.io/github/stars/ramakay/claude-organizer?style=flat-square&logo=github) ![Last Commit](https://img.shields.io/github/last-commit/ramakay/claude-organizer?style=flat-square&logo=github)
 
 ---
 
@@ -1131,6 +1221,14 @@ This repo demonstrates how to build a multi-agent self-testing hook-enabled work
 Claude Code Boost - Hook utilities for Claude Code with intelligent auto-approval
 
 [![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat-square&logo=github)](https://github.com/yifanzz/claude-code-boost) ![Stars](https://img.shields.io/github/stars/yifanzz/claude-code-boost?style=flat-square&logo=github) ![Last Commit](https://img.shields.io/github/last-commit/yifanzz/claude-code-boost?style=flat-square&logo=github)
+
+---
+
+### claude-hooks
+
+Comprehensive hooks for Claude Code to enforce clean code practices and automate workflows
+
+[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat-square&logo=github)](https://github.com/decider/claude-hooks) ![Stars](https://img.shields.io/github/stars/decider/claude-hooks?style=flat-square&logo=github) ![Last Commit](https://img.shields.io/github/last-commit/decider/claude-hooks?style=flat-square&logo=github)
 
 ---
 
@@ -1249,6 +1347,30 @@ A vscode extension for claude code
 Beautiful Claude Code Chat Interface for VS Code
 
 [![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat-square&logo=github)](https://github.com/andrepimenta/claude-code-chat) ![Stars](https://img.shields.io/github/stars/andrepimenta/claude-code-chat?style=flat-square&logo=github) ![Last Commit](https://img.shields.io/github/last-commit/andrepimenta/claude-code-chat?style=flat-square&logo=github)
+
+---
+
+#### claudesync-vscode
+
+VSCode Extension to sync your code with Claude.ai Projects.
+
+[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat-square&logo=github)](https://github.com/rexdotsh/claudesync-vscode) ![Stars](https://img.shields.io/github/stars/rexdotsh/claudesync-vscode?style=flat-square&logo=github) ![Last Commit](https://img.shields.io/github/last-commit/rexdotsh/claudesync-vscode?style=flat-square&logo=github)
+
+---
+
+#### vs-claude
+
+VS Code extension and MCP server so Claude Code can open files, diffs and manipulate VS Code in other ways.
+
+[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat-square&logo=github)](https://github.com/badlogic/vs-claude) ![Stars](https://img.shields.io/github/stars/badlogic/vs-claude?style=flat-square&logo=github) ![Last Commit](https://img.shields.io/github/last-commit/badlogic/vs-claude?style=flat-square&logo=github)
+
+---
+
+#### vscode-as-mcp-server
+
+Expose VSCode features such as file viewing and editing as MCP, enabling advanced AI-assisted coding directly from tools like Claude Desktop
+
+[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat-square&logo=github)](https://github.com/acomagu/vscode-as-mcp-server) ![Stars](https://img.shields.io/github/stars/acomagu/vscode-as-mcp-server?style=flat-square&logo=github) ![Last Commit](https://img.shields.io/github/last-commit/acomagu/vscode-as-mcp-server?style=flat-square&logo=github)
 
 ---
 
@@ -1391,6 +1513,14 @@ A Discord bot that exposes Discord API functionality through the Model Context P
 Yahoo Fantasy Football MCP server for Claude Desktop - Advanced lineup optimization, draft assistance, and league management. Built using Claude Code.
 
 [![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat-square&logo=github)](https://github.com/derekrbreese/fantasy-football-mcp-public) ![Stars](https://img.shields.io/github/stars/derekrbreese/fantasy-football-mcp-public?style=flat-square&logo=github) ![Last Commit](https://img.shields.io/github/last-commit/derekrbreese/fantasy-football-mcp-public?style=flat-square&logo=github)
+
+---
+
+### getspecstory
+
+Install our extensions for GH Copilot, Cursor and Claude Code. Try SpecStory Cloud and BearClaude. File issues and requests.
+
+[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat-square&logo=github)](https://github.com/specstoryai/getspecstory) ![Stars](https://img.shields.io/github/stars/specstoryai/getspecstory?style=flat-square&logo=github) ![Last Commit](https://img.shields.io/github/last-commit/specstoryai/getspecstory?style=flat-square&logo=github)
 
 ---
 
@@ -1547,6 +1677,14 @@ Tools for viewing and analyzing Claude Code logs
 A Python CLI tool that converts Claude Code transcript JSONL files into readable HTML format.
 
 [![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat-square&logo=github)](https://github.com/daaain/claude-code-log) ![Stars](https://img.shields.io/github/stars/daaain/claude-code-log?style=flat-square&logo=github) ![Last Commit](https://img.shields.io/github/last-commit/daaain/claude-code-log?style=flat-square&logo=github)
+
+---
+
+### claude-code-logger
+
+Logger cli for analyzing Claude Code traffic with enhanced chat mode visualization
+
+[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat-square&logo=github)](https://github.com/dreampulse/claude-code-logger) ![Stars](https://img.shields.io/github/stars/dreampulse/claude-code-logger?style=flat-square&logo=github) ![Last Commit](https://img.shields.io/github/last-commit/dreampulse/claude-code-logger?style=flat-square&logo=github)
 
 ---
 
@@ -1890,6 +2028,14 @@ A secure, containerized Model Context Protocol (MCP) server that integrates Spam
 
 ---
 
+### systemprompt-code-orchestrator
+
+  MCP server for orchestrating AI coding agents (Claude Code CLI & Gemini CLI). Features task management, process execution, Git integration, and dynamic resource discovery. Full TypeScript implementation with Docker support and Cloudflare Tunnel integration. 
+
+[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat-square&logo=github)](https://github.com/systempromptio/systemprompt-code-orchestrator) ![Stars](https://img.shields.io/github/stars/systempromptio/systemprompt-code-orchestrator?style=flat-square&logo=github) ![Last Commit](https://img.shields.io/github/last-commit/systempromptio/systemprompt-code-orchestrator?style=flat-square&logo=github)
+
+---
+
 ### tiflux-mcp
 
 TiFlux MCP Server - Model Context Protocol integration for Claude Code
@@ -2015,6 +2161,14 @@ One-command model switcher for Claude Code (Only for Anthropic API).
 # Monitoring
 
 Monitoring utilities and tools for Claude Code
+
+---
+
+### claude-code-usage-bar
+
+Real‑time statusline for Claude Code: token usage, remaining budget, burn rate, and depletion time
+
+[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat-square&logo=github)](https://github.com/leeguooooo/claude-code-usage-bar) ![Stars](https://img.shields.io/github/stars/leeguooooo/claude-code-usage-bar?style=flat-square&logo=github) ![Last Commit](https://img.shields.io/github/last-commit/leeguooooo/claude-code-usage-bar?style=flat-square&logo=github)
 
 ---
 
@@ -2216,6 +2370,14 @@ This mode serves as a code-first swarm orchestration layer, enabling Claude Code
 
 ---
 
+### systemprompt-code-orchestrator
+
+  MCP server for orchestrating AI coding agents (Claude Code CLI & Gemini CLI). Features task management, process execution, Git integration, and dynamic resource discovery. Full TypeScript implementation with Docker support and Cloudflare Tunnel integration. 
+
+[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat-square&logo=github)](https://github.com/systempromptio/systemprompt-code-orchestrator) ![Stars](https://img.shields.io/github/stars/systempromptio/systemprompt-code-orchestrator?style=flat-square&logo=github) ![Last Commit](https://img.shields.io/github/last-commit/systempromptio/systemprompt-code-orchestrator?style=flat-square&logo=github)
+
+---
+
 ### the-startup
 
 The Agentic Startup - A collection of Claude Code commands, agents, etc
@@ -2306,6 +2468,22 @@ Tools for running Claude Code more efficiently, including parallel sessions and 
 
 ---
 
+### auto-claude-code
+
+Comprehensive templates and tools for setting up Claude Code workflows
+
+[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat-square&logo=github)](https://github.com/adimenia/auto-claude-code) ![Stars](https://img.shields.io/github/stars/adimenia/auto-claude-code?style=flat-square&logo=github) ![Last Commit](https://img.shields.io/github/last-commit/adimenia/auto-claude-code?style=flat-square&logo=github)
+
+---
+
+### claude-code-tools
+
+Tools for asynchronous management of Claude Code via SMS, and auto resumption of Claude session after rate limits reset.
+
+[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat-square&logo=github)](https://github.com/cyzhao/claude-code-tools) ![Stars](https://img.shields.io/github/stars/cyzhao/claude-code-tools?style=flat-square&logo=github) ![Last Commit](https://img.shields.io/github/last-commit/cyzhao/claude-code-tools?style=flat-square&logo=github)
+
+---
+
 ### crystal
 
 Run multiple Codex and Claude Code AI sessions in parallel git worktrees. Test, compare approaches & manage AI-assisted development workflows in one desktop app.
@@ -2359,6 +2537,14 @@ A Lightweight Statusline plugin for Claude Code CLI to track context, cost usage
 # Project Management and Task Tracking
 
 Tools for managing projects and tracking tasks
+
+---
+
+### Claude-Code-Kanban-Automator
+
+AI-powered Kanban board with Claude Code automation. Tasks, real-time execution, feedback loops.
+
+[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat-square&logo=github)](https://github.com/cruzyjapan/Claude-Code-Kanban-Automator) ![Stars](https://img.shields.io/github/stars/cruzyjapan/Claude-Code-Kanban-Automator?style=flat-square&logo=github) ![Last Commit](https://img.shields.io/github/last-commit/cruzyjapan/Claude-Code-Kanban-Automator?style=flat-square&logo=github)
 
 ---
 
@@ -2516,6 +2702,20 @@ A Simple Proxy enabling Claude Code to work with OpenRouter
 
 ---
 
+# Rate Limiting & Throttling
+
+Tools for managing API rate limits and request throttling
+
+---
+
+### claude-code-queue
+
+claude code has a rate limit. auto queue instructions when rate limit resets.
+
+[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat-square&logo=github)](https://github.com/JCSnap/claude-code-queue) ![Stars](https://img.shields.io/github/stars/JCSnap/claude-code-queue?style=flat-square&logo=github) ![Last Commit](https://img.shields.io/github/last-commit/JCSnap/claude-code-queue?style=flat-square&logo=github)
+
+---
+
 # Remote Control
 
 Remote control and management tools
@@ -2577,6 +2777,14 @@ A modern project scaffold for AI-assisted development workflows—providing reus
 # Security
 
 Security tools and reviews
+
+---
+
+### Claude-Code-Guardrails
+
+Protective hooks for Claude Code that prevent accidental code loss through branch protection,   automatic checkpointing, and safe commit squashing
+
+[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat-square&logo=github)](https://github.com/wangbooth/Claude-Code-Guardrails) ![Stars](https://img.shields.io/github/stars/wangbooth/Claude-Code-Guardrails?style=flat-square&logo=github) ![Last Commit](https://img.shields.io/github/last-commit/wangbooth/Claude-Code-Guardrails?style=flat-square&logo=github)
 
 ---
 
@@ -2828,6 +3036,14 @@ Coding Agent Session Manager that supports Claude Code / Gemini CLI / Codex CLI 
 
 ---
 
+### ccresume
+
+A CUI tool for browsing and resuming Claude Code conversations
+
+[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat-square&logo=github)](https://github.com/sasazame/ccresume) ![Stars](https://img.shields.io/github/stars/sasazame/ccresume?style=flat-square&logo=github) ![Last Commit](https://img.shields.io/github/last-commit/sasazame/ccresume?style=flat-square&logo=github)
+
+---
+
 ### cctrace
 
 Claude Code Trace - Export Claude Code chat sessions into markdown and XML
@@ -2874,6 +3090,20 @@ Safely constrain and conclude your claude code sessions.
 
 ---
 
+# Setup & Installation Assistants
+
+Tools that help with installing, configuring, and setting up Claude Code
+
+---
+
+### awesome-claude-code-setup
+
+Give Claude the super powers it deserves with this power user collection of bash scripts and slash commands
+
+[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat-square&logo=github)](https://github.com/cassler/awesome-claude-code-setup) ![Stars](https://img.shields.io/github/stars/cassler/awesome-claude-code-setup?style=flat-square&logo=github) ![Last Commit](https://img.shields.io/github/last-commit/cassler/awesome-claude-code-setup?style=flat-square&logo=github)
+
+---
+
 # Source Project
 
 Official Claude Code repository
@@ -2907,6 +3137,20 @@ High quality Spec-Driven Development for Claude Code, Cursor, Gemini CLI and Qwe
 Claude Code workflow for spec-driven development using GitHub issues, Git worktrees, and parallel AI agents
 
 [![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat-square&logo=github)](https://github.com/klogins-hash/claude-code-ccpm) ![Stars](https://img.shields.io/github/stars/klogins-hash/claude-code-ccpm?style=flat-square&logo=github) ![Last Commit](https://img.shields.io/github/last-commit/klogins-hash/claude-code-ccpm?style=flat-square&logo=github)
+
+---
+
+### claude-code-specs-generator
+
+[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat-square&logo=github)](https://github.com/kellemar/claude-code-specs-generator) ![Stars](https://img.shields.io/github/stars/kellemar/claude-code-specs-generator?style=flat-square&logo=github) ![Last Commit](https://img.shields.io/github/last-commit/kellemar/claude-code-specs-generator?style=flat-square&logo=github)
+
+---
+
+### noderr
+
+ Specs, tracking, and coordinated development for AI coding. Works with Cursor, Claude Code, Replit Agent, and any AI coding assistant.
+
+[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat-square&logo=github)](https://github.com/kaithoughtarchitect/noderr) ![Stars](https://img.shields.io/github/stars/kaithoughtarchitect/noderr?style=flat-square&logo=github) ![Last Commit](https://img.shields.io/github/last-commit/kaithoughtarchitect/noderr?style=flat-square&logo=github)
 
 ---
 
@@ -3080,6 +3324,14 @@ comprehensive collection of claude code agents
 
 ---
 
+#### claude_code_sub_agents
+
+Claude Multi-Agent: Iterative Sub-Agent Orchestration System - Transform single-threaded AI assistance into a distributed, self-coordinating agent network capable of handling tasks of arbitrary complexity and scale.
+
+[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat-square&logo=github)](https://github.com/yzyydev/claude_code_sub_agents) ![Stars](https://img.shields.io/github/stars/yzyydev/claude_code_sub_agents?style=flat-square&logo=github) ![Last Commit](https://img.shields.io/github/last-commit/yzyydev/claude_code_sub_agents?style=flat-square&logo=github)
+
+---
+
 #### claude-agents
 
 Custom subagents to use with Claude Code.
@@ -3142,11 +3394,35 @@ A comprehensive collection of 100+ production-ready development subagents for Cl
 
 ---
 
+#### claude-code-subagents
+
+A curated collection of production-ready Claude Code sub agents for task automation, code review, debugging, and more. Easily reusable and customizable for your own Claude Code workflows.
+
+[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat-square&logo=github)](https://github.com/fengyunzaidushi/claude-code-subagents) ![Stars](https://img.shields.io/github/stars/fengyunzaidushi/claude-code-subagents?style=flat-square&logo=github) ![Last Commit](https://img.shields.io/github/last-commit/fengyunzaidushi/claude-code-subagents?style=flat-square&logo=github)
+
+---
+
+#### claude-code-subagents
+
+This collection of AI sub-agents for Claude Code leverages a powerful agent-assembler to dynamically generate a personalized and project-specific AI development team based on your unique tech stack.
+
+[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat-square&logo=github)](https://github.com/mylee04/claude-code-subagents) ![Stars](https://img.shields.io/github/stars/mylee04/claude-code-subagents?style=flat-square&logo=github) ![Last Commit](https://img.shields.io/github/last-commit/mylee04/claude-code-subagents?style=flat-square&logo=github)
+
+---
+
 #### claude-code-subagents-collection
 
 Claude Code Subagents & Commands Collection + CLI Tool
 
 [![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat-square&logo=github)](https://github.com/davepoon/claude-code-subagents-collection) ![Stars](https://img.shields.io/github/stars/davepoon/claude-code-subagents-collection?style=flat-square&logo=github) ![Last Commit](https://img.shields.io/github/last-commit/davepoon/claude-code-subagents-collection?style=flat-square&logo=github)
+
+---
+
+#### Claude-Code-Subagents-Collection
+
+A meticulously crafted collection of 75+ specialized Claude Code sub-agents designed for accuracy, efficiency, and comprehensive software development support.
+
+[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat-square&logo=github)](https://github.com/gensecaihq/Claude-Code-Subagents-Collection) ![Stars](https://img.shields.io/github/stars/gensecaihq/Claude-Code-Subagents-Collection?style=flat-square&logo=github) ![Last Commit](https://img.shields.io/github/last-commit/gensecaihq/Claude-Code-Subagents-Collection?style=flat-square&logo=github)
 
 ---
 
@@ -3199,6 +3475,14 @@ Discover and share Claude Code sub-agents for automating development workflows. 
 # Templates
 
 Project templates and boilerplates
+
+---
+
+### claude-code-template
+
+Complete Claude Code setup template with TDD workflow, quality enforcement, and learning preservation
+
+[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat-square&logo=github)](https://github.com/orielsanchez/claude-code-template) ![Stars](https://img.shields.io/github/stars/orielsanchez/claude-code-template?style=flat-square&logo=github) ![Last Commit](https://img.shields.io/github/last-commit/orielsanchez/claude-code-template?style=flat-square&logo=github)
 
 ---
 
@@ -3343,6 +3627,14 @@ Run Claude Code or OpenAI Codex in the background
 A powerful GUI app and Toolkit for Claude Code - Create custom agents, manage interactive Claude Code sessions, run secure background agents, and more.
 
 [![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat-square&logo=github)](https://github.com/winfunc/opcode) ![Stars](https://img.shields.io/github/stars/winfunc/opcode?style=flat-square&logo=github) ![Last Commit](https://img.shields.io/github/last-commit/winfunc/opcode?style=flat-square&logo=github)
+
+---
+
+### tweakcc
+
+Command-line tool to customize Claude Code UI (themes, thinking verbs, input box style, user message display, sign-in ASCII art), fix bugs (frozen spinner), and add features (CLAUDE_CODE_CONTEXT_LIMIT).
+
+[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat-square&logo=github)](https://github.com/Piebald-AI/tweakcc) ![Stars](https://img.shields.io/github/stars/Piebald-AI/tweakcc?style=flat-square&logo=github) ![Last Commit](https://img.shields.io/github/last-commit/Piebald-AI/tweakcc?style=flat-square&logo=github)
 
 ---
 
@@ -3571,6 +3863,14 @@ A modern visual interface for Claude Code - chat with AI, manage files, and stre
 A full-featured web-based Claude Code client that provides complete interactive functionality for managing Claude Code projects
 
 [![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat-square&logo=github)](https://github.com/d-kimuson/claude-code-viewer) ![Stars](https://img.shields.io/github/stars/d-kimuson/claude-code-viewer?style=flat-square&logo=github) ![Last Commit](https://img.shields.io/github/last-commit/d-kimuson/claude-code-viewer?style=flat-square&logo=github)
+
+---
+
+#### claude-code-web
+
+A web-based interface for Claude Code CLI built with Nuxt 4, featuring real-time chat, project management, and comprehensive tool integration with mobile-first PWA design.
+
+[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat-square&logo=github)](https://github.com/sunpix/claude-code-web) ![Stars](https://img.shields.io/github/stars/sunpix/claude-code-web?style=flat-square&logo=github) ![Last Commit](https://img.shields.io/github/last-commit/sunpix/claude-code-web?style=flat-square&logo=github)
 
 ---
 
@@ -4188,6 +4488,14 @@ Daily fixes and workarounds for Claude Code issues. Streamline your workflow wit
 
 ---
 
+### ClaudeCode-Kiro-Workflow
+
+🚀 SPECS Workflow for Claude Code - A systematic development methodology that guides AI-assisted coding   through Requirements → Design → Tasks → Execution phases, with automatic documentation, task tracking,   and session recovery features.
+
+[![View Repo](https://img.shields.io/badge/View-Repo-blue?style=flat-square&logo=github)](https://github.com/heihuzicity-tech/ClaudeCode-Kiro-Workflow) ![Stars](https://img.shields.io/github/stars/heihuzicity-tech/ClaudeCode-Kiro-Workflow?style=flat-square&logo=github) ![Last Commit](https://img.shields.io/github/last-commit/heihuzicity-tech/ClaudeCode-Kiro-Workflow?style=flat-square&logo=github)
+
+---
+
 ### maestro
 
 A CLI tool that conducts Git worktrees like an orchestra and accelerates parallel development with Claude Code.
@@ -4215,4 +4523,4 @@ This list is available under the MIT License.
 ## Private
 
 ### Repository Count Tracker
-- **2025-10-03**: 411 repositories
+- **2025-10-03**: 445 repositories

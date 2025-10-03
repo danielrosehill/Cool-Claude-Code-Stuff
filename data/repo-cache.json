@@ -2048,5 +2048,175 @@
     "description": "Turn Claude Code into a coordinated team of 40+ specialized AI agents that work together like a world-class engineering organization.",
     "stars": 17,
     "lastUpdated": "2025-10-03T06:48:34Z"
+  },
+  "sasazame/ccresume": {
+    "description": "A CUI tool for browsing and resuming Claude Code conversations",
+    "stars": 140,
+    "lastUpdated": "2025-09-30T11:39:11Z"
+  },
+  "sunpix/claude-code-web": {
+    "description": "A web-based interface for Claude Code CLI built with Nuxt 4, featuring real-time chat, project management, and comprehensive tool integration with mobile-first PWA design.",
+    "stars": 32,
+    "lastUpdated": "2025-10-02T16:48:04Z"
+  },
+  "ramakay/claude-organizer": {
+    "description": "AI-powered file organization and context engineering that understands content, not patterns. Automatically sorts temporary scripts from permanent docs while   preserving your workflow. Works seamlessly with Claude Code hooks. Protects README, LICENSE, configs.",
+    "stars": 41,
+    "lastUpdated": "2025-10-03T06:52:58Z"
+  },
+  "leeguooooo/claude-code-usage-bar": {
+    "description": "Real‑time statusline for Claude Code: token usage, remaining budget, burn rate, and depletion time",
+    "stars": 102,
+    "lastUpdated": "2025-10-01T05:17:49Z"
+  },
+  "systempromptio/systemprompt-code-orchestrator": {
+    "description": "  MCP server for orchestrating AI coding agents (Claude Code CLI & Gemini CLI). Features task management, process execution, Git integration, and dynamic resource discovery. Full TypeScript implementation with Docker support and Cloudflare Tunnel integration. ",
+    "stars": 115,
+    "lastUpdated": "2025-09-30T15:13:56Z"
+  },
+  "Piebald-AI/tweakcc": {
+    "description": "Command-line tool to customize Claude Code UI (themes, thinking verbs, input box style, user message display, sign-in ASCII art), fix bugs (frozen spinner), and add features (CLAUDE_CODE_CONTEXT_LIMIT).",
+    "stars": 174,
+    "lastUpdated": "2025-10-03T07:15:46Z"
+  },
+  "RLabs-Inc/gemini-mcp": {
+    "description": "MCP Server that enables Claude code to interact with Gemini",
+    "stars": 56,
+    "lastUpdated": "2025-09-29T08:03:19Z"
+  },
+  "dreampulse/claude-code-logger": {
+    "description": "Logger cli for analyzing Claude Code traffic with enhanced chat mode visualization",
+    "stars": 20,
+    "lastUpdated": "2025-10-01T21:05:34Z"
+  },
+  "cassler/awesome-claude-code-setup": {
+    "description": "Give Claude the super powers it deserves with this power user collection of bash scripts and slash commands",
+    "stars": 58,
+    "lastUpdated": "2025-09-28T19:06:08Z"
+  },
+  "badlogic/cchistory": {
+    "description": "Extract and compare system prompts and tools from different Claude Code versions",
+    "stars": 100,
+    "lastUpdated": "2025-10-02T13:09:58Z"
+  },
+  "wangbooth/Claude-Code-Guardrails": {
+    "description": "Protective hooks for Claude Code that prevent accidental code loss through branch protection,   automatic checkpointing, and safe commit squashing",
+    "stars": 33,
+    "lastUpdated": "2025-09-30T06:23:40Z"
+  },
+  "decider/claude-hooks": {
+    "description": "Comprehensive hooks for Claude Code to enforce clean code practices and automate workflows",
+    "stars": 53,
+    "lastUpdated": "2025-09-26T16:15:45Z"
+  },
+  "saharmor/sidekick-dev-web": {
+    "description": "Automatically generate high-quality markdown context files for AI coding agents like Claude, Cursor, and Gemini, Powered By DeepWiki",
+    "stars": 102,
+    "lastUpdated": "2025-10-03T07:00:28Z"
+  },
+  "kaithoughtarchitect/noderr": {
+    "description": " Specs, tracking, and coordinated development for AI coding. Works with Cursor, Claude Code, Replit Agent, and any AI coding assistant.",
+    "stars": 52,
+    "lastUpdated": "2025-10-03T07:00:41Z"
+  },
+  "kellemar/claude-code-specs-generator": {
+    "description": "",
+    "stars": 37,
+    "lastUpdated": "2025-10-02T13:10:47Z"
+  },
+  "heihuzicity-tech/ClaudeCode-Kiro-Workflow": {
+    "description": "🚀 SPECS Workflow for Claude Code - A systematic development methodology that guides AI-assisted coding   through Requirements → Design → Tasks → Execution phases, with automatic documentation, task tracking,   and session recovery features.",
+    "stars": 15,
+    "lastUpdated": "2025-09-23T07:48:29Z"
+  },
+  "gensecaihq/Claude-Code-Subagents-Collection": {
+    "description": "A meticulously crafted collection of 75+ specialized Claude Code sub-agents designed for accuracy, efficiency, and comprehensive software development support.",
+    "stars": 14,
+    "lastUpdated": "2025-09-23T02:49:33Z"
+  },
+  "fengyunzaidushi/claude-code-subagents": {
+    "description": "A curated collection of production-ready Claude Code sub agents for task automation, code review, debugging, and more. Easily reusable and customizable for your own Claude Code workflows.",
+    "stars": 10,
+    "lastUpdated": "2025-08-22T03:42:54Z"
+  },
+  "orielsanchez/claude-code-template": {
+    "description": "Complete Claude Code setup template with TDD workflow, quality enforcement, and learning preservation",
+    "stars": 9,
+    "lastUpdated": "2025-09-06T19:07:51Z"
+  },
+  "mylee04/claude-code-subagents": {
+    "description": "This collection of AI sub-agents for Claude Code leverages a powerful agent-assembler to dynamically generate a personalized and project-specific AI development team based on your unique tech stack.",
+    "stars": 20,
+    "lastUpdated": "2025-09-30T01:22:35Z"
+  },
+  "cyzhao/claude-code-tools": {
+    "description": "Tools for asynchronous management of Claude Code via SMS, and auto resumption of Claude session after rate limits reset.",
+    "stars": 7,
+    "lastUpdated": "2025-09-06T03:06:18Z"
+  },
+  "adimenia/auto-claude-code": {
+    "description": "Comprehensive templates and tools for setting up Claude Code workflows",
+    "stars": 16,
+    "lastUpdated": "2025-09-09T03:29:41Z"
+  },
+  "acomagu/vscode-as-mcp-server": {
+    "description": "Expose VSCode features such as file viewing and editing as MCP, enabling advanced AI-assisted coding directly from tools like Claude Desktop",
+    "stars": 101,
+    "lastUpdated": "2025-10-03T07:08:39Z"
+  },
+  "cruzyjapan/Claude-Code-Kanban-Automator": {
+    "description": "AI-powered Kanban board with Claude Code automation. Tasks, real-time execution, feedback loops.",
+    "stars": 18,
+    "lastUpdated": "2025-10-03T07:08:47Z"
+  },
+  "badlogic/vs-claude": {
+    "description": "VS Code extension and MCP server so Claude Code can open files, diffs and manipulate VS Code in other ways.",
+    "stars": 39,
+    "lastUpdated": "2025-08-21T18:54:51Z"
+  },
+  "ming86/cc-account-switcher": {
+    "description": "Account Switcher for Claude Code",
+    "stars": 75,
+    "lastUpdated": "2025-10-02T14:17:49Z"
+  },
+  "specstoryai/getspecstory": {
+    "description": "Install our extensions for GH Copilot, Cursor and Claude Code. Try SpecStory Cloud and BearClaude. File issues and requests.",
+    "stars": 676,
+    "lastUpdated": "2025-10-03T06:51:21Z"
+  },
+  "yzyydev/claude_code_sub_agents": {
+    "description": "Claude Multi-Agent: Iterative Sub-Agent Orchestration System - Transform single-threaded AI assistance into a distributed, self-coordinating agent network capable of handling tasks of arbitrary complexity and scale.",
+    "stars": 35,
+    "lastUpdated": "2025-09-23T10:33:41Z"
+  },
+  "boringmarketer/guides": {
+    "description": "step by step tutorials from my Claude Code projects for the community",
+    "stars": 31,
+    "lastUpdated": "2025-10-01T16:51:35Z"
+  },
+  "alchemiststudiosDOTai/i-love-claude-code": {
+    "description": "Claude Code discussion of shortcuts, automation, hacks and overall productivity with Claude Code",
+    "stars": 23,
+    "lastUpdated": "2025-10-03T07:16:24Z"
+  },
+  "hudrazine/claude-code-memory-bank": {
+    "description": "Memory management optimized for Claude Code, based on the Cline Memory Bank.",
+    "stars": 18,
+    "lastUpdated": "2025-09-26T22:05:04Z"
+  },
+  "JCSnap/claude-code-queue": {
+    "description": "claude code has a rate limit. auto queue instructions when rate limit resets.",
+    "stars": 12,
+    "lastUpdated": "2025-10-03T07:17:54Z"
+  },
+  "rexdotsh/claudesync-vscode": {
+    "description": "VSCode Extension to sync your code with Claude.ai Projects.",
+    "stars": 17,
+    "lastUpdated": "2025-09-09T03:54:29Z"
+  },
+  "inmve/coding-with-ai": {
+    "description": "Practical techniques for coding with Claude Code, Codex CLI, Cursor, etc. Available in: English • Español • Deutsch • Français • 日本語",
+    "stars": 212,
+    "lastUpdated": "2025-10-03T06:04:28Z"
   }
 }

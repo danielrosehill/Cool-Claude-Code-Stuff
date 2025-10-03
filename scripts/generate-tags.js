@@ -2,10 +2,10 @@
 
 const fs = require('fs');
 const path = require('path');
+const db = require('./db');
 
-// Read the tags.json file
-const tagsPath = path.join(__dirname, '../data/tags.json');
-const tagsData = JSON.parse(fs.readFileSync(tagsPath, 'utf8'));
+// Read tags from SQLite
+const tags = db.prepare('SELECT id, name, description FROM tags').all();
 
 // Generate markdown
 let markdown = '# Tags\n\n';
@@ -14,7 +14,7 @@ markdown += 'Tags are used to indicate the type of interface or use case for a p
 markdown += '---\n\n';
 
 // Sort tags alphabetically
-const sortedTags = tagsData.tags.sort((a, b) => a.name.localeCompare(b.name));
+const sortedTags = tags.sort((a, b) => a.name.localeCompare(b.name));
 
 // Render each tag
 sortedTags.forEach(tag => {
@@ -27,4 +27,4 @@ sortedTags.forEach(tag => {
 const outputPath = path.join(__dirname, '../tags.md');
 fs.writeFileSync(outputPath, markdown, 'utf8');
 
-console.log(`✅ Generated tags.md with ${tagsData.tags.length} tags`);
+console.log(`✅ Generated tags.md with ${tags.length} tags`);

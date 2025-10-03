@@ -5,22 +5,60 @@ require('dotenv').config();
 const fs = require('fs');
 const path = require('path');
 const https = require('https');
+const db = require('./db');
 
 // File paths
-const CATEGORIES_FILE = path.join(__dirname, '../data/categories.json');
-const RESOURCES_FILE = path.join(__dirname, '../data/resources.json');
 const README_FILE = path.join(__dirname, '../README.md');
 const TOC_FILE = path.join(__dirname, '../toc.md');
 const CACHE_FILE = path.join(__dirname, '../data/repo-cache.json');
 
-// Load data
+// Load data from SQLite
 function loadData() {
     try {
-        const categoriesData = JSON.parse(fs.readFileSync(CATEGORIES_FILE, 'utf8'));
-        const resourcesData = JSON.parse(fs.readFileSync(RESOURCES_FILE, 'utf8'));
-        return { categories: categoriesData.categories, resources: resourcesData };
+        const categories = db.prepare('SELECT id, name, description, parent_id as parentId FROM categories').all();
+        const repositories = db.prepare(`
+            SELECT url, name, description
+            FROM repositories
+        `).all();
+
+        // Get category associations
+        const categoryAssociations = db.prepare(`
+            SELECT repository_url, category_id
+            FROM repository_categories
+        `).all();
+
+        // Add category IDs to repositories
+        repositories.forEach(repo => {
+            const cats = categoryAssociations
+                .filter(ca => ca.repository_url === repo.url)
+                .map(ca => ca.category_id);
+
+            if (cats.length === 1) {
+                repo.categoryId = cats[0];
+            } else if (cats.length > 1) {
+                repo.categoryIds = cats;
+            }
+        });
+
+        const meta = db.prepare('SELECT key, value FROM metadata').all()
+            .reduce((obj, row) => {
+                obj[row.key] = row.value;
+                return obj;
+            }, {});
+
+        return {
+            categories,
+            resources: {
+                meta: {
+                    title: meta.title || 'Awesome Claude Code',
+                    description: meta.description || '',
+                    lastUpdated: meta.lastUpdated || new Date().toISOString().split('T')[0]
+                },
+                repositories
+            }
+        };
     } catch (error) {
-        console.error('Error loading data files:', error.message);
+        console.error('Error loading data from database:', error.message);
         process.exit(1);
     }
 }

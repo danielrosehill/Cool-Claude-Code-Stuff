@@ -2,14 +2,14 @@
 
 const fs = require('fs');
 const path = require('path');
+const db = require('./db');
 
-// Read the categories.json file
-const categoriesPath = path.join(__dirname, '../data/categories.json');
-const categoriesData = JSON.parse(fs.readFileSync(categoriesPath, 'utf8'));
+// Read categories from SQLite
+const categories = db.prepare('SELECT id, name, description, parent_id as parentId FROM categories').all();
 
 // Build a map for quick parent lookup
 const categoriesMap = new Map();
-categoriesData.categories.forEach(cat => {
+categories.forEach(cat => {
   categoriesMap.set(cat.id, cat);
 });
 
@@ -17,7 +17,7 @@ categoriesData.categories.forEach(cat => {
 const rootCategories = [];
 const childrenMap = new Map();
 
-categoriesData.categories.forEach(cat => {
+categories.forEach(cat => {
   if (cat.parentId === null) {
     rootCategories.push(cat);
   } else {
@@ -63,4 +63,4 @@ rootCategories.forEach(category => {
 const outputPath = path.join(__dirname, '../categories.md');
 fs.writeFileSync(outputPath, markdown, 'utf8');
 
-console.log(`✅ Generated categories.md with ${categoriesData.categories.length} categories`);
+console.log(`✅ Generated categories.md with ${categories.length} categories`);

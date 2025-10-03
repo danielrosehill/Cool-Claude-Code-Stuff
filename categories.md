@@ -216,6 +216,10 @@ Tools for evaluating and benchmarking Claude Code performance and output quality
 
 Experimental projects exploring innovative and creative uses of Claude Code
 
+## File Organization & Management
+
+Tools for organizing, categorizing, and managing files in Claude Code workflows
+
 ## Frameworks
 
 Development frameworks built on Claude Code

@@ -4,7 +4,7 @@
   "description": "A curated list of awesome Claude Code projects, tools, and resources",
   "scripts": {
     "build": "node scripts/build-readme.js",
-    "generate-combined": "node private/scripts/generate-combined-json.js",
+    "generate-combined": "node scripts/generate-combined-json.js",
     "generate-categories": "node scripts/generate-categories.js",
     "generate-tags": "node scripts/generate-tags.js",
     "build:all": "node scripts/build-all.js"
@@ -25,5 +25,8 @@
   "license": "MIT",
   "devDependencies": {
     "dotenv": "^17.2.3"
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.4.1"
   }
 }

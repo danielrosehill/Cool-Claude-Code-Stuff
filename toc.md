@@ -39,6 +39,7 @@
 - [Error Handling](README.md#error-handling)
 - [Evaluations & Benchmarking](README.md#evaluations--benchmarking)
 - [Experiments](README.md#experiments)
+- [File Organization & Management](README.md#file-organization--management)
 - [Frameworks](README.md#frameworks)
 - [Git & Version Control](README.md#git--version-control)
 - [Harnesses](README.md#harnesses)
