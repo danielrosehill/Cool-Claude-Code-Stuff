@@ -12,6 +12,66 @@ def get_db():
     conn.row_factory = sqlite3.Row
     return conn
 
+def get_hierarchical_categories():
+    """Get categories with hierarchy information"""
+    conn = get_db()
+    cats = conn.execute('SELECT * FROM categories').fetchall()
+    conn.close()
+
+    # Convert to list of dicts
+    cat_dict = {cat['id']: dict(cat) for cat in cats}
+
+    # Build hierarchy info
+    for cat_id, cat_data in cat_dict.items():
+        cat_data['level'] = 0
+        cat_data['parent_name'] = None
+        cat_data['children'] = []
+
+        # Calculate level and parent name
+        parent_id = cat_data.get('parent_id')
+        level = 0
+        while parent_id and parent_id in cat_dict:
+            level += 1
+            if level == 1:
+                cat_data['parent_name'] = cat_dict[parent_id]['name']
+            parent_id = cat_dict[parent_id].get('parent_id')
+
+        cat_data['level'] = min(level, 2)
+
+    # Build children lists
+    for cat_id, cat_data in cat_dict.items():
+        parent_id = cat_data.get('parent_id')
+        if parent_id and parent_id in cat_dict:
+            cat_dict[parent_id]['children'].append(cat_id)
+
+    # Sort children by name
+    for cat_data in cat_dict.values():
+        cat_data['children'].sort(key=lambda cid: cat_dict[cid]['name'])
+
+    # Build flat list with hierarchy: parents followed by their children
+    result = []
+
+    # Get top-level categories (no parent)
+    top_level = sorted([c for c in cat_dict.values() if not c.get('parent_id')],
+                      key=lambda x: x['name'])
+
+    # Add each top-level category and its children
+    for parent in top_level:
+        result.append(parent)
+        # Add direct children
+        for child_id in parent['children']:
+            result.append(cat_dict[child_id])
+
+    return result
+
+def extract_repo_name(url):
+    """Extract repository name from GitHub URL"""
+    import re
+    match = re.search(r'github\.com/[^/]+/([^/]+?)(\.git)?$', url)
+    if match:
+        return match.group(1)
+    return None
+
 HTML_TEMPLATE = '''
 <!DOCTYPE html>
 <html>
@@ -36,6 +96,9 @@ HTML_TEMPLATE = '''
         .delete-btn { background: #dc3545; padding: 5px 10px; }
         .delete-btn:hover { background: #c82333; }
         .small-text { font-size: 0.9em; color: #666; }
+        .search-box { margin-bottom: 10px; }
+        .indent-1 { padding-left: 20px; }
+        .indent-2 { padding-left: 40px; }
     </style>
 </head>
 <body>
@@ -95,32 +158,25 @@ ADD_REPOSITORY_TEMPLATE = HTML_TEMPLATE.replace('{% block content %}{% endblock 
     <form method="POST">
         <div class="form-group">
             <label>Repository URL *</label>
-            <input type="text" name="url" required placeholder="https://github.com/user/repo">
+            <input type="text" name="url" id="repo-url" required placeholder="https://github.com/user/repo" oninput="updateRepoName()">
         </div>
         <div class="form-group">
-            <label>Name *</label>
-            <input type="text" name="name" required>
+            <label>Name (optional - defaults to repo name from URL)</label>
+            <input type="text" name="name" id="repo-name" placeholder="Will be extracted from URL">
         </div>
         <div class="form-group">
-            <label>Description</label>
+            <label>Description (optional)</label>
             <textarea name="description"></textarea>
         </div>
         <div class="form-group">
-            <label>Date Added</label>
-            <input type="date" name="added" value="{{ today }}">
-        </div>
-        <div class="form-group">
-            <label>Notes</label>
-            <textarea name="notes"></textarea>
-        </div>
-        <div class="form-group">
             <label>Categories</label>
-            <div style="max-height: 200px; overflow-y: auto; border: 1px solid #ddd; padding: 10px; border-radius: 4px;">
+            <input type="text" id="category-search" class="search-box" placeholder="Search categories..." onkeyup="filterCategories()">
+            <div id="category-list" style="max-height: 200px; overflow-y: auto; border: 1px solid #ddd; padding: 10px; border-radius: 4px;">
                 {% for cat in categories %}
-                <div style="margin: 5px 0;">
+                <div style="margin: 5px 0;" class="category-item {% if cat.parent_id %}indent-{{ cat.level }}{% endif %}">
                     <label style="font-weight: normal; display: inline;">
                         <input type="checkbox" name="categories" value="{{ cat.id }}" style="width: auto; margin-right: 5px;">
-                        {{ cat.name }}
+                        {{ cat.name }}{% if cat.parent_id %} <span style="color: #999;">({{ cat.parent_name }})</span>{% endif %}
                     </label>
                 </div>
                 {% endfor %}
@@ -128,9 +184,10 @@ ADD_REPOSITORY_TEMPLATE = HTML_TEMPLATE.replace('{% block content %}{% endblock 
         </div>
         <div class="form-group">
             <label>Tags</label>
-            <div style="max-height: 200px; overflow-y: auto; border: 1px solid #ddd; padding: 10px; border-radius: 4px;">
+            <input type="text" id="tag-search" class="search-box" placeholder="Search tags..." onkeyup="filterTags()">
+            <div id="tag-list" style="max-height: 200px; overflow-y: auto; border: 1px solid #ddd; padding: 10px; border-radius: 4px;">
                 {% for tag in tags %}
-                <div style="margin: 5px 0;">
+                <div style="margin: 5px 0;" class="tag-item">
                     <label style="font-weight: normal; display: inline;">
                         <input type="checkbox" name="tags" value="{{ tag.id }}" style="width: auto; margin-right: 5px;">
                         {{ tag.name }}
@@ -139,9 +196,45 @@ ADD_REPOSITORY_TEMPLATE = HTML_TEMPLATE.replace('{% block content %}{% endblock 
                 {% endfor %}
             </div>
         </div>
+        <div class="form-group">
+            <label>Date Added</label>
+            <input type="date" name="added" value="{{ today }}">
+        </div>
+        <div class="form-group">
+            <label>Notes (optional)</label>
+            <textarea name="notes"></textarea>
+        </div>
         <button type="submit">Add Repository</button>
         <a href="/repositories" style="margin-left: 10px;">Cancel</a>
     </form>
+    <script>
+        function updateRepoName() {
+            const url = document.getElementById('repo-url').value;
+            const nameInput = document.getElementById('repo-name');
+            if (!nameInput.value || nameInput.placeholder.includes('extracted')) {
+                const match = url.match(/github\\.com\\/([^\\/]+)\\/([^\\/]+?)(\\.git)?$/);
+                if (match) {
+                    nameInput.placeholder = match[2];
+                }
+            }
+        }
+        function filterCategories() {
+            const search = document.getElementById('category-search').value.toLowerCase();
+            const items = document.querySelectorAll('.category-item');
+            items.forEach(item => {
+                const text = item.textContent.toLowerCase();
+                item.style.display = text.includes(search) ? '' : 'none';
+            });
+        }
+        function filterTags() {
+            const search = document.getElementById('tag-search').value.toLowerCase();
+            const items = document.querySelectorAll('.tag-item');
+            items.forEach(item => {
+                const text = item.textContent.toLowerCase();
+                item.style.display = text.includes(search) ? '' : 'none';
+            });
+        }
+    </script>
 ''')
 
 EDIT_REPOSITORY_TEMPLATE = HTML_TEMPLATE.replace('{% block content %}{% endblock %}', '''
@@ -152,29 +245,22 @@ EDIT_REPOSITORY_TEMPLATE = HTML_TEMPLATE.replace('{% block content %}{% endblock
             <input type="text" name="url" required value="{{ repo.url }}" readonly style="background: #f5f5f5;">
         </div>
         <div class="form-group">
-            <label>Name *</label>
-            <input type="text" name="name" required value="{{ repo.name }}">
+            <label>Name</label>
+            <input type="text" name="name" value="{{ repo.name }}">
         </div>
         <div class="form-group">
-            <label>Description</label>
+            <label>Description (optional)</label>
             <textarea name="description">{{ repo.description or '' }}</textarea>
         </div>
         <div class="form-group">
-            <label>Date Added</label>
-            <input type="date" name="added" value="{{ repo.added }}">
-        </div>
-        <div class="form-group">
-            <label>Notes</label>
-            <textarea name="notes">{{ repo.notes or '' }}</textarea>
-        </div>
-        <div class="form-group">
             <label>Categories</label>
-            <div style="max-height: 200px; overflow-y: auto; border: 1px solid #ddd; padding: 10px; border-radius: 4px;">
+            <input type="text" id="category-search" class="search-box" placeholder="Search categories..." onkeyup="filterCategories()">
+            <div id="category-list" style="max-height: 200px; overflow-y: auto; border: 1px solid #ddd; padding: 10px; border-radius: 4px;">
                 {% for cat in categories %}
-                <div style="margin: 5px 0;">
+                <div style="margin: 5px 0;" class="category-item {% if cat.parent_id %}indent-{{ cat.level }}{% endif %}">
                     <label style="font-weight: normal; display: inline;">
                         <input type="checkbox" name="categories" value="{{ cat.id }}" style="width: auto; margin-right: 5px;" {% if cat.id in selected_categories %}checked{% endif %}>
-                        {{ cat.name }}
+                        {{ cat.name }}{% if cat.parent_id %} <span style="color: #999;">({{ cat.parent_name }})</span>{% endif %}
                     </label>
                 </div>
                 {% endfor %}
@@ -182,9 +268,10 @@ EDIT_REPOSITORY_TEMPLATE = HTML_TEMPLATE.replace('{% block content %}{% endblock
         </div>
         <div class="form-group">
             <label>Tags</label>
-            <div style="max-height: 200px; overflow-y: auto; border: 1px solid #ddd; padding: 10px; border-radius: 4px;">
+            <input type="text" id="tag-search" class="search-box" placeholder="Search tags..." onkeyup="filterTags()">
+            <div id="tag-list" style="max-height: 200px; overflow-y: auto; border: 1px solid #ddd; padding: 10px; border-radius: 4px;">
                 {% for tag in tags %}
-                <div style="margin: 5px 0;">
+                <div style="margin: 5px 0;" class="tag-item">
                     <label style="font-weight: normal; display: inline;">
                         <input type="checkbox" name="tags" value="{{ tag.id }}" style="width: auto; margin-right: 5px;" {% if tag.id in selected_tags %}checked{% endif %}>
                         {{ tag.name }}
@@ -193,9 +280,35 @@ EDIT_REPOSITORY_TEMPLATE = HTML_TEMPLATE.replace('{% block content %}{% endblock
                 {% endfor %}
             </div>
         </div>
+        <div class="form-group">
+            <label>Date Added</label>
+            <input type="date" name="added" value="{{ repo.added }}">
+        </div>
+        <div class="form-group">
+            <label>Notes (optional)</label>
+            <textarea name="notes">{{ repo.notes or '' }}</textarea>
+        </div>
         <button type="submit">Update Repository</button>
         <a href="/repositories" style="margin-left: 10px;">Cancel</a>
     </form>
+    <script>
+        function filterCategories() {
+            const search = document.getElementById('category-search').value.toLowerCase();
+            const items = document.querySelectorAll('.category-item');
+            items.forEach(item => {
+                const text = item.textContent.toLowerCase();
+                item.style.display = text.includes(search) ? '' : 'none';
+            });
+        }
+        function filterTags() {
+            const search = document.getElementById('tag-search').value.toLowerCase();
+            const items = document.querySelectorAll('.tag-item');
+            items.forEach(item => {
+                const text = item.textContent.toLowerCase();
+                item.style.display = text.includes(search) ? '' : 'none';
+            });
+        }
+    </script>
 ''')
 
 CATEGORIES_TEMPLATE = HTML_TEMPLATE.replace('{% block content %}{% endblock %}', '''
@@ -370,11 +483,16 @@ def add_repository():
     conn = get_db()
     if request.method == 'POST':
         url = request.form['url']
+        name = request.form.get('name', '').strip()
+
+        # If name is empty, extract from URL
+        if not name:
+            name = extract_repo_name(url) or 'Unknown Repository'
 
         # Insert repository
         conn.execute(
             'INSERT INTO repositories (url, name, description, added, notes) VALUES (?, ?, ?, ?, ?)',
-            (url, request.form['name'], request.form.get('description'),
+            (url, name, request.form.get('description'),
              request.form.get('added', str(date.today())), request.form.get('notes'))
         )
 
@@ -399,7 +517,7 @@ def add_repository():
         return redirect('/repositories')
 
     # GET request - load categories and tags
-    categories = conn.execute('SELECT * FROM categories ORDER BY name').fetchall()
+    categories = get_hierarchical_categories()
     tags = conn.execute('SELECT * FROM tags ORDER BY name').fetchall()
     conn.close()
     return render_template_string(ADD_REPOSITORY_TEMPLATE, today=str(date.today()),
@@ -411,10 +529,16 @@ def edit_repository():
     url = request.args.get('url') if request.method == 'GET' else request.form['url']
 
     if request.method == 'POST':
+        name = request.form.get('name', '').strip()
+
+        # If name is empty, extract from URL
+        if not name:
+            name = extract_repo_name(url) or 'Unknown Repository'
+
         # Update repository
         conn.execute(
             'UPDATE repositories SET name = ?, description = ?, added = ?, notes = ? WHERE url = ?',
-            (request.form['name'], request.form.get('description'),
+            (name, request.form.get('description'),
              request.form.get('added'), request.form.get('notes'), url)
         )
 
@@ -444,7 +568,7 @@ def edit_repository():
 
     # GET request - load repository data
     repo = conn.execute('SELECT * FROM repositories WHERE url = ?', (url,)).fetchone()
-    categories = conn.execute('SELECT * FROM categories ORDER BY name').fetchall()
+    categories = get_hierarchical_categories()
     tags = conn.execute('SELECT * FROM tags ORDER BY name').fetchall()
 
     # Get selected categories and tags
